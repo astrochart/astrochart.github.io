@@ -503,40 +503,40 @@ We will now do a few conversions so that we can put this value into kilobits.
 
   <a class="anchor" id="download"></a>
   <h2 style="text-align:left;">Take data with installable package</h2>
-  While using GNUradio can be a great way to understand how data taking works and allows you to look at your data in real time, another method to take and 
+  <br>While using GNUradio can be a great way to understand how data taking works and allows you to look at your data in real time, another method to take and 
 save data is by using the installable CHART package at 
 <a href="https://github.com/astrochart/CHART"> the CHART github repository.</a></p></br> with installation instructions in the readme.md file. 
-Upon installing the package, the data taking process can be started from the daq folder, with the python script freq_and_time_scan.py. The approprtiate syntax 
+<br> Upon installing the package, the data taking process can be started from the daq folder, with the python script freq_and_time_scan.py. The approprtiate syntax 
 is to type python freq_and_time_scan.py --arguement=value --arguement=value --etc
-Current arguements and their defaults are as follows:
+<br> Current arguements and their defaults are as follows:
 
-    argument('--scan_period', default=0.5, type=float, help='Time '
+  <br>  argument('--scan_period', default=0.5, type=float, help='Time '
                     'between a scan and the next, in hours. Default is 0.5.')
-    argument('--total_time', default=24., type=float,
+  <br>  argument('--total_time', default=24., type=float,
                     help='Total time for all scans, in hours. Default is 24.')
-    argument('--freq_i', default=50., type=float, help='Starting frequency, '
+  <br>  argument('--freq_i', default=50., type=float, help='Starting frequency, '
                     'in MHz. Default is 50.')
-    argument('--freq_f', default=150., type=float, help='Ending frequency, '
+  <br>   argument('--freq_f', default=150., type=float, help='Ending frequency, '
                     'in MHz. Default is 150.')
-    argument('--df', default=1., type=float, help='Frequency tuning step '
+  <br>  argument('--df', default=1., type=float, help='Frequency tuning step '
                     'size, in MHz. Default is 1.')
-    argument('--sleep_time', default=5., type=float, help='Sleep time '
+  <br>  argument('--sleep_time', default=5., type=float, help='Sleep time '
                     'between checks for next scan time, in seconds. Default is 5.')
-    argument('--veclength', default=1024, type=int, help='Vector length '
+  <br>  argument('--veclength', default=1024, type=int, help='Vector length '
                     '(number of channels) for spectrum estimation. Default is 1024.')
-    argument('--samp_rate', default=2., type=float, help='Sample rate '
+  <br>  argument('--samp_rate', default=2., type=float, help='Sample rate '
                     'of the radio, in MHz. Default is 2.')
-    argument('--int_length', default=100, type=int, help='Number of samples '
+  <br>  argument('--int_length', default=100, type=int, help='Number of samples '
                     'per integration. Default is 100.')
-    argument('--int_time', type=float, help='Integration time, in seconds.'
+  <br>  argument('--int_time', type=float, help='Integration time, in seconds.'
                     ' Overrides the --int_length argument.')
-    argument('--nint', default=100, type=int, help='Number of integrations '
+  <br>  argument('--nint', default=100, type=int, help='Number of integrations '
                     'per file. Default is 100.')
-    argument('--data_dir', default=None, type=str, help='Data directory. '
+  <br>  argument('--data_dir', default=None, type=str, help='Data directory. '
                     'Defaults to current working directory.')
 
-A reccomended example call for a simple 21cm observation as a test is as follows:
-   python freq_and_time_scan.py --scan_period=0.001 --total_time=0.001 --freq_i=1410. --freq_f=1430. --df=1. --sleep_time=5. --veclength=1024 --samp_rate=2 --int_length=100 --nint=500 --data_dir='path/to/directory/where/you/want/to/put/your/data'
+<br> A reccomended example call for a simple 21cm observation as a test is as follows:
+ <br> python freq_and_time_scan.py --scan_period=0.001 --total_time=0.001 --freq_i=1410. --freq_f=1430. --df=1. --sleep_time=5. --veclength=1024 --samp_rate=2 --int_length=100 --nint=500 --data_dir='path/to/directory/where/you/want/to/put/your/data'
    
    <hr class="thinline">
 
