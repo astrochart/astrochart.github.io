@@ -70,7 +70,7 @@ I also can't get the drop down menu to work-->
   <div id="top_pad"></div>
 
 
-    <hr class="boldline">
+    <div class="mainware">
 
       <a class="anchor" id="firstdata"></a>
       <h2 style="text-align:left;">Take your first radio data</h2>
@@ -238,11 +238,11 @@ We will now do a few conversions so that we can put this value into kilobits.
 
   <a class="anchor" id="package"></a>
   <h2 style="text-align:left;">Take data with installable package</h2>
-  <br>While using GNUradio can be a great way to understand how data taking works and allows you to look at your data in real time, another method to take and 
-save data is by using the installable CHART package at 
-<a href="https://github.com/astrochart/CHART"> the CHART github repository.</a> with installation instructions in the readme.md file. 
+  <br>While using GNUradio can be a great way to understand how data taking works and allows you to look at your data in real time, another method to take and
+save data is by using the installable CHART package at
+<a href="https://github.com/astrochart/CHART"> the CHART github repository.</a> with installation instructions in the readme.md file.
 <br>
-<p> Upon installing the package, the data taking process can be started from the daq folder, with the python script freq_and_time_scan.py. The approprtiate syntax 
+<p> Upon installing the package, the data taking process can be started from the daq folder, with the python script freq_and_time_scan.py. The approprtiate syntax
 is to type python freq_and_time_scan.py --argument=value --argument=value --etc
 <br>
 <p> Current arguements and their defaults are as follows:
@@ -275,10 +275,11 @@ is to type python freq_and_time_scan.py --argument=value --argument=value --etc
 <br>
 <p> A reccomended example call for a simple 21cm observation as a test is as follows:
  <br> python freq_and_time_scan.py --scan_period=0.001 --total_time=0.001 --freq_i=1410. --freq_f=1430. --df=1. --sleep_time=5. --veclength=1024 --samp_rate=2 --int_length=100 --nint=500 --data_dir='path/to/directory/where/you/want/to/put/your/data'
-   
+
    <hr class="thinline">
 
 
+</div>
 </div>
 <div class="footer">
     This project is supported by a <a href="https://nsf.gov" target="_blank">National Science Foundation</a> Astronomy and Astrophysics Postdoctoral Fellowship under award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440" target="_blank">AST-1701440</a>.
