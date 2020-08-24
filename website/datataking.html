@@ -262,101 +262,74 @@ is to type python freq_and_time_scan.py --argument=value --argument=value --etc
 </tr>
   <tr>
     <td>--total_time</td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>24.</td>
+    <td>Float</td>
+    <td>Total time for all scans, in hours. Default is 24.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--freq_i</td>
+    <td>50.</td>
+    <td>Float</td>
+    <td>Starting frequency,in MHz. Default is 50.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--freq_f</td>
+    <td>150.</td>
+    <td>Float</td>
+    <td>Ending frequency,in MHz. Default is 150.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--df</td>
+    <td>1.</td>
+    <td>Float</td>
+    <td>Frequency tuning step size, in MHz. Default is 1.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--sleep_time</td>
+    <td>5.</td>
+    <td>Float</td>
+    <td>Sleep time between checks for next scan time, in seconds. Default is 5.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--veclength</td>
+    <td>1024</td>
+    <td>int</td>
+    <td>Vector length (number of channels) for spectrum estimation. Default is 1024.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--samp_rate</td>
+    <td>2.</td>
+    <td>Float</td>
+    <td>Sample rate of the radio, in MHz. Default is 2.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--int_length</td>
+    <td>100</td>
+    <td>int</td>
+    <td>Number of samples per integration. Default is 100.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--int_time</td>
+    <td>None</td>
+    <td>Float</td>
+    <td>Integration time, in seconds. Overrides the --int_length argument</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--nint</td>
+    <td>100.</td>
+    <td>int</td>
+    <td>Number of integrations per file. Default is 100.</td> 
 </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
-</tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td> 
+    <td>--data_dir</td>
+    <td>None</td>
+    <td>str</td>
+    <td>Data directory. Defaults to current working directory.</td> 
 </tr>
 	 
 
 </table>
-  <br>  argument('--total_time', default=24., type=float,
-                    help='Total time for all scans, in hours. Default is 24.')
-  <br>  argument('--freq_i', default=50., type=float, help='Starting frequency, '
-                    'in MHz. Default is 50.')
-  <br>   argument('--freq_f', default=150., type=float, help='Ending frequency, '
-                    'in MHz. Default is 150.')
-  <br>  argument('--df', default=1., type=float, help='Frequency tuning step '
-                    'size, in MHz. Default is 1.')
-  <br>  argument('--sleep_time', default=5., type=float, help='Sleep time '
-                    'between checks for next scan time, in seconds. Default is 5.')
-  <br>  argument('--veclength', default=1024, type=int, help='Vector length '
-                    '(number of channels) for spectrum estimation. Default is 1024.')
-  <br>  argument('--samp_rate', default=2., type=float, help='Sample rate '
-                    'of the radio, in MHz. Default is 2.')
-  <br>  argument('--int_length', default=100, type=int, help='Number of samples '
-                    'per integration. Default is 100.')
-  <br>  argument('--int_time', type=float, help='Integration time, in seconds.'
-                    ' Overrides the --int_length argument.')
-  <br>  argument('--nint', default=100, type=int, help='Number of integrations '
-                    'per file. Default is 100.')
-  <br>  argument('--data_dir', default=None, type=str, help='Data directory. '
-                    'Defaults to current working directory.')
+
 <br>
 <p> A reccomended example call for a simple 21cm observation as a test is as follows:
  <br> python freq_and_time_scan.py --scan_period=0.001 --total_time=0.001 --freq_i=1410. --freq_f=1430. --df=1. --sleep_time=5. --veclength=1024 --samp_rate=2 --int_length=100 --nint=500 --data_dir='path/to/directory/where/you/want/to/put/your/data'
