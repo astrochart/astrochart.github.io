@@ -89,7 +89,7 @@ html{
   position:relative;
   opacity:0.90;
   background-position: center;
-  background-size:cover;
+  background-size:contain;
   background-repeat:no-repeat;
 }
 
@@ -100,7 +100,8 @@ html{
 }
 .pimg2 {
   background-image: url("images_for_website/chart.png");
-  min-height:100%
+  min-height:80%;
+  max-height: 90%
 }
 
 li {
