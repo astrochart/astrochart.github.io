@@ -66,7 +66,7 @@ I also can't get the drop down menu to work-->
   <li>   <a href="#materials">Materials</a> </li>
   <li> <a href="#intro">Introduction</a> </li>
   <li>  <a href="#setup">Material Set Up</a> </li>
-  <li>  <a href="#download">Download Ubuntu MATE</a> </li>
+  <li>  <a href="#download">Imaging the Raspberry Pi</a> </li>
   <li>   <a href="#raspberry">Set Up Ubuntu MATE on Raspberry Pi</a> </li>
   <li> <a href="#command">Intro to Command Line</a> </li>
 <li>  <a href="#gnu">Download GNU Radio</a> </li>
@@ -88,130 +88,99 @@ I also can't get the drop down menu to work-->
 
 <hr class="boldline">
 
-
+<div>
   <a class="anchor" id="materials"></a>
   <h2 style="text-align:left;">Materials</h2>
-To get started, here is a list of materials you will need for software instillation:
+	  <p>To get started, here is a list of materials you will need for software instillation:</p>
+<ul>
+	<li> Raspberry Pi 4</li>
+	<li> Micro SD Card (32GB)</li>
+	<li> RTL-SDR </li>
+	<li> A computer monitor </li>
+	<li> Keyboard </li>
+	<li> Ethernet cable </li>
+	<li> Radio antenna </li>
+	<li> Personal computer </li>
 
-<br>-Raspberry Pi 3B
-<br>-Micro SD Card (32GB)
-<br>- RTL-SDR
-<br>- A computer monitor
-<br>-Ethernet cable (if not using WiFi option)
-<br>-Radio antenna
-<br>-Personal computer
-<br>-Keyboard
+</ul>
 
 <br><iframe width="560" height="315" src="https://www.youtube.com/embed/4lqBtV-KXgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr class="thinline">
-Before starting this tutorial, it’s highly recommended to go through the <a href="#Vocabulary">Software Vocabulary</a> section to get familiar with the concepts explained in the following tutorial.
+<p>Before starting this tutorial, it’s highly recommended to go through the <a href="#Vocabulary">Software Vocabulary</a> section to get familiar with the concepts explained in the following tutorial.</p>
 <hr class="thinline">
-
+</div>
 <div>
   <a class="anchor" id="intro"></a>
   <h2 style="text-align:left;">Introduction</h2>
 Most of us familiar with using a Mac or PC computer and are comfortable with this kind of set up. This project’s set up is going to be different than these systems, but not difficult to navigate after spending some time getting familiar with all of the components. For this project, we will be using a Raspberry Pi as our computing device. This type of computing device doesn’t store data locally, so we will need to use an SD card for storage. Since we will be starting with a computing device that doesn’t have a preinstalled OS or GUI, we will need to set these up so that we can interact with the computer with ease. We chose Ubuntu (a version of Linux) as our OS along with the MATE GUI extension.
 </div>
 <hr class="boldline">
-
+<div>
   <a class="anchor" id="setup"></a>
   <h2 style="text-align:left;">Material Set Up</h2>
   To get started, we need to make sure that all our wires are hooked up and ready to go.
   <br>-Hook up your Raspberry Pi to your monitor.
-<br>-Plug in your ethernet cable (or wifi).
+<br>-Plug in your ethernet cable.
   <br>-Plug in your Raspberry Pi into a power source.
   <br>-Hook up to your keyboard (we used a wireless hook up for ours).</br>
   <img src="https://astrochart.github.io/website/tutorials/rasp_set_up.jpeg" class="left" alt="raspberry pi set up" style="width:400px;border-radius:5px;">
 <br><span class="boldfont"> Raspberry Pi Hooked Up</span></br>
+</div>
 <hr class="boldline">
 
-  <a class="anchor" id="download"></a>
-  <h2 style="text-align:left;">Download Ubuntu MATE</h2>
-  <br><iframe width="560" height="315" src="https://www.youtube.com/embed/u_sIMkjEDZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <br>For the following steps of installing Ubuntu MATE I followed the tutorial below presented by Tech Radar.
-<br><a href="https://www.techradar.com/how-to/how-to-install-ubuntu-on-the-raspberry-pi">Install Ubuntu MATE on Raspberry Pi</a></br>
-First, we will need to install Ubuntu Mate as our operating system and GUI. You can skip the ‘Installing Ubuntu Mate' section of this tutorial if you choose to purchase an SD card with Ubuntu MATE pre-installed.
- If you choose to install yourself, we will need our personal computer in order to do the first step in this process.
-To download Ubuntu MATE we will use our personal computer and visit<a href="https://ubuntu-mate.org/download/"> Ubuntu MATE Download</a> and click on “Raspberry Pi (Recommended)”. At the time of writing this, I chose “10.04.2 Bionic” as the release version that I am running.
+<div>
+	
+<a class="anchor" id="download"></a>
 
-<hr class="thinline">
-
-<h4 style="text-align:left;"> Decompressing the File</h4>
-After downloading Ubuntu MATE, we will need to install a decompression utility in order to read the Ubuntu file.</br>
-<br><span style="text-decoration:underline;font-weight:bold">For Mac:</span> The Unarchiver is available for free from the App Store to extract the .xz file. Once this is installed, double-click the Ubuntu file in your downloads to extract the image (.img) file.</br>
-<br><span style="text-decoration:underline;font-weight:bold">For Windows:</span> Go to the <a href="https://www.7-zip.org/download.html">7-Zip website</a> to install the application. Click on ‘Download’, choose ‘Save’. Go to ‘Downloads’ in File Explorer. Double click on the ‘7-Zip’ file. Click on ‘Install’.
-I’m using a Mac, and my steps/downloads looked like this: <br>
-  <img src="https://astrochart.github.io/website/tutorials/unarchiver.png" class="left" alt="Download Unarchiver Image" style="height:200px;border-radius:5px;">
-  <br><span class="boldfont">Here I have ‘The Unarchiver’ decompression utility downloading that I downloaded from the app store.</span></br>
-<img src="https://astrochart.github.io/website/tutorials/desktop.png" class="left" alt="Organizing files" style="height:200px;border-radius:5px;">
-<br><span class="boldfont">I saved both of these downloads next to each other on my desktop for easy navigation.</span></br>
-<img src="https://astrochart.github.io/website/tutorials/ubuntu_file.png" class="left" alt="Redownloaded Ubuntu" style="height:200px;border-radius:5px;">
-<br><span class="boldfont">After opening my Ubuntu file by double clicking, my file converted and saved on my desktop like this.</span></br>
-
-<hr class"thinline">
-<h4 style="text-align:left;">Formatting the Micro SD card</h4>
-For the micro SD card to be compatible with the  Raspberry Pi, it has to be formatted to FAT32.
-<br><span style="text-decoration:underline;font-weight:bold">For Mac:</span>
-Plug in
-
-the microSD card to your Mac. The system will automatically mount it. Click ‘Spotlight’ at the top right of the screen, type ‘Disk Utility’ and press return.
-Once Disk Utility launches, select the microSD card from the list of available disks in the pane on the left. Click the ‘Erase’ tab, then select ‘MS-DOS (FAT)’ from the ‘Format’ drop down menu.
-You can also set a name for the microSD card here e.g. MY SD 1. Click the ‘Erase’ button when you’re ready.
-<br><span style="text-decoration:underline;font-weight:bold">For Windows:</span> Insert your SD card into the slot on your computer or a USB adapter.
-Windows will now inform you that you need to format the disk in order to continue. Click ‘Format Disk’. Next, you can choose the format, file system, allocation unit size and volume label. Windows will warn you that formatting will erase all previous data on the SD card. Choose ‘Ok’ to continue. The device will then be formatted.
-If you don’t see the above notification, open Windows Explorer. Search for the SD drive. Right-click on this and from the drop-down menu, select format. Windows will automatically default to FAT32.
-<hr class="thinline">
-
-<h4 style="text-align:left;">Download and install etcher</h4>
-This allows us to write our file onto our micro SD card. You can download Etcher here <a href="https://www.balena.io/etcher/">Download Etcher</a>.
-Once you open Etcher it will prompt you to select an image. Select Ubuntu MATE, and then click ‘Flash’. This process might take up to 20 mins.
-<img src="https://astrochart.github.io/website/tutorials/etcher.png" class="left" alt="Download Etcher" style="height:300px;border-radius:5px;">
-<br><span class="boldfont">Etcher Download Screen</span></br>
-If you would like to do this step through command line in your terminal, you can visit step 7 in the linked tutorial at the beginning of this tutorial.
-
+	<h2 style="text-align:left;"><u>Imaging the Micro SD card</u></h2>
+	<p>You can install Pi Imager from this website: <a href="https://raspberrypi.com/software/">Download</a></p>
+	<img src="images_for_website/PiImager.png" width="518" height="346" alt=""/>
+<p>Click on <b>CHOOSE OS</b> and click on the first option <i>Raspberry Pi OS (32-bit)</i>.	</p>
+	<img src="images_for_website/OSOption.png" width="638" height="192" alt=""/>
+<p>Click on <b>CHOOSE STORAGE</b> and click on the first option that has the SD card.</p>
+</div>
 <hr class="boldline">
-
+<div>
   <a class="anchor" id="raspberry"></a>
-  <h2 style="text-align:left;">Set Up Ubuntu MATE on Raspberry Pi</h2>
-  After the writing process is done, safely eject your micro SD card and place it into your Raspberry Pi.<br>
+  <h2 style="text-align:left;">Instert the SD card</h2>
+  <p>After the writing process is done, safely eject your micro SD card and place it into your Raspberry Pi.</p> <br>
   <img src="https://astrochart.github.io/website/tutorials/sdcard.jpeg" class="left" alt="SD Card Placement" style="height:350px;border-radius:5px;">
-<br><span class="boldfont">Where to place the SD card in Raspberry Pi.</span></br>
+  <br>
+	<p><b>Where to place the SD card in Raspberry Pi.</b>
 Make sure all connections we set up in the beginning of the tutorial are still in place so that our system will start up on the monitor screen.
-The system will now prompt you to choose your location settings, and to set up your computer system names. Once this set up process is complete, the Ubuntu MATE desktop will open.
-The OS will display a welcome message and offer you a tour of Ubuntu’s features. Make sure to go through this if you haven’t used the MATE desktop environment before.
+The system will now prompt you to choose your location settings, and to set a <b>username</b> and <b>password</b>. Once this set up process is complete, it will check for updates.
+</p>
+</div>
+<div>
 <hr class="thinline">
 <h4 style="text-align:left;">Updates</h4>
-The version of Ubuntu MATE you have now installed may not be fully up-to-date.
-To check if it is up to date, go to System > Software Updater.
-The system will now scan for updates. <br>A box will appear stating‘Updated software has been issued since Ubuntu x.04 was released. Do you wish to update?’. <span class="commandline">Click ‘Install Now’ </span>to update your system.
+<p> </p>The system will now scan for updates. Click <b>Next</b> to update and <b>Restart</b> once it prompts you to.<br>
 <hr class="thinline">
 <h4 style="text-align:left;">Troubleshooting</h4>
-Some Ubuntu MATE users have reported issues with connecting to Wi-Fi after install, the network manager says the ‘device not ready’. This issue is specific to the Raspberry Pi 3. Restarting the Raspberry Pi almost always fixes this problem.
-Other users have reported issues installing and upgrading software using the built-in software updater. If this happens, open the MATE Terminal. Next, run the command:
+Some users have reported issues with connecting to Wi-Fi after install, the network manager says the ‘device not ready’. This issue is specific to the Raspberry Pi 3. Restarting the Raspberry Pi almost always fixes this problem.
+Other users have reported issues installing and upgrading software using the built-in software updater. If this happens, open the Terminal. Next, run the command:
 <span class="commandline">sudo apt-get update</span>
 then:
 <span class="commandline">sudo apt-get upgrade</span>
 That should fix the issue.
 You have now successfully installed Ubuntu MATE onto your Raspberry Pi!
-
+</div>
 <hr class="boldline">
-
+<div>
   <a class="anchor" id="command"></a>
-  <h2 style="text-align:left;">Introduction to Command Line</h2>
+  <h2 style="text-align:left;">Introduction to Command Line Terminal</h2>
   <h4 style="text-align:left;">What is command line?</h4>
 <p><span class="boldfont">Command line or “Command Line User Interface”</span>: is a way of communicating with
 your computer through typed commands; this is usually done through the computer’s terminal.</p>
-
-<br><img src="https://astrochart.github.io/website/tutorials/command2.png" class="left" alt="Command Line Code" style="height:200px;border-radius:5px;"></br>
-
-<p><span class="boldfont"> This is what my computer terminal looks like when I open it.</p></span>
-
-  <p>Our computers are usually run through a GUI (graphical user interface), and
-    so we are used to a different way of navigating through our systems.
+<p><img src="images_for_website/ScreenshotsFromPi/Terminal.png" width="80" height="" alt="65"/></p>
+<br>
+ <img src="images_for_website/ScreenshotsFromPi/1.png" width="665" height="108" alt=""/>
+ <p>Our computers are usually run through a GUI (graphical user interface), and
+	  so we are used to a different way of navigating through our systems.</p>
 
 <p>  <span class="underline">For example:</span> If you are on your desktop and
-  want to go into your documents folder (which is on your desktop), you will double
+  want to go into your documents folder on your desktop, you will
   click on that folder and it will open up to display the contents in your documents folder.
 This function is run through a GUI.</p>
 
@@ -219,56 +188,57 @@ This function is run through a GUI.</p>
   into a location, instead we will need to type in our commands into our terminal.</p>
 
 <h4 style="text-align:left;">Exercise:</h4>
-  <p>For this exercise we are going to be using our Raspberry Pi as our computing device,
-    not our personal computer. This example is specific to the Linux operating system.</p>
-<br><img src="https://astrochart.github.io/website/tutorials/command1.jpeg" class="left" alt="Command Line Code" style="height:200px;border-radius:5px;"></br>
-<span class="boldfont">  How to access the terminal through our new desktop</span>
+  <p>For this exercise we are going to be using the command line in our Raspberry Pi  This example is specific to the Linux operating system.</p>
+	
+  <p>You can click on the Terminal Icon at the top of your screen or access your terminal through the command <b>Ctrl + Alt + T </b></p>
 
-  <p>You can also access your terminal through the command Ctrl + Alt + T </p>
-
-<span class="italic">  <p> Tip: You can create new documents/folders by right clicking. </p></span>
-
-  <p>Create a folder on your desktop that is called “Example”</p>
-
+  <p>Create a folder on your desktop that is called “example”</p>
+	<br>
+	<li>To do this, right click on your desktop and select "New Folder...". </li>
+	<br>
   <p>Inside of the “Example” folder, create another folder called “example_2”</p>
-
+	<br>
+	<li>To do this, double click on the example folder on your desktop and click the folder icon second from the left.</li>
+	<img src="images_for_website/ScreenshotsFromPi/FolderIcon.png" width="70" height="60" alt=""/><br>
   <p>Inside of the “example_2” folder create an empty file document called “example_3”</p>
-
+	<br>
+	<li>To do this, click on the example_2 folder you just created and right click in the open space to the right. Click "New File...".</li>
+	<br>
   <p>Now that we have our set up ready, lets navigate using our terminal.</p>
+	
 
-  <span class="commandline"><p>Type: ls *enter*</p></span>
+	<p><u><b>Type: </b><i><b>"ls"</b></i> and hit enter (l = L)</u></p>
 
   <span class="boldfont">ls</span> stands for ‘list directory’ This will show you what contents are in the location you are currently in on your computer.
 
-<br><img src="https://astrochart.github.io/website/tutorials/command3.png" class="left" alt="Command Line Code" style="height:200px;border-radius:5px;"></br>
+<br>
+	<img src="images_for_website/ScreenshotsFromPi/2.png" width="652" height="137" alt=""/>
+	<p></p>
+<br>
 
-  <p><span class="boldfont">I typed ls and my terminal replied by listing all the contents in my current location on my computer</span></p>
+<p>We have saved files on the desktop, so we will navigate there.</p>
+<br>
+	<span class="commandline">cd</span> stands for ‘change directory’ and it allows the user to navigate to a different location on the computer.
 
-<p>I know that I saved the files I want to locate in my desktop, so I will navigate there.</p>
+  <p>I changed my directory by typing <span class="commandline">cd desktop</span>, then I typed <span class="commandline">ls</span> to make sure I was in the right location. 
+<br>You can navigate to a  different location on my computer by typing <span class="commandline">cd [desired location]</span> and click enter</p>
 
-  I can navigate to a  different location on my computer by typing <span class="commandline">cd [desired location] *enter*</span>
-
-  <br><span class="commandline">cd</span> stands for ‘change directory’ and it allows the user to navigate to a different location on the computer.</br>
-
-  <p>I changed my directory by typing <span class="commandline">cd desktop</span>, then I typed <span class="commandline">ls</span> to make sure I was in the right location.</p>
-
- <br><img src="https://astrochart.github.io/website/tutorials/command4.png" class="left" alt="Command Line Code" style="height:200px;border-radius:5px;"></br>
-
-  <p><span class="boldfont">Here are all of the folders/ files that are listed on my desktop.</span></p>
-
-
-  I can see the ‘Example’ folder on my desktop so let’s change our directory again into this folder.
+ <br>
+ <img src="images_for_website/ScreenshotsFromPi/3.png" width="655" height="158" alt=""/>
+	<p></p>
+<br>
+  <p>I can see the ‘example’ folder on my desktop so let’s change our directory again into this folder.</p>
 <span class="commandline"><p>  Type: cd Example *enter*</p></span>
   <span class="commandline"><p>Type: ls *enter*</p></span>
 
-   <br><img src="https://astrochart.github.io/website/tutorials/command5.png" class="left" alt="Command Line Code" style="height:250px;border-radius:5px;"></br>
+   <br><img src="https://astrochart.github.io/website/tutorials/command5.png" class="left" alt="Command Line Code" style="height:250px;border-radius:5px;">
 
   <p><span class="boldfont">We can see that our other folder “example_2” is inside of this folder just like we placed it before.</span></p>
 
   <p>Let’s go inside of this folder</p>
   <span class="commandline"><p>Type: cd Example_2 *enter* </p></span>
 
- <br><img src="https://astrochart.github.io/website/tutorials/command6.png" class="left" alt="Command Line Code" style="height:270px;border-radius:5px;"></br>
+ <br><img src="https://astrochart.github.io/website/tutorials/command6.png" class="left" alt="Command Line Code" style="height:270px;border-radius:5px;">
 
   <p><span class="boldfont">The terminal replied saying that it can’t find the file that we are asking for.</span></p>
     <p> Why did this happen?</p>
@@ -283,7 +253,7 @@ This function is run through a GUI.</p>
   <p>We can see our blank document “example_3”</p>
   <span class="commandline"><p>Type: cd example_3 *enter*</p></span>
 
- <br><img src="https://astrochart.github.io/website/tutorials/command7.png" class="left" alt="Command Line Code" style="height:320px;border-radius:5px;"></br>
+ <br><img src="https://astrochart.github.io/website/tutorials/command7.png" class="left" alt="Command Line Code" style="height:320px;border-radius:5px;">
 
   <p> <span class="boldfont">It will not let us open this document, because it isn’t a directory.</span></p>
 
@@ -296,12 +266,11 @@ This function is run through a GUI.</p>
   <span class="commandline"><p>Type: cd Desktop/Example/example_2 *enter*</p>
   <p>Type: ls *enter*</p></span>
 
-   <br><img src="https://astrochart.github.io/website/tutorials/command8.png" class="left" alt="Command Line Code" style="height:150px;border-radius:5px;"></br>
+   <br><img src="https://astrochart.github.io/website/tutorials/command8.png" class="left" alt="Command Line Code" style="height:150px;border-radius:5px;">
 
 <p> <span class="boldfont"> We are in the same location we were before.</span></p>
 
 <p>  We will continue to use a command line interface throughout various parts of this project.</p>
-
     <h4 style="text-align:left;">Popular Linux Commands</h4>
   <p><span class="boldfont">cd</span> change directory</p>
   <p><span class="boldfont">ls</span> list current (working directory) contents</p>
@@ -315,7 +284,7 @@ This function is run through a GUI.</p>
 <p>  <a href="https://gooribi.com/home/basic-linux-commands/">Popular Linux Commands</a></p>
 
 
-
+</div>
 
 
 
@@ -324,15 +293,15 @@ This function is run through a GUI.</p>
 
     <a class="anchor" id="gnu"></a>
     <h2 style="text-align:left;">Download GNU Radio</h2>
-    GNU Radio is the free open source software that we will be using to help us process our data.</br> To learn more about GNU Radio visit this site <a href="https://www.gnuradio.org/about/">About GNU Radio</a>.</br>
+    GNU Radio is the free open source software that we will be using to help us process our data.<br> To learn more about GNU Radio visit this site <a href="https://www.gnuradio.org/about/">About GNU Radio</a>
     Make sure that you have an internet connection for these next steps. We used an ethernet hook up to ensure that we had an internet connection, but you can also hook up to wifi if available.
     <br>Plug in the RTL-SDR device into the Raspberry Pi.
     To install gnuradio on Ubuntu, open up your terminal (found under the menu tab on the top left -> system tools -> MATE Terminal)  and type in the following command:
-  <br><span class="commandline">sudo apt install gnuradio-dev gr-osmosdr librtlsdr-dev build-essential git cmake ipython</span></br>
-    <span class="commandline">Press enter.</span></br>
+  <br><span class="commandline">sudo apt install gnuradio-dev gr-osmosdr librtlsdr-dev build-essential git cmake ipython</span>
+    <span class="commandline">Press enter.</span>
   You will be prompted for your password, provide password and press enter.
     It will ask you to continue after using a certain amount of disk space.
-  <br><span class="commandline">type Y and press enter.</span></br>
+  <br><span class="commandline">type Y and press enter.</span>
     This download might take up to 20 mins.
 
     <hr class="boldline">
