@@ -65,9 +65,8 @@ I also can't get the drop down menu to work-->
   <li>  <a href="#navinst">Navigation Instructions</a> </li>
   <li>   <a href="#materials">Materials</a> </li>
   <li> <a href="#intro">Introduction</a> </li>
-  <li>  <a href="#setup">Material Set Up</a> </li>
-  <li>  <a href="#download">Imaging the Raspberry Pi</a> </li>
-  <li>   <a href="#raspberry">Set Up Ubuntu MATE on Raspberry Pi</a> </li>
+  <li>  <a href="#setup">Raspberry Pi Setup</a> </li>
+  <li>  <a href="#download">Imaging the Micro SD Card</a> </li>
   <li> <a href="#command">Intro to Command Line</a> </li>
 <li>  <a href="#gnu">Download GNU Radio</a> </li>
   <li>  <a href="#Vocabulary">Vocabulary</a> </li>
@@ -116,18 +115,6 @@ I also can't get the drop down menu to work-->
 Most of us familiar with using a Mac or PC computer and are comfortable with this kind of set up. This project’s set up is going to be different than these systems, but not difficult to navigate after spending some time getting familiar with all of the components. For this project, we will be using a Raspberry Pi as our computing device. This type of computing device doesn’t store data locally, so we will need to use an SD card for storage. Since we will be starting with a computing device that doesn’t have a preinstalled OS or GUI, we will need to set these up so that we can interact with the computer with ease. We chose Ubuntu (a version of Linux) as our OS along with the MATE GUI extension.
 </div>
 <hr class="boldline">
-<div>
-  <a class="anchor" id="setup"></a>
-  <h2 style="text-align:left;">Material Set Up</h2>
-	<p>To get started, we need to make sure that all our wires are hooked up and ready to go.</p>
-	<li>Hook up your Raspberry Pi to your monitor.</li>
-	<li>Plug in your ethernet cable.</li>
-	<li>Plug in your Raspberry Pi into a power source.</li>
-	<li>Hook up to your keyboard (we used a wireless hook up for ours).</li>
-  <img src="https://astrochart.github.io/website/tutorials/rasp_set_up.jpeg" class="left" alt="raspberry pi set up" style="width:400px;border-radius:5px;">
-<br><span class="boldfont"> This is what the Pi should look like. (You can choose which USB ports you want to use)</span></br>
-</div>
-<hr class="boldline">
 
 <div>
 	
@@ -139,31 +126,35 @@ Most of us familiar with using a Mac or PC computer and are comfortable with thi
 <p>Click on <b>CHOOSE OS</b> and click on the first option <i>Raspberry Pi OS (32-bit)</i>.	</p>
 	<img src="images_for_website/OSOption.png" width="638" height="192" alt=""/>
 <p>Click on <b>CHOOSE STORAGE</b> and click on the first option that has the SD card.</p>
-</div>
-<hr class="boldline">
-<div>
-  <a class="anchor" id="raspberry"></a>
-  <h2 style="text-align:left;">Instert the SD card</h2>
-  <p>After the writing process is done, safely eject your micro SD card and place it into your Raspberry Pi.</p> <br>
+	  <p>After the writing process is done, safely eject your micro SD card and place it into your Raspberry Pi.</p>
+  
   <img src="https://astrochart.github.io/website/tutorials/sdcard.jpeg" class="left" alt="SD Card Placement" style="height:350px;border-radius:5px;">
   <br>
-	<p><b>Where to place the SD card in Raspberry Pi.</b>
-Make sure all connections we set up in the beginning of the tutorial are still in place so that our system will start up on the monitor screen.
-The system will now prompt you to choose your location settings, and to set a <b>username</b> and <b>password</b>. Once this set up process is complete, it will check for updates.
+	</p>
+  <p><b>Where to place the SD card in Raspberry Pi.</b>
 </p>
+</div>
+	  <hr class="boldline">
+<div>
+  <a class="anchor" id="setup"></a>
+  <h2 style="text-align:left;">Raspberry Pi Set Up</h2>
+	<p>To get started, we need to make sure that all our wires are hooked up and ready to go.</p>
+	<li>Hook up your Raspberry Pi to your monitor.</li>
+	<li>Plug in your ethernet cable.</li>
+	<li>Hook up to your keyboard (we used a wireless hook up for ours).</li>	
+	<li>Plug in your Raspberry Pi into a power source.</li>
+
+  <img src="https://astrochart.github.io/website/tutorials/rasp_set_up.jpeg" class="left" alt="raspberry pi set up" style="width:400px;border-radius:5px;">
+<br><span class="boldfont"> This is what the Pi should look like. (You can choose which USB ports you want to use)</span><br>
+	<br>
+<p>Make sure all connections we set up in the beginning of the tutorial are still in place so that our system will start up on the monitor screen.
+The system will now prompt you to choose your location settings, and to set a <b>username</b> and <b>password</b>. Once this set up process is complete, it will check for updates.</p>
 </div>
 <div>
 <hr class="thinline">
-<h4 style="text-align:left;">Updates</h4>
+<h5 style="text-align:left;">Updates</h5>
 <p> </p>The system will now scan for updates. Click <b>Next</b> to update and <b>Restart</b> once it prompts you to.<br>
-<hr class="thinline">
-<h4 style="text-align:left;">Troubleshooting</h4>
-	<p>Some users have reported issues with connecting to Wi-Fi after install, the network manager says the ‘device not ready’. This issue is specific to the Raspberry Pi 3. Restarting the Raspberry Pi almost always fixes this problem.
-Other users have reported issues installing and upgrading software using the built-in software updater. If this happens, open the Terminal. Next, run the command:
-<span class="commandline">sudo apt-get update</span>
-then:
-<span class="commandline">sudo apt-get upgrade</span>
-	That should fix the issue.</p>
+
 </div>
 <hr class="boldline">
 <div>
@@ -174,7 +165,7 @@ then:
 your computer through typed commands; this is usually done through the computer’s terminal.</p>
 <p><img src="images_for_website/ScreenshotsFromPi/Terminal.png" width="80" height="" alt="65"/></p>
 <br>
- <img src="images_for_website/ScreenshotsFromPi/1.png" class="left" alt="Image of the Command Line" style="height:150px;border-radius:5px;">>
+ <img src="images_for_website/ScreenshotsFromPi/1.png" class="left" alt="Image of the Command Line" style="height:150px;border-radius:5px;">
  <p>Our computers are usually run through a GUI (graphical user interface), and
 	  so we are used to a different way of navigating through our systems.</p>
 
@@ -189,7 +180,7 @@ This function is run through a GUI.</p>
 <p><b>Tip: </b>Linux uses case sensitive code so that means that we need to be very careful about lower-case and upper-case letter. From now on, it’s a good rule of thumb to use all lower case letters so we don’t run into mistakes like this.</p>
 
  <p>Another note about Linux is that putting spaces when naming a file/document can cause you trouble later on. Instead of using a space, use “_” an underscore like I did in these files.</p>
-<h4 style="text-align:left;">Exercise:</h4>
+<h5 style="text-align:left;">Exercise:</h5>
   <p>For this exercise we are going to be using the command line in our Raspberry Pi  This example is specific to the Linux operating system.
 	You can click on the Terminal Icon at the top of your screen or access your terminal through the command <b>Ctrl + Alt + T </b></p>
 
