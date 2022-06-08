@@ -10,14 +10,13 @@ h2{
   border: solid;
   border-color: white;
 }
-h4{
-  text-align:center;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px lightgrey;
-
-  text-decoration-line: underline;
-  font-family:sans-serif;
-  border: solid;
+h5{
+  text-align:left;
+  letter-spacing: .5px;
+  font-weight: 800;
+	font-size: 25px;
+  font-family: sans-serif;
+  border:thin;
   border-color: white;
 }
 
