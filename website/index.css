@@ -21,14 +21,13 @@ h2{
 	border: solid;
   border-color: black;
 }
-h4{
-  text-align:center;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px lightgrey;
-
-  text-decoration-line: underline;
-  font-family:sans-serif;
-  border: solid;
+h5{
+  text-align:left;
+  letter-spacing: .5px;
+  font-weight: 700;
+	font-size: 25px;
+  font-family: "lato", sans-serif;
+  border:thin;
   border-color: white;
 }
 
