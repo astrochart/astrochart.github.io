@@ -46,6 +46,7 @@ I also can't get the drop down menu to work-->
             <a class="dropdown-item text-black" href="datataking.html">Taking data</a>
             <a class="dropdown-item text-black" href="analysis.html">Analysis</a>
         </div>
+		</li>
         <li class="nav-item">
           <a class="nav-link text-white" href="faq.html">FAQ</a> </li>
         <li class="nav-item">
@@ -76,6 +77,7 @@ I also can't get the drop down menu to work-->
 	<h5>How the Hardware Setup Should Look. </h5>
 			<p>Connect the RTL-SDR input to the raspberry pi and connect radio antenna source to the RTL-SDR input so that we can see real radio data in our program. Make sure to elongate the antennas fully so that you can receive a strong radio signal.</p>
 <img src="https://astrochart.github.io/website/tutorials/firstdata4.JPG" class="left" alt="Antenna set Up" style="height:450px;border-radius:5px;">
+		<br><br>
       <h2 style="text-align:left;">Take your first radio data</h2>
 		<p>We are going to open up your newly installed GNU Radio using a command in the terminal:</p>
 	  <li>Type: <span class="commandline">gnuradio-companion</span> and click enter</li>
@@ -116,7 +118,8 @@ I also can't get the drop down menu to work-->
 	  <img src="images_for_website/ScreenshotsFromPi/GenerateandExecuteArrows.png" class="left" alt="Genterate the Flow Graph" style="height:350px;border-radius:5px;">
 		<h5>5. A new window will pop up that displays incoming radio data.</h5>
 		<p>We want to look at what frequencies are being displayed. You can view the data in multiple ways.</p>
-		<li>Click on the tabs at the top of the screen to view the data in “Frequency”, “Waterfall”, “Time Domain”, or “Constellation” display.</li>
+		<li>Click on the box beside <i>Display RF Frequencies</i></li>
+	  <li>Click on the tabs at the top of the screen to view the data in “Frequency”, “Waterfall”, “Time Domain”, or “Constellation” display.</li>
 		<br>
   <span class="boldfont">This is the data that we collected.</span>
 		<br>
@@ -134,68 +137,108 @@ I also can't get the drop down menu to work-->
 
         <hr class="thinline">
 
-    1. Start off with creating a new flowchart.
+		<h5>1. Start off with creating a new flowchart.</h5>
+		<p>This flow chart will be named <b>LastName-recorded-Date</b></p>
+		<li>Click the page icon with the plus at the top of your screen shown below.</li>
 <br><img src="https://astrochart.github.io/website/tutorials/flow1.png" class="left" alt="First Data Set" style="height:300px;border-radius:5px;">
-
-      <br>2. Open the Options block by double clicking it. <p>Select 'No GUI' for 'Generate Options' and select 'Run to Completion' for the 'Run Options'.
-<img src="https://astrochart.github.io/website/tutorials/flow2.png" class="left" alt="First Data Set" style="height:400px;border-radius:5px;">
-
-    <br>  3.  In the premade variable block, double click to open it. <p>Rename the ID 'samp_rate' and set the value to 2e6 (2 million).</p>
-      Press ‘apply’ and ‘OK’ to close the box.
+		<br><br>
+<h5>2. Change the settings in the Option block to run and collect all the data we want.</h5>
+		<li>Double click the <b>Options</b> block.</li>
+		<li>In <b>Generate Options</b>, Select <b>'No GUI'</b></li>
+		<li>In <b>Run Options</b>, select <b>'Run to Completion'</b>.</li>
+		<img src="images_for_website/ScreenshotsFromPi/propertiesOptionToSaveData.png" class="left" alt="First Data Set" style="height:400px;border-radius:5px;">
+		<br><br>
+<h5>3. Change the variable block to use in future blocks.</h5>
+		<li>Double click the variable block. </li>
+		<li>Rename the ID <b>'samp_rate'</b> and set the value to 2e6 (2 million).</li>
+		<li>Press <b>‘apply’</b> and <b>‘OK’</b> to close the box.</li>
 <br><img src="https://astrochart.github.io/website/tutorials/flow3.png" class="left" alt="First Data Set" style="height:220px;border-radius:5px;">
-
-<br>4. Add the 'RTL-Source' block. You can do this by locating it through the search bar and either double clicking on it, or by dragging it to the other side of the screen. Double click on the ‘RTL-Source’ block and change the 'RF Gain' to '45' (you might have to scroll down to see this option). Also, set the 'Sample Rate' to 'samp_rate'. Click ‘apply’ and ‘OK’.
-
-<img src="https://astrochart.github.io/website/tutorials/flow4_0.png" class="left" alt="First Data Set" style="height:600px;border-radius:5px;">
+<br><br>
+		<h5>4. We are going to add the 'RTL-SDR Source' block and change some values inside.</h5>
+		<p>Lets add the block first.</p>
+		<li>Use the search bar as we have done before and double click on the <b>‘RTL-SDR Source’</b> block.
+		<li>change the <b>'RF Gain'</b> to <b>'45'</b> (you might have to scroll down to see this option).</li>
+	  <li>Set the <b>'Sample Rate'</b> to <b>'samp_rate'</b>. Click <b>‘apply’</b> and <b>‘OK’</b>.</li>
+      <img src="images_for_website/ScreenshotsFromPi/SetUpCollectingData.png" class="left" alt="First Data Set" style="height:600px;border-radius:5px;">
 
 <br><img src="https://astrochart.github.io/website/tutorials/flow4_1.png" class="left" alt="First Data Set" style="height:350px;border-radius:5px;">
+<br><br>
+		<h5>5. We are going to create a new variable to use in blocks in the future.</h5>
+		<p>Create a variable block and name it <b>'veclength'</b> as shown below.</p>
+		<li>Search Variable in the search bar and double click to use it.</li>
+		<li>Double click on the Variable block to change the values.</li>
+		<li>Make the <b>value: '1024'</b>. </li>
+	  <li>Click <b>‘apply’</b> and <b>‘OK’</b>.</li>
+		
+      <img src="https://astrochart.github.io/website/tutorials/flow5.png" class="left" alt="First Data Set" style="height:320px;border-radius:5px;">
 
-<br>5. Create a variable block and name it 'veclength'. Make the value '1024'. click ‘apply’ and ‘OK’.
-
-<img src="https://astrochart.github.io/website/tutorials/flow5.png" class="left" alt="First Data Set" style="height:320px;border-radius:5px;">
-
-<br>6. Add a 'Head' block. This block will limit the amount of data that will be processed. Set 'Num Items' to '10240000'. Click ‘apply’ and ‘OK’. Connect the head block to the 'RTL-Source' block by clicking on the little blue box that reads ‘out’ on the “RTL-SDR Source” box and ‘in’ on the “Head” box. Click on the white screen and arrow should appear connecting the two.<br>
-
-<img src="https://astrochart.github.io/website/tutorials/flow6_0.png" class="left" alt="First Data Set" style="height:250px;border-radius:5px;">
-
-<br><img src="https://astrochart.github.io/website/tutorials/flow6_1.png" class="left" alt="First Data Set" style="height:400px;border-radius:5px;">
-
-<br>7. Add a 'Stream to Vector' block and set the 'Num Items' to 'veclength'. Click ‘apply’ and ‘OK’. Connect to 'Head' block.</p>
-<br>8. Add an 'FFT' block. This will convert the data into a Fast Fourier Transform. Set the 'FFT size' to 'veclength'; click ‘apply’ and ‘OK’. Connect to the 'Stream to Vector' block.</p>
-
-<p>9. Add a 'Complex to Mag^2' block and set ‘Vec Length’ to ‘veclength’. Click ‘apply’ and ‘OK’. This block makes all the data values real by squaring the complex numbers. Connect to 'FFT' block.</p>
+<br>
+		<br>
+		<h5>6. Now we will add a 'Head' block.</h5> 
+		<p>This block will limit the amount of data that will be processed.</p> 
+		<li>Use the search bar again to find <b>Head</b> and double click to use it.</li>
+		<li>Set <b>'Num Items'</b> to <b>'10240000'</b>.</li>
+		<li>Click <b>‘apply’</b> and <b>‘OK’</b>. </li>
+		<br>
+		<p>Connect the head block to the 'RTL-Source' block.</p> 
+	  <li>Click on the little blue box that reads ‘out’ on the <b>'RTL-SDR Source'</b> box and drag to the <b>‘in’</b> on the <b>'Head'</b> box. An arrow should connect the two.</li>
+		
+      <img src="images_for_website/ScreenshotsFromPi/addedHeadBlock.png" class="left" alt="First Data Set" style="height:550px;border-radius:5px;">
+      <img src="images_for_website/ScreenshotsFromPi/setHeadBlock.png" class="left" alt="First Data Set" style="height:200px;border-radius:5px;">
+		<br><br>
+<h5>7. Create new blocks and use the variable 'veclength'.</h5>
+		<p>Add a <b>'Stream to Vector'</b> block.</p>
+		<li>Use the search bar to find the block <b>'Vector'</b> and doubke click to use it.</li>
+		<li>Set <b>'Num Items'</b> to <b>'veclength'</b> and click <b>‘apply’</b> and <b>‘OK’</b>.</li> 
+	  <li>Click on the <b>'Vector'</b> block and drag to connect it to the <b>'Head'</b> block.</li>
+		<img src="images_for_website/ScreenshotsFromPi/setStreamToVector.png" class="left" alt="First Data Set" style="height:220px;border-radius:5px;">
+		<br><br>
+		<p>Add an <b>'FFT'</b> block. This will convert the data into a Fast Fourier Transform. </p>
+		<li>Use the search engine to find FFT and double click to use it.</li>
+		<li>Set the <b>'FFT size'</b> to <b>'veclength'</b> and click <b>‘apply’</b> and <b>‘OK’</b>.</li>
+		<li>Connect to the <b>'Stream to Vector'</b> block.</li>
+<br>
+		<p>Add a <b>'Complex to Mag^2'</b> block. This block makes all the data values real by squaring the complex numbers.</p>
+		<li>Set <b>‘Vec Length’</b> to <b>‘veclength’</b> and click <b>‘apply’</b> and <b>‘OK’</b>.</li>
+		<li>Connect to <b>'FFT'</b> block.</li>
 
 <img src="https://astrochart.github.io/website/tutorials/flow7-9.png" class="left" alt="First Data Set" style="height:120px;border-radius:5px;">
+<br><br>
+		<br><p>Add an <b>'Integrate'</b> block. This reduces the data size by averaging every 100 items into one item. </p>
+		<li>Set <b>‘Vec Length'</b> to <b>'veclength'</b></li>
+		<li>Set <b>'Decimation'</b> to <b>'100'</b>. </li>
+		<li>Change <b>‘IO Type’</b> to <b>‘Float’</b>.</li>
+		<li>Click <b>‘apply’</b> and <b>‘OK’</b>.</li> 
+	  <li>Connect to 'Mag^2' block.</li>
 
-<br>10. Add an 'Integrate' block and set ‘Vec. Length' to 'veclength' and 'Decimation' to '100'. Change ‘IO Type’ to ‘Float’. You know the drill, click ‘apply’ and ‘OK’. This reduces the data size by averaging every 100 items into one item. Connect to 'Mag^2' block.
+	  <img src="images_for_website/ScreenshotsFromPi/IntegrateBlockSetup.png" class="left" alt="First Data Set" style="height:230px;border-radius:5px;">
+<br>
+		<br><p>Finally, add a <b>'File Sink'</b> block. This will write the data into a file on your computer.</p>
+		<li>set <b>'Vec Length'</b> to <b>'veclength'</b>. </li>
+		<li>Change <b>‘IO Type’</b> to <b>‘Float’</b>.</li>
+		<li>Specify where you want the file to be written in by clicking on the <b>three dots icon</b> next to <b>‘file’</b>. </li>
+	  <li>Click <b>‘apply’</b> and <b>‘OK’</b>.</li>
+      <img src="https://astrochart.github.io/website/tutorials/flow11_0.png" class="left" alt="First Data Set" style="height:250px;border-radius:3px;">
+		<br><br><br>
+      <h2>Here is how the final flowchart should look:</h2>
+<img src="images_for_website/ScreenshotsFromPi/FinalBlocks.png" class="left" alt="First Data Set" style="height:950px;border-radius:5px;">
+		<br><br>
+		<h5>8. Generate and Execute your flow chart.</h5>
+		<li>Press the blue <b>'Generate'</b> button.</li>
+	  <li>Press the white play button to <b>‘Execute'</b> the flow graph.</li>
+      <img src="images_for_website/ScreenshotsFromPi/GenerateandExecuteArrows.png" class="left" alt="First Data Set" style="height:750px;border-radius:5px;">
 
-<br><img src="https://astrochart.github.io/website/tutorials/flow10.png" class="left" alt="First Data Set" style="height:400px;border-radius:5px;">
+<br>
+		<h5>9. Double check your data was written in the desired location.</h5>
+		<p>We will get to see all of the contents/folders in your current location on the computer.</p>
+		<li>Open up your terminal.</li>
+		<li>Type: <span class = "commandline">ls</span>. Stands for Directory Listing (l = lowercase L)</li>
+		<li>Type: <span class = "commandline">cd Documents</span></li>
+	  <p>cd *space* [insert location] allows you to go into any directory to see what is in it.</p>
+	  <p>For example: I started by typing <span class = "commandline">ls</span> into my terminal and pressed enter. This will show me the contents of the place I’m located on my computer. If I don’t remember exactly where I put the saved data, but I know the way to find it, I then find a file that would help me navigate closer to my desired data using <span class = "commandline">cd [the place I want to go]</span>. For example here is the code I used to find my “Waterfall Tutorial” file that I used to download my data to:</p>
+	<p>*At the bottom you will see that once I located my file, I typed <span class="commandline">ls -lh</span> to see how big my file was. The fact that it is <b>400k (400 kilobytes)</b> tells me that I have located my file. To see why this is, proceed to the next tutorial below <b>"Is Our Data Size Correct?</b>"</p>
 
-<br>11. Finally, add a 'File Sink' block and set 'Vec Length' to 'veclength'. Then change ‘IO Type’ to ‘Float’. Specify where you want the file to be written in by clicking on the ‘three dots’ icon next to ‘file’. Click ‘apply’ and ‘OK’. This will write the data into a file on your computer.
-
-<br><img src="https://astrochart.github.io/website/tutorials/flow11_0.png" class="left" alt="First Data Set" style="height:250px;border-radius:5px;">
-
-Here is how the final flowchart should look:
-
-<img src="https://astrochart.github.io/website/tutorials/flow11_1.png" class="left" alt="First Data Set" style="height:300px;border-radius:5px;">
-<br>12. Generate your flow chart.
-
-<br>13. Press the green play button to ‘Execute the flow graph’.
-
-<img src="https://astrochart.github.io/website/tutorials/flow12.png" class="left" alt="First Data Set" style="height:300px;border-radius:5px;">
-
-<br>14. To double check if your data was written in the desired location, open up your terminal. You can use the following Linux commands to find the recorded data:
-ls: directory listing; this will show you all of the contents/ folders in your current location          on the computer.
-
-cd *space* [insert location]: change directory to [your desired location]; this relocates you 	to whatever location you type after cd *space* [insert location].
-
-For example: I started by typing ls into my terminal and pressed enter. This will show me the contents of the place I’m located on my computer. If I don’t remember exactly where I put the saved data, but I know the way to find it, I then find a file that would help me navigate closer to my desired data using cd [the place I want to go]. For example here is the code I used to find my “Waterfall Tutorial” file that I used to download my data to:
-
-
-*At the bottom you will see that once I located my file, I typed <span class="commandline">ls -lh</span> to see how big my file was. The fact that it is 400k (400 kilobytes) tells me that I have located my file. To see why this is, proceed to the next tutorial "Is Our Data Size Correct?"
-
-
-<br><img src="https://astrochart.github.io/website/tutorials/flow14.png" class="left" alt="First Data Set" style="height:500px;border-radius:5px;">
+<img src="images_for_website/ScreenshotsFromPi/CheckDocumentsAndSize400K.png" class="left" alt="First Data Set" style="height:300px;border-radius:5px;">
 
 
 
