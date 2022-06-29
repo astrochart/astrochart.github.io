@@ -266,12 +266,12 @@ This controls how much data we initially take in from the telescope itself. We s
 
 <br><img src="https://astrochart.github.io/website/tutorials/size1.png" class="left" alt="Data Size" style="height:120px;border-radius:5px;">
 
-<span class="boldtext">Head:</span>
+<br><span class="boldtext">Head:</span>
 This block limits the total number of samples that will be collected, in this case 10,240,000 or 1.024 x 10<sup>7</sup>. From this, we can calculate how much time our total data collection should take.
 
 <br><img src="https://astrochart.github.io/website/tutorials/size2.png" class="left" alt="Data Size" style="height:200px;border-radius:5px;">
 
-If your data collection took around this time, it’s another indicator that our data collection probably went smoothly.
+<br>If your data collection took around this time, it’s another indicator that our data collection probably went smoothly.
 
 <br><span class="boldtext">Stream to Vector: </span>
 We usually call whatever is input and output of a block an “item”. This block takes 1024 samples (input as individual items), and outputs them as one item vector of 1024 samples. We do this because in order to complete the next task (fast Fourier transform) we need a certain amount of samples at a time to complete this calculation.
@@ -281,27 +281,27 @@ Here is what our item number looks like before and after our “stream to vector
 
 <br><span class="boldtext">FFT (Fast Fourier Transform):</span>
 	This block takes our data and finally puts it into a form (sin and cos waves) that is useful for us to use. Each vector is considered a time with a certain frequency. This allows us to have a graph with axis of time and frequency.
-  <span class="boldtext">Complex to Mag^2:</span>
+<br><span class="boldtext">Complex to Mag^2:</span>
   So far we have had two numbers per sample: a real and imaginary (complex) number. This block takes our real and complex numbers, squares each of them, and adds the values. This changes our input of a complex 32 to a float 32.
 
   <p>This implements the following function:
   (real number in)^2 + (complex number in)^2 = new single number real output
 <br><img src="https://astrochart.github.io/website/tutorials/size4.png" class="left" alt="Data Size" style="height:70px;border-radius:5px;">
-Integrate:
+<br>Integrate:
 This block reduces the data size by averaging every 100 values into one value. We can take out current bit value and divide by 100.
 <br><img src="https://astrochart.github.io/website/tutorials/size5.png" class="left" alt="Data Size" style="height:200px;border-radius:5px;">
 
-According to our previous calculations, the program is supposed to run for 5.12 seconds, so we will multiply our bits per second by 5.12 seconds.
+<br>According to our previous calculations, the program is supposed to run for 5.12 seconds, so we will multiply our bits per second by 5.12 seconds.
 <br><img src="https://astrochart.github.io/website/tutorials/size6.png" class="left" alt="Data Size" style="height:150px;border-radius:5px;">
 
-We will now do a few conversions so that we can put this value into kilobytes.
+<br>We will now do a few conversions so that we can put this value into kilobytes.
 <p><span class="boldtext">Converting bits to bytes: </span>
 <br><img src="https://astrochart.github.io/website/tutorials/size7.png" class="left" alt="Data Size" style="height:100px;border-radius:5px;">
 
 <p><span class="boldtext">Converting bytes to kilobytes: </span>
 <br><img src="https://astrochart.github.io/website/tutorials/size8.png" class="left" alt="Data Size" style="height:100px;border-radius:5px;">
 
-<span class="boldtext">Congratulations, you completed this tutorial and proved that the amount of data you received is correct.</span>
+<br><span class="boldtext">Congratulations, you completed this tutorial and proved that the amount of data you received is correct.</span>
 
   <a class="anchor" id="package"></a>
   <h2 style="text-align:left;">Take data with installable package</h2>
