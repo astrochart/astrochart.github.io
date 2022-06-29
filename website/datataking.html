@@ -99,9 +99,9 @@ I also can't get the drop down menu to work-->
 	<br>
  <img src="https://astrochart.github.io/website/tutorials/firstdata2.png" class="left" alt="GUI Sink Block" style="height:250px;border-radius:5px;">
  <br>
-		<p><span class="boldfont">Connecting the blocks to eachother so that they can interact with eachother.</span></p>
+		<p><span class="boldfont">Connecting the blocks so that they can interact with each other.</span></p>
 	<img src="images_for_website/ScreenshotsFromPi/addedHeadBlock.png" class="left" alt="Connecting the Blocks" style="height:430px;border-radius:5px;">
-		<h5>2. Set the correct variable numbes to change how frequently we will smple data.</h5>
+		<h5>2. Set the correct variable numbers to change how frequently we will sample data.</h5>
 	<p>We want to change the variable value to 1,000,000.
 	  <li>Double click on the variable block and type in 1000000 and select okay.</li></p>
 		<br>
@@ -138,7 +138,7 @@ I also can't get the drop down menu to work-->
         <hr class="thinline">
 
 		<h5>1. Start off with creating a new flowchart.</h5>
-		<p>This flow chart will be named <b>LastName-recorded-Date</b></p>
+		<p>This flowchart will be named <b>LastName-recorded-Date</b></p>
 		<li>Click the page icon with the plus at the top of your screen shown below.</li>
 <br><img src="https://astrochart.github.io/website/tutorials/flow1.png" class="left" alt="First Data Set" style="height:300px;border-radius:5px;">
 		<br><br>
@@ -155,7 +155,7 @@ I also can't get the drop down menu to work-->
 <br><img src="https://astrochart.github.io/website/tutorials/flow3.png" class="left" alt="First Data Set" style="height:220px;border-radius:5px;">
 <br><br>
 		<h5>4. We are going to add the 'RTL-SDR Source' block and change some values inside.</h5>
-		<p>Lets add the block first.</p>
+		<p>Let's add the block first.</p>
 		<li>Use the search bar as we have done before and double click on the <b>‘RTL-SDR Source’</b> block.
 		<li>change the <b>'RF Gain'</b> to <b>'45'</b> (you might have to scroll down to see this option).</li>
 	  <li>Set the <b>'Sample Rate'</b> to <b>'samp_rate'</b>. Click <b>‘apply’</b> and <b>‘OK’</b>.</li>
@@ -188,7 +188,7 @@ I also can't get the drop down menu to work-->
 		<br><br>
 <h5>7. Create new blocks and use the variable 'veclength'.</h5>
 		<p>Add a <b>'Stream to Vector'</b> block.</p>
-		<li>Use the search bar to find the block <b>'Vector'</b> and doubke click to use it.</li>
+		<li>Use the search bar to find the block <b>'Vector'</b> and double click to use it.</li>
 		<li>Set <b>'Num Items'</b> to <b>'veclength'</b> and click <b>‘apply’</b> and <b>‘OK’</b>.</li> 
 	  <li>Click on the <b>'Vector'</b> block and drag to connect it to the <b>'Head'</b> block.</li>
 		<img src="images_for_website/ScreenshotsFromPi/setStreamToVector.png" class="left" alt="First Data Set" style="height:220px;border-radius:5px;">
@@ -229,7 +229,7 @@ I also can't get the drop down menu to work-->
       <img src="images_for_website/ScreenshotsFromPi/GenerateandExecuteArrows.png" class="left" alt="First Data Set" style="height:750px;border-radius:5px;">
 
 <br>
-		<h5>9. Double check your data was written in the desired location.</h5>
+		<h5>9. Double check that your data was written in the desired location.</h5>
 		<p>We will get to see all of the contents/folders in your current location on the computer.</p>
 		<li>Open up your terminal.</li>
 		<li>Type: <span class = "commandline">ls</span>. Stands for Directory Listing (l = lowercase L)</li>
@@ -294,7 +294,7 @@ This block reduces the data size by averaging every 100 values into one value. W
 According to our previous calculations, the program is supposed to run for 5.12 seconds, so we will multiply our bits per second by 5.12 seconds.
 <br><img src="https://astrochart.github.io/website/tutorials/size6.png" class="left" alt="Data Size" style="height:150px;border-radius:5px;">
 
-We will now do a few conversions so that we can put this value into kilobits.
+We will now do a few conversions so that we can put this value into kilobytes.
 <p><span class="boldtext">Converting bits to bytes: </span>
 <br><img src="https://astrochart.github.io/website/tutorials/size7.png" class="left" alt="Data Size" style="height:100px;border-radius:5px;">
 
@@ -320,79 +320,79 @@ is to type <br>
     <th>Argument</th>
     <th>Default Value</th>
     <th>Type  </th>
-    <th>Docstring</th>
+    <th>     Docstring</th>
 </tr>
   <tr>
     <td>--scan_period</td>
     <td>0.001</td>
     <td>Float</td>
-    <td>Time between a scan and the next, in hours. </td>
+    <td>     Time between a scan and the next, in hours. </td>
 </tr>
   <tr>
     <td>--total_time</td>
     <td>0.001</td>
     <td>Float</td>
-    <td>Total time for all scans, in hours.</td>
+    <td>     Total time for all scans, in hours.</td>
 </tr>
   <tr>
     <td>--freq_i</td>
     <td>1410.</td>
     <td>Float</td>
-    <td>Starting frequency, in MHz.</td>
+    <td>     Starting frequency, in MHz.</td>
 </tr>
   <tr>
     <td>--freq_f</td>
     <td>1430.</td>
     <td>Float</td>
-    <td>Ending frequency,in MHz.</td>
+    <td>     Ending frequency, in MHz.</td>
 </tr>
   <tr>
     <td>--df</td>
     <td>1.</td>
     <td>Float</td>
-    <td>Frequency tuning step size, in MHz.</td>
+    <td>     Frequency tuning step size, in MHz.</td>
 </tr>
   <tr>
     <td>--sleep_time</td>
     <td>5.</td>
     <td>Float</td>
-    <td>Sleep time between checks for next scan time, in seconds.</td>
+    <td>     Sleep time between checks for next scan time, in seconds.</td>
 </tr>
   <tr>
     <td>--veclength</td>
     <td>1024</td>
     <td>int</td>
-    <td>Vector length (number of channels) for spectrum estimation.</td>
+    <td>     Vector length (number of channels) for spectrum estimation.</td>
 </tr>
   <tr>
     <td>--samp_rate</td>
     <td>2.</td>
     <td>Float</td>
-    <td>Sample rate of the radio, in MHz.</td>
+    <td>     Sample rate of the radio, in MHz.</td>
 </tr>
   <tr>
     <td>--int_length</td>
     <td>100</td>
     <td>int</td>
-    <td>Number of samples per integration.</td>
+    <td>     Number of samples per integration.</td>
 </tr>
   <tr>
     <td>--int_time</td>
     <td>None</td>
     <td>Float</td>
-    <td>Integration time, in seconds. Overrides the --int_length argument</td>
+    <td>     Integration time, in seconds. Overrides the --int_length argument</td>
 </tr>
   <tr>
     <td>--nint</td>
     <td>500.</td>
     <td>int</td>
-    <td>Number of integrations per file.</td>
+    <td>     Number of integrations per file.</td>
 </tr>
   <tr>
     <td>--data_dir</td>
     <td>None</td>
     <td>str</td>
-    <td>Data directory. Defaults to current working directory.</td>
+    <td>     Data directory. Defaults to current working directory.</td>
 </tr>
 
 
