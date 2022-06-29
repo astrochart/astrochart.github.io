@@ -251,7 +251,7 @@ I also can't get the drop down menu to work-->
 
           Before we start I want to make clarifications between some vocabulary I will be using in this section.
 <hr class="thinline">
-<p><span class="boldtext">Sample:</span> This is how much data is collected per second. In this tutorial we chose 2,000,000     or   2106. In each of our ‘samples’ we collect 2 numbers.
+<p><span class="boldtext">Sample:</span> This is how much data is collected per second. In this tutorial we chose 2,000,000     or   2 x 10<sup>6</sup>. In each of our ‘samples’ we collect 2 numbers.
 <p><span class="boldtext">Bit:</span> Short for “binary digit”. This is the smallest unit of data in a computer. A bit has a single binary value of 1 or 0.
 <p><span class="boldtext">Byte:</span> Equal to 8 bits.
 <p><span class="boldtext">Kilobyte (kB):</span> Equal to 1024 bytes. (Try not to get this confused with the normal 1000=kilo).
@@ -262,12 +262,12 @@ I also can't get the drop down menu to work-->
 <hr class="thinline">
 
 <span class="boldtext">RTL-SDR Source: </span>
-This controls how much data we initially take in from the telescope itself. We set a parameter of 2 million samples per second. For each sample that we take, we get 2 numbers. For each number we use 32 bits of data. If we do a quick calculation we see that we are taking in 1.28108 bits per second.
+This controls how much data we initially take in from the telescope itself. We set a parameter of 2 million samples per second. For each sample that we take, we get 2 numbers. For each number we use 32 bits of data. If we do a quick calculation we see that we are taking in 1.28 x 10<sup>8</sup> bits per second.
 
 <br><img src="https://astrochart.github.io/website/tutorials/size1.png" class="left" alt="Data Size" style="height:120px;border-radius:5px;">
 
 <span class="boldtext">Head:</span>
-This block limits the total number of samples that will be collected, in this case 10,240,000 or 1.024107. From this, we can calculate how much time our total data collection should take.
+This block limits the total number of samples that will be collected, in this case 10,240,000 or 1.024 x 10<sup>7</sup>. From this, we can calculate how much time our total data collection should take.
 
 <br><img src="https://astrochart.github.io/website/tutorials/size2.png" class="left" alt="Data Size" style="height:200px;border-radius:5px;">
 
