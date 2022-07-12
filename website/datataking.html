@@ -28,7 +28,7 @@ I also can't get the drop down menu to work-->
   </button>
 
   <div class="collapse navbar-collapse justify-content-center nav-fill" id="navbarSupportedContent">
-	  
+
     <ul class="nav navbar-nav nav-fill">
       <li class="active">
         <a class="nav-link text-white" href="../index.html">Home<span class="sr-only">(current)</span></a>
@@ -65,7 +65,7 @@ I also can't get the drop down menu to work-->
   <li>  <a href="#spectrum">Create a Spectrum Flowchart and Save the Data</a> </li>
   <li> <a href="#datasize">Is our Data Size Correct?</a> </li>
   <li> <a href="#package">Data taking with CHART installed package</a> </li>
-  </ul> 
+  </ul>
   </div>
 
   <div id="top_pad"></div>
@@ -81,10 +81,10 @@ I also can't get the drop down menu to work-->
       <h2 style="text-align:left;">Take your first radio data</h2>
 		<p>We are going to open up your newly installed GNU Radio using a command in the terminal:</p>
 	  <li>Type: <span class="commandline">gnuradio-companion</span> and click enter</li>
-      <p>You are welcome to visit the links below to learn more about the GNU Radio and the blocks we are about to create. 
-		 <br> 
-	    <a href="https://wiki.gnuradio.org/index.php/Tutorials">Tutorials</a>   
-	  <br> 
+      <p>You are welcome to visit the links below to learn more about the GNU Radio and the blocks we are about to create.
+		 <br>
+	    <a href="https://wiki.gnuradio.org/index.php/Tutorials">Tutorials</a>
+	  <br>
       <a href="https://www.gnuradio.org/docs/">More info</a></p>
 		<h5>1.  After gnuradio opens, we will make a simple flow chart</h5>
 		    <br>
@@ -169,27 +169,27 @@ I also can't get the drop down menu to work-->
 		<li>Double click on the Variable block to change the values.</li>
 		<li>Make the <b>value: '1024'</b>. </li>
 	  <li>Click <b>‘apply’</b> and <b>‘OK’</b>.</li>
-		
+
       <img src="https://astrochart.github.io/website/tutorials/flow5.png" class="left" alt="First Data Set" style="height:320px;border-radius:5px;">
 
 <br>
 		<br>
-		<h5>6. Now we will add a 'Head' block.</h5> 
-		<p>This block will limit the amount of data that will be processed.</p> 
+		<h5>6. Now we will add a 'Head' block.</h5>
+		<p>This block will limit the amount of data that will be processed.</p>
 		<li>Use the search bar again to find <b>Head</b> and double click to use it.</li>
 		<li>Set <b>'Num Items'</b> to <b>'10240000'</b>.</li>
 		<li>Click <b>‘apply’</b> and <b>‘OK’</b>. </li>
 		<br>
-		<p>Connect the head block to the 'RTL-Source' block.</p> 
+		<p>Connect the head block to the 'RTL-Source' block.</p>
 	  <li>Click on the little blue box that reads ‘out’ on the <b>'RTL-SDR Source'</b> box and drag to the <b>‘in’</b> on the <b>'Head'</b> box. An arrow should connect the two.</li>
-		
+
       <img src="images_for_website/ScreenshotsFromPi/addedHeadBlock.png" class="left" alt="First Data Set" style="height:550px;border-radius:5px;">
       <img src="images_for_website/ScreenshotsFromPi/setHeadBlock.png" class="left" alt="First Data Set" style="height:200px;border-radius:5px;">
 		<br><br>
 <h5>7. Create new blocks and use the variable 'veclength'.</h5>
 		<p>Add a <b>'Stream to Vector'</b> block.</p>
 		<li>Use the search bar to find the block <b>'Vector'</b> and double click to use it.</li>
-		<li>Set <b>'Num Items'</b> to <b>'veclength'</b> and click <b>‘apply’</b> and <b>‘OK’</b>.</li> 
+		<li>Set <b>'Num Items'</b> to <b>'veclength'</b> and click <b>‘apply’</b> and <b>‘OK’</b>.</li>
 	  <li>Click on the <b>'Vector'</b> block and drag to connect it to the <b>'Head'</b> block.</li>
 		<img src="images_for_website/ScreenshotsFromPi/setStreamToVector.png" class="left" alt="First Data Set" style="height:220px;border-radius:5px;">
 		<br><br>
@@ -208,7 +208,7 @@ I also can't get the drop down menu to work-->
 		<li>Set <b>‘Vec Length'</b> to <b>'veclength'</b></li>
 		<li>Set <b>'Decimation'</b> to <b>'100'</b>. </li>
 		<li>Change <b>‘IO Type’</b> to <b>‘Float’</b>.</li>
-		<li>Click <b>‘apply’</b> and <b>‘OK’</b>.</li> 
+		<li>Click <b>‘apply’</b> and <b>‘OK’</b>.</li>
 	  <li>Connect to 'Mag^2' block.</li>
 
 	  <img src="images_for_website/ScreenshotsFromPi/IntegrateBlockSetup.png" class="left" alt="First Data Set" style="height:230px;border-radius:5px;">
@@ -319,7 +319,7 @@ is to type <br>
   <tr>
     <th>Argument</th>
     <th>Default Value</th>
-    <th>Type  </th>
+    <th style="padding-right: 20px">Type  </th>
     <th>     Docstring</th>
 </tr>
   <tr>
