@@ -327,10 +327,22 @@ I also can't get the drop down menu to work-->
   <p>A recommended example call for a simple 21cm observation as a test is as follows (all one line): <br>
     <code>python freq_and_time_scan.py --freq_i=1390 --freq_f=1450 --nint=20 --int_time=0.5 --data_dir='path/to/directory'</code></p>
 	<div>
-	<h2 style="text-align:left;">We can now use the simple GUI to take data</h2>
+	<h2 style="text-align:left;">Use the GUI to collect data</h2>
 		<p>A G.U.I stands for a <i>Graphical User Interface</i>. Directly communicating with the command line can be hard to understand. Because of this, we have created an easy interface to interact with when taking data.</p>
 		<p>All you need to do is open the <b>CHART_GUI</b> file located on your desktop. If you wish to view what is happening behind the scenes, click <b>Execute in Terminal</b>. </p>
-		
+		<li>Enter the <b>parameters</b> you want to use for taking data</li>
+		<p>Tip: You can use all the default parameters by clicking the slider at the bottom. If you do not change a value in a text area, the default parameter will be used.</p>
+		<li>Enter your <b>username</b> for Jupyter Hub, the <b>location</b> you are taking data, <b>trial</b> of the day in this location, <b>date</b> in the format month.day.year, and current <b>time</b>.</li>
+		<p>Tip: You can use system date and time if the time in the upper right corner of your screen is correct. You can also use it when you are connected to the internet.</p>
+		<li>Click <b>Start</b></li>
+		<p>Tip: You can stop the trial at any time by clicking <b>Stop</b>. Once <b>Start</b> is re-enabled, the data has been taken and you can now take more data.</p>
+		<h5>Once you have finished taking data and are connected to the internet, open Jupyter Hub and sign in.</h5>
+		<p>You will need to upload all the files in .zip format to be imported into the database. The GUI has already zipped the files for you so you don't have to. We will use a database to search for files later when you want to analyze data.</p>
+		<li>Click the <b>data</b> folder</li>
+		<li>Click <b>Upload</b></li>
+		<li>Find and open the zip file you want to upload. The file should include the correct location, date, trial and time.</li>
+		<li>Click <b>Upload</b> again next to the file in Jupyter Hub</li>
+		<p>Continue this process until you have uploaded all the files you want.</p>
 	</div>
 	</div>
 	<div>
