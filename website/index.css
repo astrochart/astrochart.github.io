@@ -1,14 +1,25 @@
 /*I've tried a wrapper, id, and class, but can't get nav bar to center. */
 
+h1{
+  text-align:center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+	position: fixed;
+	width:100%;
+	border: solid;
+	border-color: black;
+	background:white;
+	text-decoration-color: black;
+	color: black;
+}
 h2{
   text-align:center;
   letter-spacing: 3px;
-  text-shadow: 2px 2px lightgrey;
   text-transform: uppercase;
-  text-decoration-line: underline;
-  font-family:sans-serif;
-  border: solid;
-  border-color: white;
+  text-decoration-line: none;
+	position:static;
+	border: solid;
+  border-color: black;
 }
 h5{
   text-align:left;
@@ -32,17 +43,6 @@ h5{
   z-index: 999;
 }
 
-#centerheader {
-  text-align:fill;
-color:black;
-font-family: arial:"courier new", courier;
-letter-spacing:9px;
-text-transform:uppercase;
-text-decoration-line: none;
-position: fixed;
-width:100%;
-background:white;
-}
 
 #top_pad{
   height:100px;
