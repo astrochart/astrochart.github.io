@@ -40,11 +40,12 @@ I also can't get the drop down menu to work-->
 
 <body>
 <div>
-  <ul class="sidenav" style="text-align:left;color:white;border-bottom-left-radius:5px;border-bottom-right-radius:5px;">
-    <li> <a href="#firstdata">Take Your First Radio Data</a> </li>
+  <ul class="sidenav" style="text-align:left;color:white;border-bottom-left-radius:5px;border-bottom-right-radius:7px;">
+	  <li> <a href="#firstdata">Take Your First Radio Data</a> </li>
     <li> <a href="#spectrum">Create a Spectrum Flowchart and Save the Data</a> </li>
     <li> <a href="#datasize">Is our Data Size Correct?</a> </li>
     <li> <a href="#package">Data taking with CHART installed package</a> </li>
+	<li> <a href="#gui">Use GUI to take data</a></li>
   </ul>
 </div>
 <div id="top_pad"></div>
@@ -325,7 +326,7 @@ I also can't get the drop down menu to work-->
   <br>
   <p>A recommended example call for a simple 21cm observation as a test is as follows (all one line): <br>
     <code>python freq_and_time_scan.py --freq_i=1390 --freq_f=1450 --nint=20 --int_time=0.5 --data_dir='path/to/directory'</code></p>
-	<div>
+	<div class="anchor" id= "gui">
 	<h2 style="text-align:left;">Use the GUI to collect data</h2>
 		<p>A G.U.I stands for a <i>Graphical User Interface</i>. Directly communicating with the command line can be hard to understand. Because of this, we have created an easy interface to interact with when taking data.</p>
 		<p>All you need to do is open the <b>CHART_GUI</b> file located on your desktop. If you wish to view what is happening behind the scenes, click <b>Execute in Terminal</b>. </p>
