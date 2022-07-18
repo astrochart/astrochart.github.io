@@ -244,7 +244,7 @@ li {
 }
 
 .mainware {
-  margin-left: 200px; /* Same as the width of the sidenav */
+margin-left: 200px; /* Same as the width of the sidenav */
 padding:30px;
 text-align:left;
 }
