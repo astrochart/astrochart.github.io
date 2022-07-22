@@ -41,11 +41,11 @@ I also can't get the drop down menu to work-->
 <body>
 <div>
   <ul class="sidenav" style="text-align:left;color:white;border-bottom-left-radius:5px;border-bottom-right-radius:7px;">
-	  <li> <a href="#firstdata">Take Your First Radio Data</a> </li>
+    <li> <a href="#firstdata">Take Your First Radio Data</a> </li>
     <li> <a href="#spectrum">Create a Spectrum Flowchart and Save the Data</a> </li>
     <li> <a href="#datasize">Is our Data Size Correct?</a> </li>
     <li> <a href="#package">Data taking with CHART installed package</a> </li>
-	<li> <a href="#gui">Use GUI to take data</a></li>
+    <li> <a href="#gui">Use the GUI to take data</a></li>
   </ul>
 </div>
 <div id="top_pad"></div>
@@ -326,44 +326,39 @@ I also can't get the drop down menu to work-->
   <br>
   <p>A recommended example call for a simple 21cm observation as a test is as follows (all one line): <br>
     <code>python freq_and_time_scan.py --freq_i=1390 --freq_f=1450 --nint=20 --int_time=0.5 --data_dir='path/to/directory'</code></p>
-	<a class="anchor" id= "gui"></a>
-	<h2 style="text-align:left;">Use the GUI to collect data</h2>
-		<p>A G.U.I stands for a <i>Graphical User Interface</i>. Directly communicating with the command line can be hard to understand. Because of this, we have created an easy interface to interact with when taking data.</p>
-		<p>All you need to do is open the <b>CHART_GUI</b> file located on your desktop. If you wish to view what is happening behind the scenes, click <b>Execute in Terminal</b>. </p>
+  <a class="anchor" id= "gui"></a>
+  <h2 style="text-align:left;">Use the GUI to collect data</h2>
+  <p>A G.U.I stands for a <i>Graphical User Interface</i>. Directly communicating with the command line can be hard to understand. Because of this, we have created an easy interface to interact with when taking data.</p>
+  <p>All you need to do is open the <b>CHART_GUI</b> file located on your desktop. If you wish to view what is happening behind the scenes, click <b>Execute in Terminal</b>. </p>
   <p>This is what you should see when it executes.</p>
-	<img src="images_for_website/GUI screenshots/allGUI.png" width="590" height="317" alt=""/>
-	<br>
-	<br>
-<li>Enter the <b>parameters</b> you want to use for taking data</li>
+  <img src="images_for_website/GUI screenshots/allGUI.png" width="590" height="317" alt=""/> <br>
+  <br>
+  <li>Enter the <b>parameters</b> you want to use for taking data</li>
   <p>Tip: You can use all the default parameters by clicking the slider at the bottom. If you do not change a value in a text area, the default parameter will be used as shown below.</p>
-	    <p><img src="images_for_website/GUI screenshots/changeParametersExample.png" width="582" height="318" alt=""/>
-  <img src="images_for_website/GUI screenshots/useDefaultParameters.png" width="583" height="316" alt=""/></p>
-	<br>
+  <p><img src="images_for_website/GUI screenshots/changeParametersExample.png" width="582" height="318" alt=""/> <img src="images_for_website/GUI screenshots/useDefaultParameters.png" width="583" height="316" alt=""/></p>
+  <br>
   <li>The <b>Enable Bias-T</b> option should only be used if you know <b>FOR SURE</b> that you are using a Bias-T</li>
-	<p>You can close this window pop-up and continue after evaluating your situation.</p>
-  <img src="images_for_website/GUI screenshots/biasTWarning.png" width="1162" height="314" alt=""/>
-	<br>
-	<br>
-	<li>Write a short <b>description</b> explaining what you are looking at in the sky.</li>
-<li>Enter your <b>username</b> for Jupyter Hub, the <b>location</b> you are taking data, <b>trial</b> of the day in this location, <b>date</b> in the format month.day.year, and current <b>time</b>.</li>
-  <p>Tip: You can use system date and time if the time in the upper right corner of your screen is correct. You can also use it when you are connected to the internet.	    <img src="images_for_website/GUI screenshots/dateAndTimeCloser.png" width="246" height="87" alt=""/>
-  <img src="images_for_website/GUI screenshots/sytemDateAndTime.png" width="245" height="88" alt=""/></p>
-	<br>
+  <p>You can close this window pop-up and continue after evaluating your situation.</p>
+  <img src="images_for_website/GUI screenshots/biasTWarning.png" width="1162" height="314" alt=""/> <br>
+  <br>
+  <li>Write a short <b>description</b> explaining what you are looking at in the sky.</li>
+  <li>Enter your <b>username</b> for Jupyter Hub, the <b>location</b> you are taking data, <b>trial</b> of the day in this location, <b>date</b> in the format month.day.year, and current <b>time</b>.</li>
+  <p>Tip: You can use system date and time if the time in the upper right corner of your screen is correct. You can also use it when you are connected to the internet. <img src="images_for_website/GUI screenshots/dateAndTimeCloser.png" width="246" height="87" alt=""/> <img src="images_for_website/GUI screenshots/sytemDateAndTime.png" width="245" height="88" alt=""/></p>
+  <br>
   <li>Click <b>Start</b></li>
-		<p>Tip: You can stop the trial at any time by clicking <b>Stop</b>. Once <b>Start</b> is re-enabled, the data has been taken and you can now take more data.</p>
-	<p><b>If you receive an error as shown below, change your trial number to continue.</b></p>
-	<img src="images_for_website/GUI screenshots/errorAlreadyExists.png" width="926" height="220" alt=""/>
-	<br>
-	<br>
-<h5>Once you have finished taking data and are connected to the internet, open Jupyter Hub and sign in.</h5>
-		<p>You will need to upload all the files in .zip format to be imported into the database. The GUI has already zipped the files for you so you don't have to. We will use a database to search for files later when you want to analyze data.</p>
-		<li>Click the <b>data</b> folder</li>
-		<li>Click <b>Upload</b></li>
-		<li>Find and open the zip file you want to upload. The file should include the correct location, date, trial and time.</li>
-		<li>Click <b>Upload</b> again next to the file in Jupyter Hub</li>
-		<p>Continue this process until you have uploaded all the files you want.</p>
+  <p>Tip: You can stop the trial at any time by clicking <b>Stop</b>. Once <b>Start</b> is re-enabled, the data has been taken and you can now take more data.</p>
+  <p><b>If you receive an error as shown below, change your trial number to continue.</b></p>
+  <img src="images_for_website/GUI screenshots/errorAlreadyExists.png" width="926" height="220" alt=""/> <br>
+  <br>
+  <h5>Once you have finished taking data and are connected to the internet, open Jupyter Hub and sign in.</h5>
+  <p>You will need to upload all the files in .zip format to be imported into the database. The GUI has already zipped the files for you so you don't have to. We will use a database to search for files later when you want to analyze data.</p>
+  <li>Click the <b>data</b> folder</li>
+  <li>Click <b>Upload</b></li>
+  <li>Find and open the zip file you want to upload. The file should include the correct location, date, trial and time.</li>
+  <li>Click <b>Upload</b> again next to the file in Jupyter Hub</li>
+  <p>Continue this process until you have uploaded all the files you want.</p>
 </div>
-	<div>
+<div>
   <hr class="thinline">
 </div>
 <div class="footer"> This project is supported by a <a href="https://nsf.gov" target="_blank">National Science Foundation</a> Astronomy and Astrophysics Postdoctoral Fellowship under award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440" target="_blank">AST-1701440</a>. </div>
