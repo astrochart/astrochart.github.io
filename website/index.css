@@ -281,7 +281,16 @@ hr.thinline {
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	align-content: center;
 }
+
+.team{
+	 height: 500px;
+	width: 520px;
+	overflow: hidden;
+	align-content: center;
+}
+
 
 /* Some left and right padding inside the container */
 .container {
