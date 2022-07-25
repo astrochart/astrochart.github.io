@@ -52,7 +52,7 @@ h5{
 a.anchor {
     display: block;
     position: relative;
-    top: -100px;
+    top: -130px;
     visibility: hidden;
 }
 
@@ -244,7 +244,7 @@ li {
 }
 
 .mainware {
-  margin-left: 200px; /* Same as the width of the sidenav */
+margin-left: 200px; /* Same as the width of the sidenav */
 padding:30px;
 text-align:left;
 }
