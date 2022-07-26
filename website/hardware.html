@@ -90,27 +90,29 @@ I also can't get the drop down menu to work-->
     <br>- X-acto Knife.
 
   <h2 style="text-align:left;">Probe Materials</h2>
-  <span class="boldfont">For this section you can either buy the pieces individually or in packages online for more convenience.</span>
+  <br><img src="tutorials/materials.png" class="left" style="height:300px;border-radius:5px;">
+  <br><span class="boldfont">For this section you can either buy the pieces individually or in packages online for more convenience.</span>
 <br>  <span class="italic boldfont">Individual Pieces</span>
-<br>- <span class="boldfont">2: </span> Gold plated nuts.
-<br>- <span class="boldfont">1: </span> Gold plated locking washer.
+<br>- <span class="boldfont">1: </span> SMA Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup
+<br>- <span class="boldfont">1: </span> Gold plated locking washer
 <br>- <span class="boldfont">1: </span> 7.5cm by 3.5cm Aluminum plate. Preferably .05" thick. (Soup can lid or scrap metal)
-<br>- <span class="boldfont">1: </span> Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup Terminal
-SMA Male to Female Right Angle 90-Degree Adapter Gold Plated.
-<br>- <span class="boldfont">1: </span>Low noise amplifier.
-<br>- <span class="boldfont">1: </span>6.3cm Copper wire.
-<br>
-  <span class="italic boldfont">Packages from Online</span>
+<br>- <span class="boldfont">1: </span> SMA Male to Female Right Angle 90-Degree Adapter Gold Plated
+<br>- <span class="boldfont">1: </span> Bias-T Enabled LNA/Filter
+<br>- <span class="boldfont">1: </span> 6.3cm Copper wire
+<br>- <span class="italic boldfont">Packages from Online</span>
 <br>- <a href="https://www.amazon.com/gp/product/B078H4F8R6">Wlaniot SMA Female Connector SMA Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup Terminal 5pcs</a>
 <br>- <a href="https://www.amazon.com/gp/product/B07FDHBS19">SMA Connectors</a>
 <br>- <a href="https://www.amazon.com/gp/product/B00VHAZ0KW">SMA Right Angle Connectors</a>
-<br>- <a href="https://www.amazon.com/HiLetgo-0-1-2000MHz-WideBand-Amplifier-Noise/dp/B01N2NJSGV/ref=sr_1_1_sspa?keywords=low+noise+amplifier&qid=1564689487&s=gateway&sr=8-1-spons&psc=1
-">Low Noise Amplifier</a>
-<br>- <a href="https://www.amazon.com/Beadalon-Artistic-22-Gauge-Copper-15-Yards/dp/B003IUG1PM/ref=sr_1_14?keywords=copper+wire&qid=1565206756&s=gateway&sr=8-14">6.3cm Copper wire.</a>
-</div>
+<br>- <a href="https://www.nooelec.com/store/sawbird-h1-barebones.html"> LNA/Filter</a>
+<br>- <a href="https://www.amazon.com/Beadalon-Artistic-22-Gauge-Copper-15-Yards/dp/B003IUG1PM/ref=sr_1_14?keywords=copper+wire&qid=1565206756&s=gateway&sr=8-14">6.3cm Copper wire</a>
+
+<hr class="thinline">
+</span><i>Remember that these are merely the materials used for our own horn construction.
+  You are completely free to try new kinds of materials and make this "completely hackable" design your own!</i>
+<hr class="thinline">
 
 <hr class="boldline">
-
+</div>
 <div class="mainware">
   <a class="anchor" id="constructing"></a>
   <h2 style="text-align:left;">Constructing the Horn</h2>
@@ -153,20 +155,24 @@ ease in this project you can use the template we provide. </p>
     <hr class="thinline">
   Awesome! Our horn is finished, so it's time to start hooking up the electrical compenents.
           Use a 1/4" drill bit to drill a hole in the middle of the aluminum plate. Our SMA connector is going to fit right into this hole, and the aluminum plate is used to stabilize it
-          Otherwise, the cardboard alone would be too flimsy. Drill a 1/4" hole into one of the wide sides of the waveguide 7cm down from the edge in the center, as shown below.
+          Otherwise, the cardboard alone would be too flimsy. Drill a 1/4" hole into one of the <u>wide</u> sides of the waveguide 7cm down from the edge in the center.
           Next, we will need to solder the copper wire to the solder cup.
+		<br> <img src="tutorials/solder.png" class="right" alt="Solder Cup" style="height:300px;border-radius:5px;">
           <br> *Note: remember how we set aside the small back panel piece? We did that to make it easy to reach through that opening of the horn and carry out these next steps.
           <br> In this order, we will connect the probe parts to the inside of the waveguide:
-          <br> 1.) Remove the gold nut and one of the gold locking washers from the 90 degree SMA connector.
+          <br> 1.) Remove the gold nut and one of the gold locking washers from the SMA mount connector.
           <br> 2.) Put the SMA connector section of the copper wire hook up through the aluminum plate.
-          <br> 3.) Place the gold plate, gold locking washer, and gold nut on top of the SMA on the other side of the aluminum plate in that order. Refer to the attached images for visual assistance.
+          <br> 3.) Place the gold locking washer and gold nut on top of the SMA on the other side of the aluminum plate in that order. Refer to the attached images for visual assistance.
+          <br><img src="tutorials/metal_visual_aide.png" class="left" alt="Plate Pieces" style="height:300px;border-radius:5px;"><img src="tutorials/bottom_of_plate.png" class="right" alt="Final Plate" style="height:300px;border-radius:5px;">
           <br> 4.) Push the SMA from the inside through the cardboard hole so the metal plate is on the inside of the horn.
-          <br> 5.) Screw on the male to female 90 degree SMA connector.
-          <br> 6.) Screw on the male to male SMA connector.
+          <br> <span class="boldfont">Hot Tip #4:</span><i>Use a pencil or similar instrument to widen the hole slightly after drilling. This will make screwing in the 90 degree connector much easier.</i>
+          <br> 5.) Use foil tape to secure the metal plate and keep the inside of the horn completely reflective.
+          <br> 6.) Screw on the male to female 90 degree SMA connector from the outside of the horn.
+          <br> 7.) Screw on the male to male SMA connector to the 90 degree connector.
             <hr class="thinline">
-            Next, we will start connecting our Low Noise Amplifiers to the filter.
+            Next, we will start connecting our Bias-T enabled LNA/Filter.
             Refer to the schematic below to see what order to connect the rest of the components.
-            <br><img src="tutorials/tele_hook_up.png" class="left" alt="Horn Hookup" style="width:100%;border-radius:5px;">
+            <br><img src="tutorials/new_tele_hook_up.png" class="left" alt="Horn Hookup" style="width:100%;border-radius:5px;">
   <hr class="thinline">
   Congratulations, you are ready to move on to the <a href="software.html">Software</a> section of the project!
   </p>
