@@ -234,98 +234,106 @@ I also can't get the drop down menu to work-->
     <img src="https://astrochart.github.io/website/tutorials/size8.png" class="left" alt="Data Size" style="height:100px;border-radius:5px;"> <span class="boldtext">Congratulations, you completed this tutorial and proved that the amount of data you received is correct.</span></p>
   <a class="anchor" id="package"></a>
   <h2 style="text-align:left;">Take data with installable package</h2>
-  <br>
-  While using GNUradio can be a great way to understand how data taking works and allows you to look at your data in real time, another method to take and
-  save data is by using the installable CHART package at <a href="https://github.com/astrochart/CHART"> the CHART github repository.</a> with installation instructions in the readme.md file. <br>
-  <p> Upon installing the package, the data taking process can be started from the daq folder, with the python script freq_and_time_scan.py. The appropriate syntax
-    is to type <br>
-    <code>python freq_and_time_scan.py --argument=value --argument=value --etc</code></p>
-  <br>
-  <p> Current arguments and their defaults are as follows:</p>
-  <br>
-  <table style="width:100%">
-    <tr>
-      <th>Argument</th>
-      <th>Default Value</th>
-      <th>Type </th>
-      <th>Docstring</th>
-    </tr>
-    <tr>
-      <td>--scan_period</td>
-      <td>0.001</td>
-      <td>Float</td>
-      <td>Time between a scan and the next, in hours. </td>
-    </tr>
-    <tr>
-      <td>--total_time</td>
-      <td>0.001</td>
-      <td>Float</td>
-      <td>Total time for all scans, in hours.</td>
-    </tr>
-    <tr>
-      <td>--freq_i</td>
-      <td>1410.</td>
-      <td>Float</td>
-      <td>Starting frequency, in MHz.</td>
-    </tr>
-    <tr>
-      <td>--freq_f</td>
-      <td>1430.</td>
-      <td>Float</td>
-      <td>Ending frequency,in MHz.</td>
-    </tr>
-    <tr>
-      <td>--df</td>
-      <td>1.</td>
-      <td>Float</td>
-      <td>Frequency tuning step size, in MHz.</td>
-    </tr>
-    <tr>
-      <td>--sleep_time</td>
-      <td>5.</td>
-      <td>Float</td>
-      <td>Sleep time between checks for next scan time, in seconds.</td>
-    </tr>
-    <tr>
-      <td>--veclength</td>
-      <td>1024</td>
-      <td>int</td>
-      <td>Vector length (number of channels) for spectrum estimation.</td>
-    </tr>
-    <tr>
-      <td>--samp_rate</td>
-      <td>2.</td>
-      <td>Float</td>
-      <td>Sample rate of the radio, in MHz.</td>
-    </tr>
-    <tr>
-      <td>--int_length</td>
-      <td>100</td>
-      <td>int</td>
-      <td>Number of samples per integration.</td>
-    </tr>
-    <tr>
-      <td>--int_time</td>
-      <td>None</td>
-      <td>Float</td>
-      <td>Integration time, in seconds. Overrides the --int_length argument</td>
-    </tr>
-    <tr>
-      <td>--nint</td>
-      <td>500.</td>
-      <td>int</td>
-      <td>Number of integrations per file.</td>
-    </tr>
-    <tr>
-      <td>--data_dir</td>
-      <td>None</td>
-      <td>str</td>
-      <td>Data directory. Defaults to current working directory.</td>
-    </tr>
-  </table>
-  <br>
-  <p>A recommended example call for a simple 21cm observation as a test is as follows (all one line): <br>
-    <code>python freq_and_time_scan.py --freq_i=1390 --freq_f=1450 --nint=20 --int_time=0.5 --data_dir='path/to/directory'</code></p>
+
+  <br>While using GNUradio can be a great way to understand how data taking works and allows you to look at your data in real time, another method to take and
+save data is by using the installable CHART package at
+<a href="https://github.com/astrochart/CHART"> the CHART github repository.</a> with installation instructions in the readme.md file.
+<br>
+<p> Upon installing the package, the data taking process can be started from the daq folder, with the python script freq_and_time_scan.py. The appropriate syntax
+is to type <br>
+<code>python freq_and_time_scan.py --argument=value --argument=value --etc</code>
+<br>
+<p> Current arguments and their defaults are as follows:
+	<br>
+ <table style="width:100%">
+  <tr>
+    <th>Argument</th>
+    <th>Default Value</th>
+    <th>Type&nbsp;</th>
+    <th>Docstring</th>
+</tr>
+  <tr>
+    <td>--scan_period</td>
+    <td>0.001</td>
+    <td>Float&nbsp;</td>
+    <td>Time between a scan and the next, in hours. </td>
+</tr>
+  <tr>
+    <td>--total_time</td>
+    <td>0.001</td>
+    <td>Float&nbsp;</td>
+    <td>Total time for all scans, in hours.</td>
+</tr>
+  <tr>
+    <td>--freq_i</td>
+    <td>1410.</td>
+    <td>Float&nbsp;</td>
+    <td>Starting frequency, in MHz.</td>
+</tr>
+  <tr>
+    <td>--freq_f</td>
+    <td>1430.</td>
+    <td>Float&nbsp;</td>
+    <td>Ending frequency, in MHz.</td>
+</tr>
+  <tr>
+    <td>--df</td>
+    <td>1.</td>
+    <td>Float&nbsp;</td>
+    <td>Frequency tuning step size, in MHz.</td>
+</tr>
+  <tr>
+    <td>--sleep_time</td>
+    <td>5.</td>
+    <td>Float&nbsp;</td>
+    <td>Sleep time between checks for next scan time, in seconds.</td>
+</tr>
+  <tr>
+    <td>--veclength</td>
+    <td>1024</td>
+    <td>int&nbsp;</td>
+    <td>Vector length (number of channels) for spectrum estimation.</td>
+</tr>
+  <tr>
+    <td>--samp_rate</td>
+    <td>2.</td>
+    <td>Float&nbsp;</td>
+    <td>Sample rate of the radio, in MHz.</td>
+</tr>
+  <tr>
+    <td>--int_length</td>
+    <td>100</td>
+    <td>int&nbsp;</td>
+    <td>Number of samples per integration.</td>
+</tr>
+  <tr>
+    <td>--int_time</td>
+    <td>None</td>
+    <td>Float&nbsp;</td>
+    <td>Integration time, in seconds. Overrides the --int_length argument</td>
+</tr>
+  <tr>
+    <td>--nint</td>
+    <td>500.</td>
+    <td>int&nbsp;</td>
+    <td>Number of integrations per file.</td>
+</tr>
+  <tr>
+    <td>--data_dir</td>
+    <td>None</td>
+    <td>str&nbsp;</td>
+    <td>Data directory. Defaults to current working directory.</td>
+</tr>
+
+
+</table>
+
+<br>
+<p> A recommended example call for a simple 21cm observation as a test is as follows (all one line):
+ <br> <code>python freq_and_time_scan.py --freq_i=1390 --freq_f=1450 --nint=20 --int_time=0.5 --data_dir='path/to/directory'</code>
+
+   <hr class="thinline">
+
   <a class="anchor" id= "gui"></a>
   <h2 style="text-align:left;">Use the GUI to collect data</h2>
   <p>A G.U.I stands for a <i>Graphical User Interface</i>. Directly communicating with the command line can be hard to understand. Because of this, we have created an easy interface to interact with when taking data.</p>
