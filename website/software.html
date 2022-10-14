@@ -118,7 +118,7 @@ Most of us familiar with using a Mac or PC computer and are comfortable with thi
 <hr class="boldline">
 
 <div>
-	
+
 <a class="anchor" id="download"></a>
 
 	<h2 style="text-align:left;"><u>Imaging the Micro SD card</u></h2>
@@ -128,7 +128,7 @@ Most of us familiar with using a Mac or PC computer and are comfortable with thi
 	<img src="images_for_website/OSOption.png" width="638" height="192" alt=""/>
 <p>Click on <b>CHOOSE STORAGE</b> and click on the first option that has the SD card.</p>
 	  <p>After the writing process is done, safely eject your micro SD card and place it into your Raspberry Pi.</p>
-  
+
   <img src="https://astrochart.github.io/website/tutorials/sdcard.jpeg" class="left" alt="SD Card Placement" style="height:350px;border-radius:5px;">
   <br>
 	</p>
@@ -142,7 +142,7 @@ Most of us familiar with using a Mac or PC computer and are comfortable with thi
 	<p>To get started, we need to make sure that all our wires are hooked up and ready to go.</p>
 	<li>Hook up your Raspberry Pi to your monitor.</li>
 	<li>Plug in your ethernet cable.</li>
-	<li>Hook up to your keyboard (we used a wireless hook up for ours).</li>	
+	<li>Hook up to your keyboard (we used a wireless hook up for ours).</li>
 	<li>Plug in your Raspberry Pi into a power source.</li>
 
   <img src="https://astrochart.github.io/website/tutorials/rasp_set_up.jpeg" class="left" alt="raspberry pi set up" style="width:400px;border-radius:5px;">
@@ -196,11 +196,11 @@ This function is run through a GUI.</p>
 	<li>To do this, click on the example_2 folder you just created and right click in the open space on the right of the window. Click <b>"New File..."</b>.</li>
 	  <br>
   <h5>4. Now that we have our set up ready, lets navigate using our terminal and directories.</h5>
-	
+
 
 	<li>Type: <i><b>ls</b></i> and hit enter (<i>l</i> = L)</li>
 
-  <span class="boldfont">ls</span> stands for ‘list directory’ This will show you what contents are in the directory you are currently in on your Pi. Here you can see the other directories/folders in your computer. If you type this while in a directory, it will show the contents in just that directory. 
+  <span class="boldfont">ls</span> stands for ‘list directory’ This will show you what contents are in the directory you are currently in on your Pi. Here you can see the other directories/folders in your computer. If you type this while in a directory, it will show the contents in just that directory.
 
 <br>
 	<img src="images_for_website/ScreenshotsFromPi/2.png" class="left" alt="Command Line Code" style="height:220px;border-radius:5px;">
@@ -210,7 +210,7 @@ This function is run through a GUI.</p>
 <h5>5. We have saved files on the desktop, so we will navigate there.</h5>
 	<span class="commandline">cd</span> stands for ‘change directory’ and it allows the user to navigate to a different location on the computer
 	<li>You can change your directory by typing <span class="commandline">cd Desktop</span> and click enter. This places you in the Desktop directory. </li>
-	  <li>Now type <span class="commandline">ls</span> and click enter to make sure you are in the location where your files are.</li> 
+	  <li>Now type <span class="commandline">ls</span> and click enter to make sure you are in the location where your files are.</li>
 <p>You can navigate to a  different location on my computer by typing <span class="commandline">cd [desired location]</span> and clicking enter</p>
 
  <br>
@@ -236,9 +236,9 @@ This function is run through a GUI.</p>
 <p><b>We can see our blank document “example_3”</b></p>
 <p> </p>
 <h5>8. Lets try example_3</h5>
-	
+
 	<li>Type: <span class="commandline">cd example_3 </span> and click enter</li>
-	
+
 	<img src="images_for_website/ScreenshotsFromPi/8.png" class="left" alt="Command Line Code" style="height:310px;border-radius:5px;">
 
   <p> <span class="boldfont">It will not let us open this document, because it isn’t a directory/folder. It is a file.</span></p>
@@ -247,11 +247,11 @@ This function is run through a GUI.</p>
 	<li>Type: <span class="commandline">cd</span> and click enter</li>
 <p>This command takes us back to our home navigation screen.</p>
 
-  
-	
+
+
 	<li>Type: <span class="commandline">cd Desktop/example/example_2</span> and click enter</li>
 	<li>Type: <span class="commandline">ls</span> and click enter</li>
-   <br> 
+   <br>
 	<img src="images_for_website/ScreenshotsFromPi/9.png" class="left" alt="Command Line Code" style="height:320px;border-radius:5px;">
 
 <p> <span class="boldfont"> We are in the same location we were before.</span></p>
@@ -281,7 +281,7 @@ This function is run through a GUI.</p>
     <a class="anchor" id="gnu"></a>
     <h2 style="text-align:left;">Download GNU Radio</h2>
 
-    <p>GNU Radio is the free open source software that we will be using to help us process our data.<br> 
+    <p>GNU Radio is the free open source software that we will be using to help us process our data.<br>
     To learn more about GNU Radio visit this site <a href="https://www.gnuradio.org/about/">About GNU Radio</a>
     Make sure that you have an internet connection for these next steps. We used an ethernet hook up to ensure that we had an internet connection, but you can also hook up to wifi if available. To install gnuradio on Ubuntu, open up your terminal and type in the following command:
   <li><span class="commandline">sudo apt install gnuradio-dev gr-osmosdr librtlsdr-dev build-essential git cmake</span> and click enter.</li>
