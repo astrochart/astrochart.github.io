@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CHART</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--my css code. -->
+    <link rel="stylesheet" href="index.css" type="text/css">
+
+  </head>
+<!--I am also having a hard time spreading the nav bar equally spaced (maybe use an id)
+I also can't get the drop down menu to work-->
+<header id="mainmenu">
+  <nav class="navbar navbar-expand-lg nav-justified" style="background:black;">
+    <div>
+  <a class="navbar-brand text-white" href="../index.html"> </a> </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center nav-fill" id="navbarSupportedContent">
+    <ul class="nav navbar-nav nav-fill" class= ".active">
+      <li class="active">
+        <a class="nav-link text-white" href="../index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="about.html">About</a></li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="materials.html">Materials</a> </li>        <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tutorials
+          </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-black" href="hardware.html">Telescope Design</a>
+            <a class="dropdown-item text-black" href="software.html">Software Setup</a>
+            <a class="dropdown-item text-black" href="datataking.html">Taking data</a>
+            <a class="dropdown-item text-black" href="analysis.html">Analysis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="faq.html">FAQ</a> </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="memos.html">Memos</a> </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a> </li>
+        </ul>
+</div>
+</div>
+</nav>
+<h2 id="centerheader" style= "border:solid;border-color:black;" font-family:"courier new", courier, arial; >Suggested Materials</h2>
+</header>
+
+
+
+  <div class="container-fixed">
+  <section class="section">
+   <p style="margin:20px;">
+
+
+    <br>This list is intended to serve as a starting place for some suggested materials to build a version of CHART.
+
+    <br> <b>Materials for building the horn</b>
+    <br>-4 36” x 48” Double walled cardboard sheets.
+    <br>-75 square feet: Aluminum Foil.
+    <br>-Hot Glue Gun with Hot Glue.
+    <br>-Tape.
+    <br>-Aluminum Foil Tape.
+    <br>
+    <br> <b>Materials  for the probe</b>:
+     <br>-2 Gold plated nuts.
+    <br>-1 Gold plated locking washer.
+    <br>-1 small scrap aluminum (a soup can lid covered in aluminum tape will work fine)
+    <br>-1 Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup Terminal SMA Male to Female Right Angle 90-Degree Adapter Gold Plated.
+    <br>-6.3cm Copper wire.
+    <br>
+    <br> <b>Materials for the software</b>
+    <br>-Raspberry Pi 3B
+    <br>-Micro SD Card (32GB)
+    <br>-RTL-SDR
+     <br>-A computer monitor
+    <br>-Ethernet cable (if not using WiFi option)
+    <br>-Keyboard
+    <br>-Personal computer
+    <br>
+    <br> <b>Materials for the electronics chain</b>
+    <br>-2 Low noise amplifiers (LNA)
+    <br>-2 batteries for LNA (check spec voltage)
+    <br>-2 battery pack for soldering onto LNA
+    <br>-SMA style terminator
+    <br>-Long SMA cable (enough to run from monitor to wherever you want to take data)
+    <br>
+    <br> <b>Reccomended extras</b>
+    <br>Bandpass filter for 21cm
+    <br>Multimeter with continuity functionality
+    <br>Soldering kit
+    <br>Small radio antenna
+
+
+
+  <div class="footer">
+      This project is supported by a <a href="https://nsf.gov" target="_blank">National Science Foundation</a> Astronomy and Astrophysics Postdoctoral Fellowship under award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440" target="_blank">AST-1701440</a>.
+  </div>
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

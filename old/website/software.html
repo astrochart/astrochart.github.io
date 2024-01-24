@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CHART</title>
+    <style>
+      section{
+        background:url("nightsky.jpeg") no-repeat center fixed;
+      }
+      </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--my css code. -->
+    <link rel="stylesheet" href="index.css" type="text/css">
+
+  </head>
+<!--I am also having a hard time spreading the nav bar equally spaced (maybe use an id)
+I also can't get the drop down menu to work-->
+<header id="mainmenu">
+  <nav class="navbar navbar-expand-lg nav-justified" style="background:black;">
+    <div>
+  <a class="navbar-brand text-white" href="../index.html"> </a> </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center nav-fill" id="navbarSupportedContent">
+    <ul class="nav navbar-nav nav-fill" class= ".active">
+      <li class="active">
+        <a class="nav-link text-white" href="../index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="about.html">About</a></li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="materials.html">Materials</a> </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tutorials
+          </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-black" href="hardware.html">Telescope Design</a>
+            <a class="dropdown-item text-black" href="software.html">Software Setup</a>
+            <a class="dropdown-item text-black" href="datataking.html">Taking data</a>
+            <a class="dropdown-item text-black" href="analysis.html">Analysis</a>
+        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="faq.html">FAQ</a> </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="memos.html">Memos</a> </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a> </li>
+        </ul>
+</div>
+</nav>
+<h1>Software</h1>
+</header>
+
+    <body>
+
+  <div>
+    <ul class="sidenav" style="text-align:left;color:white;border-bottom-left-radius:5px;border-bottom-right-radius:5px;">
+  <li>  <a href="#navinst">Navigation Instructions</a> </li>
+  <li>   <a href="#materials">Materials</a> </li>
+  <li> <a href="#intro">Introduction</a> </li>
+  <li>  <a href="#setup">Raspberry Pi Setup</a> </li>
+  <li>  <a href="#download">Imaging the Micro SD Card</a> </li>
+  <li> <a href="#command">Intro to Command Line</a> </li>
+<li>  <a href="#gnu">Download GNU Radio</a> </li>
+  <li>  <a href="#Vocabulary">Vocabulary</a> </li>
+  </ul>
+  </div>
+
+  <div id="top_pad"></div>
+
+  <div class="mainware">
+    <a class="anchor" id="navinst"></a>
+    <h2 style="text-align:left;">Navigation Instructions</h2>
+    <p>The software section of this project is organized in a recommended order,
+      but can be easily navigated through with the use of the side navigation bar.
+      For each lesson there are multiple resources for the user: Along with the step-by-step instructions on this page, there is also a YouTube
+      video presentation.
+    <br> <iframe width="560" height="315" src="https://www.youtube.com/embed/fvTjPTGDPpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<hr class="boldline">
+
+<div>
+  <a class="anchor" id="materials"></a>
+  <h2 style="text-align:left;">Materials</h2>
+	  <p>To get started, here is a list of materials you will need for software instillation:</p>
+<ul>
+	<li> Raspberry Pi 4</li>
+	<li> Micro SD Card (32GB)</li>
+	<li> RTL-SDR </li>
+	<li> A computer monitor </li>
+	<li> Keyboard </li>
+	<li> Ethernet cable </li>
+	<li> Radio antenna </li>
+	<li> Personal computer </li>
+
+</ul>
+
+<br><iframe width="560" height="315" src="https://www.youtube.com/embed/4lqBtV-KXgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr class="thinline">
+<p>Before starting this tutorial, it’s highly recommended to go through the <a href="#Vocabulary">Software Vocabulary</a> section to get familiar with the concepts explained in the following tutorial.</p>
+<hr class="thinline">
+</div>
+<div>
+  <a class="anchor" id="intro"></a>
+  <h2 style="text-align:left;">Introduction</h2>
+Most of us familiar with using a Mac or PC computer and are comfortable with this kind of set up. This project’s set up is going to be different than these systems, but not difficult to navigate after spending some time getting familiar with all of the components. For this project, we will be using a Raspberry Pi as our computing device. This type of computing device doesn’t store data locally, so we will need to use an SD card for storage. Since we will be starting with a computing device that doesn’t have a preinstalled OS or GUI, we will need to set these up so that we can interact with the computer with ease. We chose Raspberry Pi OS, which is a version of Linux built to run on the Pi.
+</div>
+<hr class="boldline">
+
+<div>
+
+<a class="anchor" id="download"></a>
+
+	<h2 style="text-align:left;"><u>Imaging the Micro SD card</u></h2>
+	<p>You can install Pi Imager from this website: <a href="https://raspberrypi.com/software/">Download</a></p>
+	<img src="images_for_website/PiImager.png" width="518" height="346" alt=""/>
+<p>Click on <b>CHOOSE OS</b> and click on the first option <i>Raspberry Pi OS (32-bit)</i>.	</p>
+	<img src="images_for_website/OSOption.png" width="638" height="192" alt=""/>
+<p>Click on <b>CHOOSE STORAGE</b> and click on the first option that has the SD card.</p>
+	  <p>After the writing process is done, safely eject your micro SD card and place it into your Raspberry Pi.</p>
+
+  <img src="https://astrochart.github.io/website/tutorials/sdcard.jpeg" class="left" alt="SD Card Placement" style="height:350px;border-radius:5px;">
+  <br>
+	</p>
+  <p><b>Where to place the SD card in Raspberry Pi.</b>
+</p>
+</div>
+	  <hr class="boldline">
+<div>
+  <a class="anchor" id="setup"></a>
+  <h2 style="text-align:left;">Raspberry Pi Set Up</h2>
+	<p>To get started, we need to make sure that all our wires are hooked up and ready to go.</p>
+	<li>Hook up your Raspberry Pi to your monitor.</li>
+	<li>Plug in your ethernet cable.</li>
+	<li>Hook up to your keyboard (we used a wireless hook up for ours).</li>
+	<li>Plug in your Raspberry Pi into a power source.</li>
+
+  <img src="https://astrochart.github.io/website/tutorials/rasp_set_up.jpeg" class="left" alt="raspberry pi set up" style="width:400px;border-radius:5px;">
+<br><span class="boldfont"> This is what the Pi should look like. (You can choose which USB ports you want to use)</span><br>
+	<br>
+<p>Make sure all connections we set up in the beginning of the tutorial are still in place so that our system will start up on the monitor screen.
+The system will now prompt you to choose your location settings, and to set a <b>username</b> and <b>password</b>. Once this set up process is complete, it will check for updates.</p>
+</div>
+<div>
+<hr class="thinline">
+<h5 style="text-align:left;">Updates</h5>
+<p> </p>The system will now scan for updates. Click <b>Next</b> to update and <b>Restart</b> once it prompts you to.<br>
+
+</div>
+<hr class="boldline">
+<div>
+  <a class="anchor" id="command"></a>
+  <h2 style="text-align:left;">Introduction to Command Line Terminal</h2>
+  <h4 style="text-align:left;">What is command line?</h4>
+<p><span class="boldfont">Command line or “Command Line User Interface”</span>: is a way of communicating with
+your computer through typed commands; this is usually done through the computer’s terminal.</p>
+<p><img src="images_for_website/ScreenshotsFromPi/Terminal.png" width="80" height="" alt="65"/></p>
+<br>
+ <img src="images_for_website/ScreenshotsFromPi/1.png" class="left" alt="Image of the Command Line" style="height:150px;border-radius:5px;">
+ <p>Our computers are usually run through a GUI (graphical user interface), and
+	  so we are used to a different way of navigating through our systems.</p>
+
+<p>  <span class="underline">For example:</span> If you are on your desktop and
+  want to go into your documents folder on your desktop, you will
+  click on that folder and it will open up to display the contents in your documents folder.
+This function is run through a GUI.</p>
+
+<p>  In command line, we don’t have a GUI that makes it so that we can double click
+  into a location, instead we will need to type in our commands into our terminal.</p>
+
+<p><b>Tip: </b>Linux uses case sensitive code so that means that we need to be very careful about lower-case and upper-case letter. From now on, it’s a good rule of thumb to use all lower case letters so we don’t run into mistakes like this.</p>
+
+ <p>Another note about Linux is that putting spaces when naming a file/document can cause you trouble later on. Instead of using a space, use “_” an underscore like I did in these files.</p>
+<h5 style="text-align:left;">Exercise:</h5>
+  <p>For this exercise we are going to be using the command line in our Raspberry Pi  This example is specific to the Linux operating system.
+	You can click on the Terminal Icon at the top of your screen or access your terminal through the command <b>Ctrl + Alt + T </b></p>
+
+	<h5>1. Create a folder on your desktop that is called “example”</h5>
+	<li>To do this, right click on your desktop and select <b>"New Folder..."</b>. </li>
+	  <br>
+	<h5>2. Inside of the “example” folder, create another folder called “example_2”</h5>
+	<li>To do this, double click on the example folder on your desktop and click the <b>folder icon</b> second from the left.</li>
+	<img src="images_for_website/ScreenshotsFromPi/FolderIcon.png" width="70" height="60" alt=""/><br>
+	  <br>
+	<h5>3. Inside of the “example_2” folder create an empty file document called “example_3”</h5>
+	<li>To do this, click on the example_2 folder you just created and right click in the open space on the right of the window. Click <b>"New File..."</b>.</li>
+	  <br>
+  <h5>4. Now that we have our set up ready, lets navigate using our terminal and directories.</h5>
+
+
+	<li>Type: <i><b>ls</b></i> and hit enter (<i>l</i> = L)</li>
+
+  <span class="boldfont">ls</span> stands for ‘list directory’ This will show you what contents are in the directory you are currently in on your Pi. Here you can see the other directories/folders in your computer. If you type this while in a directory, it will show the contents in just that directory.
+
+<br>
+	<img src="images_for_website/ScreenshotsFromPi/2.png" class="left" alt="Command Line Code" style="height:220px;border-radius:5px;">
+	<p></p>
+<br>
+
+<h5>5. We have saved files on the desktop, so we will navigate there.</h5>
+	<span class="commandline">cd</span> stands for ‘change directory’ and it allows the user to navigate to a different location on the computer
+	<li>You can change your directory by typing <span class="commandline">cd Desktop</span> and click enter. This places you in the Desktop directory. </li>
+	  <li>Now type <span class="commandline">ls</span> and click enter to make sure you are in the location where your files are.</li>
+<p>You can navigate to a  different location on my computer by typing <span class="commandline">cd [desired location]</span> and clicking enter</p>
+
+ <br>
+ <img src="images_for_website/ScreenshotsFromPi/3.png" class="left" alt="Command Line Code" style="height:220px;border-radius:5px;">
+	<p></p>
+<br>
+  <h5>6. I can see the ‘example’ folder on my desktop so let’s change our directory again into this folder.</h5>
+	<li> Type: <span class="commandline">cd example</span> and click enter as shown above.</li>
+	<li>Type: <span class="commandline"> ls </span> and click enter</li>
+
+<br>
+	<img src="images_for_website/ScreenshotsFromPi/4.png" class="left" alt="Command Line Code" style="height:230px;border-radius:5px;">
+<p><span class="boldfont">We can see that our other folder “example_2” is inside of this folder where we placed it earlier.</span></p>
+
+  <h5>7. Let’s go inside of the example_2 folder</h5>
+	<li>Type: <span class="commandline">cd example_2</span> and click enter</li>
+
+ <br><img src="images_for_website/ScreenshotsFromPi/5.png" class="left" alt="Image of Command Line" style="height:260px;border-radius:5px;"/>
+<p></p>
+	<li>Type: <span class="commandline">ls</span> and click enter</li>
+	<br>
+    <img src="images_for_website/ScreenshotsFromPi/7.png" class="left" alt="Command Line Code" style="height:310px;border-radius:5px;">
+<p><b>We can see our blank document “example_3”</b></p>
+<p> </p>
+<h5>8. Lets try example_3</h5>
+
+	<li>Type: <span class="commandline">cd example_3 </span> and click enter</li>
+
+	<img src="images_for_website/ScreenshotsFromPi/8.png" class="left" alt="Command Line Code" style="height:310px;border-radius:5px;">
+
+  <p> <span class="boldfont">It will not let us open this document, because it isn’t a directory/folder. It is a file.</span></p>
+
+<h5>9. Now that we are more familiar with the path that we will be taking, let’s get there with one line of code.</h5>
+	<li>Type: <span class="commandline">cd</span> and click enter</li>
+<p>This command takes us back to our home navigation screen.</p>
+
+
+
+	<li>Type: <span class="commandline">cd Desktop/example/example_2</span> and click enter</li>
+	<li>Type: <span class="commandline">ls</span> and click enter</li>
+   <br>
+	<img src="images_for_website/ScreenshotsFromPi/9.png" class="left" alt="Command Line Code" style="height:320px;border-radius:5px;">
+
+<p> <span class="boldfont"> We are in the same location we were before.</span></p>
+
+<p>  We will continue to use a command line interface throughout various parts of this project.</p>
+
+	<h4 style="text-align:left;"><u>Popular Linux Commands</u></h4>
+  <li><span class="boldfont">cd</span> change directory</li>
+  <li><span class="boldfont">ls</span> list current (working directory) contents</li>
+	<li><span class="boldfont">mkdir [name] </span> make directory “name”</li>
+  <li><span class="boldfont">pwd</span> show current directory</li>
+  <li><span class="boldfont">cd </span> move to home directory</li>
+
+  <h4 style="text-align:left;">More References</h4>
+<p><a href="https://www.youtube.com/watch?v=IVquJh3DXUA">  Introduction to Linux and Command Line </a></p>
+<p>  <a href="https://en.wikipedia.org/wiki/Command-line_interface">Wiki Page</a></p>
+<p>  <a href="https://gooribi.com/home/basic-linux-commands/">Popular Linux Commands</a></p>
+
+
+</div>
+
+
+
+
+  <hr class="boldline">
+
+    <a class="anchor" id="gnu"></a>
+    <h2 style="text-align:left;">Download GNU Radio</h2>
+
+    <p>GNU Radio is the free open source software that we will be using to help us process our data.<br>
+    To learn more about GNU Radio visit this site <a href="https://www.gnuradio.org/about/">About GNU Radio</a>
+    Make sure that you have an internet connection for these next steps. We used an ethernet hook up to ensure that we had an internet connection, but you can also hook up to wifi if available. To install gnuradio on Ubuntu, open up your terminal and type in the following command:
+  <li><span class="commandline">sudo apt install gnuradio-dev gr-osmosdr librtlsdr-dev build-essential git cmake</span> and click enter.</li>
+    It will ask you to continue after using a certain amount of disk space.
+		<li>Type: <span class="commandline">Y</span> and click enter</li>
+		This download might take up to 20 mins.</p>
+
+    <hr class="boldline">
+
+
+          <hr class="boldline">
+
+            <a class="anchor" id="Vocabulary"></a>
+            <h2 style="text-align:left;">Software Vocabulary</h2>
+
+        <br>  <span class="boldtext">(API) Application Program Interface:</span> A set of routines, protocols, and tools for building software applications.
+  <p><span class="underline">Example 1:</span> Google Maps API: Google Maps APIs lets developers embed Google Maps on webpages using a JavaScript or Flash interface. The Google Maps API is designed to work on mobile devices and desktop browsers.</p>
+<p><span class="underline">Example 2:</span>  YouTube APIs: YouTube API: Google's APIs lets developers integrate YouTube videos and functionality into websites or applications. YouTube APIs include the YouTube Analytics API, YouTube Data API, YouTube Live Streaming API, YouTube Player APIs and others.
+  <a href="https://www.webopedia.com/TERM/A/API.html">Learn Further.</a></p>
+
+<br><span class="boldtext">Command Line Interface:</span> A text based interface that is used to operate software and operating systems while allowing the user to respond to visual prompts while typing single commands into the interface and receiving a reply in the same way.
+<p> <span class="underline">Example:</span> A command line interface can usually be accessed through your computer’s terminal.
+<a href= "https://www.techopedia.com/definition/3337/command-line-interface-cli https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df">Learn Further.</a></p>
+
+<br>  <span class="boldtext">Ethernet cable:</span> Connect devices within a local area network, like PCs, routers, and switches.
+<a href="https://www.lifewire.com/what-is-an-ethernet-cable-817548">Learn Further.</a>
+
+
+<br>  <span class="boldtext">File Compression (file zipping):</span> a data compression method in which the logical size of a file is reduced to save disk space for easier and faster transmission over a network or the Internet. It enables the creation of a version of one or more files with the same data at a size substantially smaller than the original file.
+<p> <span class="underline">Example:</span> We decompress (unzip) our Ubuntu file when we open it after download.
+<a href="https://www.techopedia.com/definition/892/file-compression">Learn Further.</a></p>
+
+<br>  <span class="boldtext">Flash memory:</span> is an electronic (solid-state) non-volatile computer storage medium that can be electrically erased and reprogrammed.
+<p> <span class="underline">Example:</span>  Our micro SD card uses flash memory when we write the operating system onto the card.
+<a href="https://en.wikipedia.org/wiki/Flash_memory">Learn Further.</a></p>
+
+<br>  <span class="boldtext">GNU Radio:</span> GNU Radio is a free and open-source software development toolkit that provides signal processing blocks to implement software radios. It can be used with readily-available low-cost external RF hardware to create software-defined radios, or without hardware in a simulation-like environment.
+<a href="https://en.wikipedia.org/wiki/Software-defined_radio">Learn Further.</a></p>
+
+<br>  <span class="boldtext">GUI (graphical user interface):</span> [pronounced ‘gooey’] is an interface that used icons or other visual indicators to interact with electronic devices, rather than only text via command line.
+<p> <span class="underline">Example:</span> Some GUI operating systems are Mac OS, Microsoft Windows, and Linux variants like Ubuntu that use a GUI interface.
+<a href="https://www.computerhope.com/jargon/g/gui.htm">Learn Further.</a></p>
+
+
+
+<br>  <span class="boldtext">Linux:</span> Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Without the operating system (often referred to as the “OS”), the software wouldn’t function. The biggest differentiator between Linux and other OS is that Linux set out to be open sourced, which means that users can access it for free.
+<p> <span class="underline">Example:</span>  We will be using Raspberry Pi OS as our operating system, which is based off of the Linux platform. You can think of it was a modified version of Linux.
+<a href="https://www.linux.com/what-is-linux">Learn Further.</a></p>
+
+
+<br>  <span class="boldtext">Micro SD (secure digital) card:</span> A type of very small memory card typically used in mobile phones and other portable devices.
+<p> <span class="underline">Example:</span>  We use a micro SD card in our Raspberry Pi computer as a memory storage for our data that we collect with our telescope.
+<a href="https://en.wikipedia.org/wiki/SD_card">Learn Further.</a></p>
+
+<br>  <span class="boldtext">Operating System (OS):</span> The software that supports a computer's basic functions, such as scheduling tasks, executing applications, and controlling peripherals.
+<p> <span class="underline">Example:</span>  Mac OS, Microsoft Windows, and Ubuntu MATE are some examples of what an operating system are.
+<a href="https://www.howtogeek.com/361572/what-is-an-operating-system/">Learn Further.</a></p>
+
+<br>  <span class="boldtext">Python:</span> An object-oriented, high-level programming language with integrated dynamic semantics primarily for web and app development. More simply it’s a programming language that is easy for developers to read and translate. Python also supports the use of modules and packages, which means that you can create a program and use it in another project by importing it.
+<p> <span class="underline">Example:</span> Python is used in projects such as the YouTube platform, programming NASA equipment, and Google’s search engine.
+<a href="https://www.python.org/doc/essays/blurb/">Learn Further.</a></p>
+
+
+
+<br>  <span class="boldtext">Raspberry Pi:</span> The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python. It’s capable of doing everything you’d expect a desktop computer to do, from browsing the internet and playing high-definition video, to making spreadsheets, word-processing, and playing games.
+<p> <span class="underline">Example:</span> There are many different versions of this computer, we will be using Raspberry Pi 4 for our project.
+ <a href="https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/">Learn Further.</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="footer">
+    This project is supported by a <a href="https://nsf.gov" target="_blank">National Science Foundation</a> Astronomy and Astrophysics Postdoctoral Fellowship under award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440" target="_blank">AST-1701440</a>.
+</div>
+  </body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
