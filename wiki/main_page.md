@@ -13,7 +13,7 @@ Welcome to the CHART project! CHART stands for Completely Hackable Amateur Radio
 
 # Build your own Radio Telescope
 Let's get started! We have desiged a series of tutorials that will guide you step-by-step in creating your own radio
-telescope. When it comes to navigating this project, we recommend that users start in the [Telescope
+telescope. We recommend that users start in the [Telescope
 Design](telescope_design.html) section, so that you will have a telescope to take data with, then move onto the software section of the course to record the data you will be taking.
 
 
