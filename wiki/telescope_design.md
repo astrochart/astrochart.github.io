@@ -1,46 +1,59 @@
 Telescope construction
 =====
-A simple radio telescope consists of a collecting element, amplifier, mixer, and digitizer. Here is a drawing of how it
-all goes together.
+A radio telescope is a light bucket connected to an amplifier, mixer, and digitizer. The Default CHART setup is a horn
+type collector connected to an amplifier which is read out by a software defined radio operated by a computer. The
+computer records a radio spectrum which must be calibrated in a post-processing step. This guide explains the
+construction steps.  Other pages describe how to observe and reduce your data.
 
+
+Here is a summary of the beginner CHART setup.
 ![system setup](assets/new_tele_hook_up.png){:height="50%" width="50%"}
 
-## Horn and Waveguide
-In our Low Frequency Cosmology lab at Arizona State University, we used top of the line software to optimize our telescope horn to observe the 21 cm line.
 
+Here is a simulation of how the horn responds as a function of angle. The horn sees everything within a 20 degree patch of the sky
+simultaneously. That is not very good resolution! But the galaxy is big.
 ![horn](assets/opt_horn.png){:height="50%" width="50%"}
 
-This image shows our final optimized dimesions for the horn according to highest gain.
-
-
-We tried many shapes and designs, but found that the parameters listed below worked best for us. As always, we encourage you to test your own design, but for ease in this project you can use the template we provide.
 
 ## Horn construction
-The picture below shows the horn dimensions that will be cut out on the cardboard sheets. Make sure to sketch out your deign with a pencil and follow the saying, "Measure twice, cut once" to ensure your dimensions are as accurate as possible.
+Materials
+ - Heavy Duty Cardboard: 90 x 113cm (2 pieces)
+ - Heavy Duty Cardboard: 70 x 115cm (2 pieces)
+ - one roll heavy duty aluminum foil
+ - Aluminum foil tape (aluminum duct tape)
+ - hot glue
+ - a pencil
+ - meter stick
+ - box cutter
+
+ 
+
+Using the drawing below, cut out the four sides of the horn. Remember, "Measure twice, cut once"! Trace out each horn
+and double check everything. Warning! Be careful not to damage any lovely old floors. Cut outside or put down something
+to protect that parquet.
+
 
 ![horn dimensions](assets/horn_dimensions.jpg){:height="50%" width="50%"}
 
-Next, we need to line the cut out cardboard pieces with the aluminum foil. We only need the inside of the horn to be covered with foil, since that's the part where all of the light particles will be focused into. Therefore, only one side of each piece needs to be covered.
+Next, line the cardboard pieces with the aluminum foil. Only cover the sides that will end up on the inside when the
+horn is assembled. In theory it doesn't matter which
+side is covered since cardboard is invisible in the radio, but in practice the foil is fragile. 
 
-Hot Tip #1: Make sure no adhesive or tape is exposed on the foil side because this will bring the horn's reflectivity
-down. This can be accomplished by going over any exposed spots with foil tape.
+Assemble the horn pieces. Use hot glue to connect the edges together. Fold the waveguide edges shown in the schmeatic
+above so that it creates a box on the bottom of the horn. Leave one side of the waveguide un-glued so you can install the feed point in the next step.
 
-Next we will need to use our hot glue gun to glue the edges of the horn together. Make sure to fold the waveguide edges shown in the schmeatic above so that it creates a box on the bottom of the horn.
+Line the inside edges of the horn with aluminum tape. This will join your 4 seperate sides into one continuous piece of
+metal and make a much more effective horn.
 
-Hot Tip #2: Don't glue the back panel onto the horn quite yet. Set this aside for later to make the process of hooking up the electrical components easier.
-
-Hot Tip #3: You can use any method you're comfortable with to connect the cardboard pieces. It's a little easier to have a partner help to ensure stability, but it can be done with just your own steady hand. One option is to let the hot glue set overnight between each panel, but doing all four sides at once works just as well - especially if you have a time constraint.
-
-Now that all the pieces are glued together, we took our aluminum tape and lined the inside edges of the horn with it so that no glue was showing. Again we want a completely reflective and conductive surface so that energy transfer from the photons and electrons can effectively travel to the waveguide and probe.
-
-Below is a photo of what your horn will look like constructed.
+Here is a completed horn!
 ![Completed Horn](assets/chart.png){:height="50%" width="50%"}
 
 ### Add the Probe
-Now that you have a horn that focuses light lets add a pickup to send the energy into a wire.
+The probe is the focal point of the horn. This is where we connect our radio!  It is a small length of wire soldered to an RF
+connector mounted to a piece of sheet metal. The RF connector is plugged directly into a low noise amplifier and
+passband filter.
 
 ### Probe Materials
-For this section you can either buy the pieces individually or in packages online for more convenience.
 Individual Pieces
 - 1: SMA Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup
 - 1: Gold plated locking washer
@@ -63,8 +76,13 @@ here.  Try new materials! Let us know what works better.
 ![materials](assets/materials.png){:height="50%" width="50%"}
 
 ### Make the Probe
-Use a 1/4" drill bit to drill a hole in the middle of the aluminum plate. Our SMA connector is going to fit right into this hole, and the aluminum plate is used to stabilize it Otherwise, the cardboard alone would be too flimsy. Drill a 1/4" hole into one of the wide sides of the waveguide 7cm down from the edge in the center. Next, we will need to solder the copper wire to the solder cup.
+Use a 1/4" drill bit to drill a hole in the middle of the plate/soup can lid. Plug the connector into this hole. Solder the copper wire to the solder cup.
+ 
 
+### Install the probe
+ Drill a
+1/4" hole into the wide side of the waveguide which has been glued down. Put the hole on center line about 7cm up from
+the bottom.
 ![probe soldered](assets/solder.png){:height="50%" width="50%"}
 
 *Note: remember how we set aside the small back panel piece? We did that to make it easy to reach through that opening
@@ -77,9 +95,7 @@ Connect the probe parts to the inside of the waveguide:
 1. Remove the gold nut and one of the gold locking washers from the SMA mount connector.
 1. Put the SMA connector section of the copper wire hook up through the aluminum plate.
 1. Place the gold locking washer and gold nut on top of the SMA on the other side of the aluminum plate in that order.
-Refer to the attached images for visual assistance.
-
-
+Refer to the attached images.
 
    ![probe installation](assets/metal_visual_aide.png){:height="50%" width="50%"}
 
@@ -92,12 +108,13 @@ Hot Tip #4:Use a pencil or similar instrument to widen the hole slightly after d
 6. Screw on the male to female 90 degree SMA connector from the outside of the horn.
 7. Screw on the male to male SMA connector to the 90 degree connector.
 
+Your horn is now ready for astronomy!
+
+
 ## Data Capture Computer 
 
 A computer is needed to record data from the radio.  Here we describe how to make a dedicated raspberry pi setup. You
-can also use a laptop. We use a pi because it is cheaper and easier to maintain. In these instructions we will cover
-every step needed when beginning from a bare Pi.
-
+can also use a laptop. We use a pi because it is cheaper and easier to maintain. z
 
 
 
@@ -107,63 +124,37 @@ every step needed when beginning from a bare Pi.
  - RTL-SDR
  - A computer monitor
  - Keyboard
- - Ethernet cable
- - Radio antenna
- - Personal computerRaspberry Pi 4
- - Micro SD Card (32GB)
- - RTL-SDR
- - A computer monitor
- - Keyboard
- - Ethernet cable
- - Radio antenna
- - Personal computer
 
-### Imaging the Micro SD Card
-The Pi runs off a solid state SD card.  The easiest way to install the operating system is to use another computer to
-put the complete OS onto an SD card. 
-1. On a laptop or desktop, install the [Pi imager](https://raspberrypi.com/software/). 
-   ![Pi Imager](assets/PiImager.png){:height="50%" width="50%"}
-2. Click on CHOOSE OS and select the first option _Raspbery Pi OS (32-bit)_
-   ![OS Option](assets/OSOption.png){:height="50%" width="50%"}
-3. Click on CHOOSE STORAGE and click on the first option that has the SD card.
-4. After the writing process is done, safely eject your micro SD card and insert it into your Raspberry Pi.
-   ![sd card](assets/sdcard.jpeg){:height="50%" width="50%"}
 
-### Setting up your RPi
+
+### Burn your Micro SD Card
+We provide a ready to run SD card image which can get you started. 
+
+1. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/).
+2. Use an SD card burner to write the image to an SD card. We like [Balena Etcher](https://etcher.balena.io/).
+### Set up your RPi
 To get started, we need to make sure that all our wires are hooked up and ready to go.
 
- - Hook up your Raspberry Pi to your monitor.
- - Plug in your ethernet cable.
- - Hook up to your keyboard (we used a wireless hook up for ours).
- - Plug in your Raspberry Pi into a power source.
+ - Set up your Pi with monitor, keyboard, and power source
+ - install sd card and turn on the Pi
+ - navigate to the WiFi setup screen and log in to your local wifi (this is a nice to have, but not required for data
+   taking)
  
 ![pi setup](assets/rasp_set_up.jpeg){:height="50%" width="50%"}
 
-Make sure all connections we set up in the beginning of the tutorial are still in place so that our system will start up on the monitor screen. The system will now prompt you to choose your location settings, and to set a username and password. Once this set up process is complete, it will check for updates.
+### Test your setup
 
-### System Updates
-The Ubuntu system will now scan for updates. Click Next to update and Restart once it prompts you to.
-
-### Computer help!
-We will make moderate use of the linux command line terminal. Through the terminal we can do all the usual things we do
-n a computer like inspect the contents of directories, manage files, and run programs. The terminal itself is a program
-called Bash (which is a portmanteu of Bourne Again SHell). If this is your first time in the shell, check out our
-[linux shell🐢 help page](shell_help).  
-
-We were all n00bs once! See a bit slang you don't recognize? Consult our modest [compendium of computer
-vocabulary](assets/vocab).  Or just, you
-know, google it!
+Open a terminal and run `gui.py`. Success will look like a window opening with some boxes asking for input. 
 
 
-### Install Gnu Radio
-[GNU Radio](https://www.gnuradio.org/about/) is the free open source software that we will be using to help us process our data.
- Make sure that you have an internet connection for these next steps. We used an ethernet hook up to ensure that we had
- an internet connection, but you can also hook up to wifi if available. To install gnuradio on Ubuntu, open up your
- terminal run the following command:
+You are now ready to do astronomy.
 
-`sudo apt install gnuradio-dev gr-osmosdr librtlsdr-dev build-essential git cmake`
-It will ask you to continue after using a certain amount of disk space.
-Type: Y and click enter
-This download might take up to 20 mins.
-
+## Observing setup
+Here is how observing will go
+ - Plug the RTL-SDR into the Pi 
+ - Connect the horn amplifier to the RTL
+ - Point the horn at your favorite part of the sky!
+ - Remember: Science (and hell) is repetition. And if you don't write it down, you're just fooling around!
+ - Don't forget, you can observe in the day or night time. Whenever you want!
+ - For more details, see [Observing](Observing)
 
