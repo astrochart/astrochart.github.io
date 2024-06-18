@@ -1,4 +1,7 @@
-Telescope construction
+---
+id: telescope-construction
+---
+Telescope Construction
 =====
 A radio telescope is a light bucket connected to an amplifier, mixer, and digitizer. The Default CHART setup is a horn
 type collector connected to an amplifier which is read out by a software defined radio operated by a computer. The

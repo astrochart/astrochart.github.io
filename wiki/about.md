@@ -1,4 +1,7 @@
-Contact
+---
+id: about
+---
+About
 ===
 
 This project is a collaboration between ASU and Winona State. Join us! 
