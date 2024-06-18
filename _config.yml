@@ -1,5 +1,6 @@
-remote_theme: Drassil/git-wiki-theme@master
-#remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+#remote_theme: Drassil/git-wiki-theme@master
+remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+#remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 # (string) Title of your wiki
 title: "CHART"
 
@@ -83,28 +84,28 @@ defaults:
       path: "wiki"
     values:
       permalink: /:basename
- -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "git-wiki-default"
- -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "git-wiki-default"
- -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "git-wiki-post"
- -
-    scope:
-      path: "assets/blog"
-    values:
-      layout: "git-wiki-blog"
+# -
+#    scope:
+#      path: "" # an empty string here means all files in the project
+#    values:
+#      layout: "git-wiki-default"
+# -
+#    scope:
+#      path: ""
+#      type: "pages"
+#    values:
+#      layout: "git-wiki-default"
+# -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "git-wiki-post"
+# -
+#    scope:
+#      path: "assets/blog"
+#    values:
+#      layout: "git-wiki-blog"
 sass:
     style: compressed
 plugins:
@@ -125,6 +126,30 @@ plugins:
   - jekyll-titles-from-headings
   - jemoji
   - jekyll-gitlab-metadata
+
+
+sidebar: 
+ - about
+ - label: Getting Started
+   children:
+     - telescope-construction
+     - observing
+     - analysis
+ - resources
+ - publications
+
+
+navigation: 
+ - name: About/Science
+   link: ./about.html
+ - name: Getting Started
+   sublist:
+     - name: Telescope Construction
+       link: ./telescope-construction.html
+     - observing
+     - analysis
+ - resources
+ - publications
 
 
 #
@@ -154,7 +179,8 @@ inc_after_tail :
 inc_before_tools : 
 inc_after_tools : 
 
-inc_before_page_list : sidebar.html
+#inc_before_page_list : sidebar.html
+inc_before_page_list: 
 inc_after_page_list :
 inc_before_post_list :
 inc_after_post_list :
