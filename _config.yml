@@ -146,7 +146,7 @@ navigation:
    link: ./about.html
  - name: Science Background
    link: ./science.html
-  - name: Materials
+ - name: Materials
    link: ./materials.html
  - name: Getting Started
    sublist:
