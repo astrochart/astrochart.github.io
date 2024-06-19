@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Observing</title>
+    <link
+      rel="stylesheet"
+      href="/assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/rouge.css"
+    />
+    <script src="/assets/js/accordian.js"></script>
+    <script src="/assets/js/heading_links.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="chrome">
+      <div class="chrome:nav">
+  <div class="chrome:logo_nav_item"><?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="310.000000pt" height="310.000000pt" viewBox="0 0 310.000000 310.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,310.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M50 2535 c0 -294 2 -535 4 -535 2 0 17 37 32 83 81 245 238 482 429
+649 141 124 390 273 528 317 20 7 37 14 37 17 0 2 -232 4 -515 4 l-515 0 0
+-535z"/>
+<path d="M2210 3066 c0 -2 28 -13 63 -26 97 -35 253 -116 357 -185 154 -103
+350 -286 350 -328 0 -7 -33 -45 -73 -83 -39 -38 -130 -124 -200 -191 -70 -68
+-132 -123 -138 -123 -5 0 -47 35 -93 78 -183 173 -369 274 -616 334 -36 8
+-117 13 -235 12 -155 0 -191 -4 -260 -23 -294 -83 -518 -265 -645 -526 -87
+-178 -120 -363 -101 -565 26 -277 121 -484 298 -650 262 -248 639 -335 1028
+-239 163 40 347 150 535 320 42 38 82 69 89 69 7 0 70 -60 139 -132 70 -73
+157 -165 194 -204 38 -39 68 -77 68 -85 0 -25 -245 -237 -379 -328 -33 -23
+-93 -59 -133 -81 l-73 -40 343 0 342 0 0 1500 0 1500 -430 0 c-236 0 -430 -2
+-430 -4z m-562 -990 c30 -179 117 -311 267 -401 64 -38 179 -78 258 -90 64
+-10 62 -36 -3 -48 -161 -28 -242 -63 -326 -140 -99 -90 -160 -202 -190 -352
+-8 -38 -17 -76 -20 -84 -10 -29 -26 8 -45 100 -10 52 -33 122 -50 157 -38 78
+-128 176 -203 221 -60 36 -211 91 -251 91 -13 0 -36 5 -52 11 -26 10 -27 11
+-10 24 10 7 43 16 73 20 67 8 148 35 214 71 67 36 171 146 208 219 31 63 72
+184 72 215 0 31 19 72 32 68 7 -3 19 -39 26 -82z"/>
+<!---<path d="M50 570 l0 -500 418 0 417 0 -89 50 c-129 72 -227 148 -346 269 -167
+168 -288 365 -360 584 -17 53 -34 97 -36 97 -2 0 -4 -225 -4 -500z"/>-->
+</g>
+</svg>
+</div>
+  
+  <div class="chrome:logo_nav_item" title="GitHub Repository">
+    <a href="https://github.com/astrochart/astrochart.github.io" target="_blank" rel="noreferrer noopener">
+      <img src="/assets/images/GitHub-Mark-Light-32px.png" alt="Link to GitHub Repository">
+    </a>
+  </div>
+  
+</div>
+
+      <div class="chrome:body">
+        <header class="chrome:header">
+  <div class="chrome:header_title">
+    <a href="/" class="text-grey-800 no-underline hover:no-underline focus:no-underline">
+      <span class="text-3xl">CHART</span>
+    </a>
+  </div>
+  
+</header>
+
+        <div class="chrome:content">
+          <div class="chrome:main">
+            
+            <h1 id="observing">Observing</h1>
+
+<p>If you’ve followed the telescope setup tutorial, you will now have a system that is ready to observe. The first step is to make a plan of where to point your CHART horn. You will need to know when the galaxy is visible in your location. Different parts of the Milky Way will be visible from different locations on Earth, depending on the time. The image below shows an artist’s rendition of the Milky Way, as would be viewed from above. The galaxy is divided into units of “Galactic Longutude”, with the center of the coordinate system at the sun. There are four Quadrants of Galactic longitude (I: 0 degrees to 90 degrees, II: 90 degrees to 180 degrees, III: 180 degrees to 270 degrees, IV: 270 degrees to 360 degrees). The II galactic quadrant is mostly only visible from the northern hemisphere, while the IV galactic quadrant is mostly only visible from the southern hemisphere. If you would like to make a rotation curve, only the I and IV quadrants are usable due to the geometry of the method we will use to calculate the rotation curve. This will be explained further in the analysis section. If you are just interested in detecting the 21-cm signal, you can point at any part of the galaxy you like.</p>
+
+<p><img src="assets/artistsrendition.jpg" alt="MW" height="75%" width="75%" /></p>
+
+<p>Image Credit: NASA/JPL-Caltech/ESO/R. Hurt - http://www.eso.org/public/images/eso1339e/</p>
+
+<p>There is also the consideration of Galactic latitude, or how far out of the disk of the Galaxy you are pointed. It is best to point as close to the plane of the Galaxy as possible, but the hydrogen distribution in the disk extends out to high galactic latitudes, so if you are 
+slighly off you should still be able to see the 21-cm signal. Galactic latitude is demonstrated below:</p>
+
+<p><img src="assets/GL.jpg" alt="GL" height="75%" width="75%" /></p>
+
+<p>Image Credit: https://astronomy.ua.edu/undergraduate-program/course-resources-astronomy/lab-exercise-8-cosmic-distributions-and-the-galactic-ecology/1293-2/</p>
+
+<p>To figure out where the galaxy is located at your location and time, we reccomend using something like <a href="https://stellarium.org/">Stellarium</a>.
+The Stellarium app or web browser will show what is in the sky at your location. We demostrate here with Stellarium web. Here is a quick view of the interface:</p>
+
+<p><img src="assets/stellarium.png" alt="stell" height="75%" width="75%" /></p>
+
+<p>Make sure to change the location to your current location. We reccomend turning off the atmosphere with the button labelled “atmosphere” at the bottom. This will let you see where the Galaxy is during the day time as well as the night time. Fortunately, unlike optical astronomy, we can do radio measurements of the Milky Way during the day!</p>
+
+<p><img src="assets/atmosphere.png" alt="stell" height="75%" width="75%" /></p>
+
+<p>Using the bottom right button to scan through times, you can see when the Galaxy is visible from your location. It should pass overhead twice in a 24 hour period.</p>
+
+<p><img src="assets/timescan.png" alt="stell" height="75%" width="75%" /></p>
+
+<p>To check what part of the Galaxy you are seeing, you can click on an object within the galactic plane to get the RA and DEC (what we call “Celestial coordinates”, see <a href="https://skyandtelescope.org/astronomy-resources/right-ascension-declination-celestial-coordinates/#:~:text=Like%20cities%2C%20every%20object%20in,as%20the%20object's%20celestial%20coordinates.">here</a> or the analysis tutorial for more information and then put it into a converter like <a href="https://www.astrouw.edu.pl/~jskowron/ra-dec/">this one</a> to get the galactic coordinates. Galactic l is the longitude, galactic b is the latitude. Here, we have clicked the object “Caph” which is within the plane of the Milky Way that we can see.</p>
+
+<p><img src="assets/altaz.png" alt="stell" height="75%" width="75%" /></p>
+
+<p>The other thing to consider is how many measurements to take. We have a resolution on the sky limited by the beam of the telescope, which is 25 degrees. This means that if you point at the galaxy at one set of coordinates, and then move say 10 degrees of galactic longitude later, there will be significant overlap in the gas collected, as there will be a 15 degree swath that is included in both measurements. If you want to scan the whole first quadrant, for example, it is reccomended to do it in steps of no smaller than 15 degrees.</p>
+
+<p>Turn on the azimuthal grid next to the atmosphere button, and look at what Altitude and Azimuths you want to observe. These will guide you when you’re observing outdoors. You can use the same trick of clicking an object to get the exact Alt/Az. When you go out to observe, you can use a phone compass and either a protractor or phone angle meter to figure out where to point the horn. The Azimuth should be findable with your compass, and the Altitude with the angle meter. You may need to bring something to prop your horn up with if you’re holding it at an angle.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>Now, you’re ready to observe outside! The following documents will walk you through setting up your horn outside and taking data.</p>
+
+<p><a href="memos/CHART_procedure.pdf">The CHART Procedure document</a> describes the setup and data taking steps.</p>
+
+<p><a href="memos/IntheFieldObservingForm.pdf">The CHART observing sheet</a> provides a handy template for keeping an observing log.</p>
+
+<p><a href="memos/PrintableProtocol.pdf">Here</a> is a printable version of the procedure document if you’d like to have one handy.</p>
+
+<p><img src="assets/setup.jpg" alt="setup" height="75%" width="75%" /></p>
+
+
+
+            
+          </div>
+           <div class="chrome:sidebar">
+  
+    
+      
+      
+      
+      <a href="/about" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">About</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/science" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Science Background</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/materials" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Materials</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <button
+        id="sidebar_item:getting started"
+        class="chrome:sidebar_item chrome:sidebar_item_collapsible chrome:sidebar_item_expanded"
+        onclick="toggleAccordian('sidebar_item:getting started')"
+      >
+        <span class="chrome:sidebar_item_text">Getting Started</span>
+        <div class="chrome:collapsible_sub_nav_item_icon">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="12"
+    height="12"
+    viewBox="0 0 12 12"
+    focusable="false"
+    role="presentation"
+  >
+    <path
+      fill="currentColor"
+      d="M1.646 3.646a.5.5 0 01.638-.057l.07.057L6 7.293l3.646-3.647a.5.5 0 01.638-.057l.07.057a.5.5 0 01.057.638l-.057.07-4 4a.5.5 0 01-.638.057l-.07-.057-4-4a.5.5 0 010-.708z"
+    ></path>
+  </svg>
+</div>
+
+      </button>
+      <div id="sidebar_item:getting started:accordian"
+        class="chrome:sidebar_item_accordian chrome:sidebar_item_accordian_expanded">
+        
+          
+          
+          
+          <a href="/telescope_design" class="chrome:sidebar_item text-sm  chrome:sidebar_item_child">
+            Telescope Construction
+          </a>
+          
+        
+          
+          
+          
+          <a href="/observing" class="chrome:sidebar_item text-sm chrome:active_sidebar_item chrome:sidebar_item_child">
+            Observing
+          </a>
+          
+        
+          
+          
+          
+          <a href="/analysis" class="chrome:sidebar_item text-sm  chrome:sidebar_item_child">
+            Analysis Tutorial
+          </a>
+          
+        
+      </div>
+    
+  
+    
+      
+      
+      
+      <a href="/resources" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Resources</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/publications" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Publications</span>
+      </a>
+      
+    
+  
+</div>
+ 
+        </div>
+        This project is supported by a <a href="https://nsf.gov/"> National Science Foundation</a> Astronomy and Astrophysics Postdoctoral
+Fellowship under award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440">AST-1701440</a>
+
+      </div>
+    </div>
+    
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: "" });
+        mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Analysis Tutorial</title>
+    <link
+      rel="stylesheet"
+      href="/assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/rouge.css"
+    />
+    <script src="/assets/js/accordian.js"></script>
+    <script src="/assets/js/heading_links.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="chrome">
+      <div class="chrome:nav">
+  <div class="chrome:logo_nav_item"><?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="310.000000pt" height="310.000000pt" viewBox="0 0 310.000000 310.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,310.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M50 2535 c0 -294 2 -535 4 -535 2 0 17 37 32 83 81 245 238 482 429
+649 141 124 390 273 528 317 20 7 37 14 37 17 0 2 -232 4 -515 4 l-515 0 0
+-535z"/>
+<path d="M2210 3066 c0 -2 28 -13 63 -26 97 -35 253 -116 357 -185 154 -103
+350 -286 350 -328 0 -7 -33 -45 -73 -83 -39 -38 -130 -124 -200 -191 -70 -68
+-132 -123 -138 -123 -5 0 -47 35 -93 78 -183 173 -369 274 -616 334 -36 8
+-117 13 -235 12 -155 0 -191 -4 -260 -23 -294 -83 -518 -265 -645 -526 -87
+-178 -120 -363 -101 -565 26 -277 121 -484 298 -650 262 -248 639 -335 1028
+-239 163 40 347 150 535 320 42 38 82 69 89 69 7 0 70 -60 139 -132 70 -73
+157 -165 194 -204 38 -39 68 -77 68 -85 0 -25 -245 -237 -379 -328 -33 -23
+-93 -59 -133 -81 l-73 -40 343 0 342 0 0 1500 0 1500 -430 0 c-236 0 -430 -2
+-430 -4z m-562 -990 c30 -179 117 -311 267 -401 64 -38 179 -78 258 -90 64
+-10 62 -36 -3 -48 -161 -28 -242 -63 -326 -140 -99 -90 -160 -202 -190 -352
+-8 -38 -17 -76 -20 -84 -10 -29 -26 8 -45 100 -10 52 -33 122 -50 157 -38 78
+-128 176 -203 221 -60 36 -211 91 -251 91 -13 0 -36 5 -52 11 -26 10 -27 11
+-10 24 10 7 43 16 73 20 67 8 148 35 214 71 67 36 171 146 208 219 31 63 72
+184 72 215 0 31 19 72 32 68 7 -3 19 -39 26 -82z"/>
+<!---<path d="M50 570 l0 -500 418 0 417 0 -89 50 c-129 72 -227 148 -346 269 -167
+168 -288 365 -360 584 -17 53 -34 97 -36 97 -2 0 -4 -225 -4 -500z"/>-->
+</g>
+</svg>
+</div>
+  
+  <div class="chrome:logo_nav_item" title="GitHub Repository">
+    <a href="https://github.com/astrochart/astrochart.github.io" target="_blank" rel="noreferrer noopener">
+      <img src="/assets/images/GitHub-Mark-Light-32px.png" alt="Link to GitHub Repository">
+    </a>
+  </div>
+  
+</div>
+
+      <div class="chrome:body">
+        <header class="chrome:header">
+  <div class="chrome:header_title">
+    <a href="/" class="text-grey-800 no-underline hover:no-underline focus:no-underline">
+      <span class="text-3xl">CHART</span>
+    </a>
+  </div>
+  
+</header>
+
+        <div class="chrome:content">
+          <div class="chrome:main">
+            
+            <h1 id="analysis-tutorial">Analysis Tutorial</h1>
+
+<p>If you have successfully followed the tutorials thus far, you should have a number of data files produced by your CHART. Now, what to do with them? 
+These data files contain your measurements of the Milky Way (or, another target, if you’ve chosen another science case!)– however, these files are raw measurements that won’t look like actual Milky Way spectra quite yet, as they have a number of effects imposed upon them by the environment and the telescope. We’ll start with showing the effects imposed by the physics of the galaxy.</p>
+
+<p><img src="assets/graphic.png" alt="physics" height="90%" width="90%" /></p>
+
+<p>Additionally, there are some effects imposed by the telescope itself, as well as the environment you are observing in on Earth.</p>
+
+<p>We must account for all of these effects in our data in order to make a rotation curve. We will show an example of how to go from the raw CHART data through to a rotation curve using the Python programming language and a tool called a Jupyter notebook. Jupyter is an interactive platform that allows one to write code and see live outputs in a web browser. We will be installing and opening some things in our Terminal. If you are unfamiliar with the Terminal, we reccomend checking out a resource such as <a href="https://www.freecodecamp.org/news/command-line-for-beginners/">FreeCodeCamp</a> to brush up on the basics.</p>
+
+<p>If you have used the CHART image provided for your Raspberry Pi, you will already have Jupyter installed and can skip this step. If you would like to do your analysis on a different machine from the Raspberry Pi, such as a personal computer, you will have to install Assuming you’re familiar with installing packages from the previous steps, to install Jupyter, you can follow the instructions <a href="https://jupyter.org/install">here</a> . If you have a Mac or Linux machine, this should be fairly simple. If you have a Windows machine, you will have to install something like <a href="https://learn.microsoft.com/en-us/windows/wsl/install">Linux Subsystem for Windows</a> to be able to access the terminal. You can also request an account on the Winona State Jupyter server, which will let you remotely access the Jupyter server without having to install anything on your own machine. If you would like to use this method, please contact one of the team leads.</p>
+
+<p>After installing Jupyter, go to your terminal and type <code class="language-plaintext highlighter-rouge">jupyter notebook</code>. This will open a browser with the Jupyter interface. You will need to make sure you are on a machine that has the CHART package installed, following the instructions from the previous tutorials, and that you are on the machine where your data is located. You can move your data from the Pi to a personal computer if needed.</p>
+
+<p>Then, open the <a href="https://github.com/astrochart/CHART/tree/master/analysis/analysis_tutorial">tutorial notebooks</a> in your Jupyter browser. These should be copied onto the machine when your install the CHART package. There is an abridged version if you would just like to plot your data and see if you detected the 21-cm line. There is a full tutorial as well if you would like to make a rotation curve.</p>
+
+
+            
+          </div>
+           <div class="chrome:sidebar">
+  
+    
+      
+      
+      
+      <a href="/about" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">About</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/science" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Science Background</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/materials" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Materials</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <button
+        id="sidebar_item:getting started"
+        class="chrome:sidebar_item chrome:sidebar_item_collapsible chrome:sidebar_item_expanded"
+        onclick="toggleAccordian('sidebar_item:getting started')"
+      >
+        <span class="chrome:sidebar_item_text">Getting Started</span>
+        <div class="chrome:collapsible_sub_nav_item_icon">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="12"
+    height="12"
+    viewBox="0 0 12 12"
+    focusable="false"
+    role="presentation"
+  >
+    <path
+      fill="currentColor"
+      d="M1.646 3.646a.5.5 0 01.638-.057l.07.057L6 7.293l3.646-3.647a.5.5 0 01.638-.057l.07.057a.5.5 0 01.057.638l-.057.07-4 4a.5.5 0 01-.638.057l-.07-.057-4-4a.5.5 0 010-.708z"
+    ></path>
+  </svg>
+</div>
+
+      </button>
+      <div id="sidebar_item:getting started:accordian"
+        class="chrome:sidebar_item_accordian chrome:sidebar_item_accordian_expanded">
+        
+          
+          
+          
+          <a href="/telescope_design" class="chrome:sidebar_item text-sm  chrome:sidebar_item_child">
+            Telescope Construction
+          </a>
+          
+        
+          
+          
+          
+          <a href="/observing" class="chrome:sidebar_item text-sm  chrome:sidebar_item_child">
+            Observing
+          </a>
+          
+        
+          
+          
+          
+          <a href="/analysis" class="chrome:sidebar_item text-sm chrome:active_sidebar_item chrome:sidebar_item_child">
+            Analysis Tutorial
+          </a>
+          
+        
+      </div>
+    
+  
+    
+      
+      
+      
+      <a href="/resources" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Resources</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/publications" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Publications</span>
+      </a>
+      
+    
+  
+</div>
+ 
+        </div>
+        This project is supported by a <a href="https://nsf.gov/"> National Science Foundation</a> Astronomy and Astrophysics Postdoctoral
+Fellowship under award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440">AST-1701440</a>
+
+      </div>
+    </div>
+    
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: "" });
+        mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    </script>
+    
+  </body>
+</html>

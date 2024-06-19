@@ -1,364 +1,122 @@
-
-
-
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  
- 
-  
-
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<meta name="viewport" content="width=device-width">
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Telescope construction | CHART</title>
-<meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Telescope construction" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="The Completely Hackable Amateur Radio Telescope" />
-<meta property="og:description" content="The Completely Hackable Amateur Radio Telescope" />
-<meta property="og:site_name" content="CHART" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Telescope construction" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"The Completely Hackable Amateur Radio Telescope","headline":"Telescope construction","url":"/CHART2/telescope_design"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-
-
-
-<title>telescope_design - CHART</title>
-
-<meta property="og:title" content="telescope_design - CHART">
-
-<meta property="og:description" content="
-        The Completely Hackable Amateur Radio Telescope
-      ">
-
-
-<meta property="og:url"
-  content="CHART2/telescope_design" />
-
-
-<meta property="og:image" content="/CHART2/assets/favicon/apple-icon-180x180.png" />
-<meta name="twitter:image" content="/CHART2/assets/favicon/apple-icon-180x180.png" />
-
-
-
-
-  
-
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-<script src="/CHART2/assets/js/checkLinks.js"></script>
-<!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-<!-- dark mode -->
-<style>
-  body {
-    visibility: hidden;
-    opacity: 0;
-  }
-</style>
-<noscript>
-  <style>
-    body {
-      visibility: visible;
-      opacity: 1;
-    }
-  </style>
-</noscript>
-<script>
-  function darkModeSetBodyBg() {
-    if (localStorage.getItem('darkmode')==="true") {
-      console.log("darkmode activated");
-      document.body.style.backgroundColor = "black !important";
-    } else {
-      document.body.style.backgroundColor = ""; // reset background color
-    }
-  }
-
-  function addDarkmodeWidget() {
-
-    const options = {
-        label: '🌓', // default: ''
-        time: '0s'
-    }
-
-    new Darkmode(options).showWidget();
-
-    document.body.style.visibility = 'visible';
-    document.body.style.opacity = 1;
-  }
-
-  $(document).ready(addDarkmodeWidget);
-</script>
-
-
-  
-
-<link rel="stylesheet" href="/CHART2/assets/css/git-wiki-style.css?v=2eec324015da48b0d9e94f9401f9187838c34b55">
-
-
-
-  
-</head>
-
-<body style="background-color: black;" onload="darkModeSetBodyBg()">
-    <!-- dark mode -->
-    <script>
-        darkModeSetBodyBg()
-    </script>
+  <head>
+    <meta charset="utf-8" />
+    <title>Telescope Construction</title>
+    <link
+      rel="stylesheet"
+      href="/assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/css/rouge.css"
+    />
+    <script src="/assets/js/accordian.js"></script>
+    <script src="/assets/js/heading_links.js"></script>
     
-    <div class="wrapper">
-    <div class=" w3-xlarge w3-hide-large" id="git-wiki-mobile-header">
-  <button class="w3-button w3-teal" onclick="sidebar_toggle()">&#9776;</button>
-  <a href="/CHART2/">
-    
-    <img src="/CHART2/assets/favicon/apple-icon-180x180.png" width="20px">
-    
-    CHART
-  </a>
+  </head>
+
+  <body>
+    <div class="chrome">
+      <div class="chrome:nav">
+  <div class="chrome:logo_nav_item"><?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="310.000000pt" height="310.000000pt" viewBox="0 0 310.000000 310.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,310.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M50 2535 c0 -294 2 -535 4 -535 2 0 17 37 32 83 81 245 238 482 429
+649 141 124 390 273 528 317 20 7 37 14 37 17 0 2 -232 4 -515 4 l-515 0 0
+-535z"/>
+<path d="M2210 3066 c0 -2 28 -13 63 -26 97 -35 253 -116 357 -185 154 -103
+350 -286 350 -328 0 -7 -33 -45 -73 -83 -39 -38 -130 -124 -200 -191 -70 -68
+-132 -123 -138 -123 -5 0 -47 35 -93 78 -183 173 -369 274 -616 334 -36 8
+-117 13 -235 12 -155 0 -191 -4 -260 -23 -294 -83 -518 -265 -645 -526 -87
+-178 -120 -363 -101 -565 26 -277 121 -484 298 -650 262 -248 639 -335 1028
+-239 163 40 347 150 535 320 42 38 82 69 89 69 7 0 70 -60 139 -132 70 -73
+157 -165 194 -204 38 -39 68 -77 68 -85 0 -25 -245 -237 -379 -328 -33 -23
+-93 -59 -133 -81 l-73 -40 343 0 342 0 0 1500 0 1500 -430 0 c-236 0 -430 -2
+-430 -4z m-562 -990 c30 -179 117 -311 267 -401 64 -38 179 -78 258 -90 64
+-10 62 -36 -3 -48 -161 -28 -242 -63 -326 -140 -99 -90 -160 -202 -190 -352
+-8 -38 -17 -76 -20 -84 -10 -29 -26 8 -45 100 -10 52 -33 122 -50 157 -38 78
+-128 176 -203 221 -60 36 -211 91 -251 91 -13 0 -36 5 -52 11 -26 10 -27 11
+-10 24 10 7 43 16 73 20 67 8 148 35 214 71 67 36 171 146 208 219 31 63 72
+184 72 215 0 31 19 72 32 68 7 -3 19 -39 26 -82z"/>
+<!---<path d="M50 570 l0 -500 418 0 417 0 -89 50 c-129 72 -227 148 -346 269 -167
+168 -288 365 -360 584 -17 53 -34 97 -36 97 -2 0 -4 -225 -4 -500z"/>-->
+</g>
+</svg>
 </div>
-<header class="w3-sidebar w3-bar-block w3-collapse" id="git-wiki-sidebar">
-  <div>
-    <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="sidebar_toggle()">Close &times;</button>
-    
-
-    <div class="w3-hide-medium w3-hide-small">
-      
-      <div class="git-wiki-main-logo">
-<a href="/CHART2/"><img src="/CHART2/assets/favicon/apple-icon-180x180.png">
-        <h1>CHART</h1>
+  
+  <div class="chrome:logo_nav_item" title="GitHub Repository">
+    <a href="https://github.com/astrochart/astrochart.github.io" target="_blank" rel="noreferrer noopener">
+      <img src="/assets/images/GitHub-Mark-Light-32px.png" alt="Link to GitHub Repository">
     </a>
-    <p>The Completely Hackable Amateur Radio Telescope</p>
-</div>
-      
-    </div>
-
-
-    
-
-    
-
-    
-    <div class="git-wiki-page-list">
-    
-    Menu (<a href="https://github.com/astrochart/astrochart.github.io/edit/master/_includes/sidebar.html">Edit</a>):
-
-<ul>
-  <li><a href="/CHART2/">Home</a></li>
-  <li><a href="/CHART2/telescope_design">Horn Telescope Construction</a></li>
-  <li><a href="/CHART2/computer_setup">Computer Setup</a></li>
-  <li><a href="/CHART2/observing">Observing with your Horn</a></li>
-<li><a href="/CHART2/radio_astronomy">Radio Astronomy</a></li>
-<li><a href="/CHART2/about">About</a></li>
-<li><a href="/CHART2/memos">Memos</a></li>
-<li><a href="/CHART2/FAQ"></a>FAQ</li>
-
-
-</ul>
-
-    
-
-    <span class="page-list-title">Pages  (Latest 10 updated) :</span>
-    <ul class="page-list">
-        
-        
-        
-        
-        
-        <li class="page-list-item">
-            
-            <a href="/CHART2/main_page">The Completely Hackable Amateur Radio Telescope</a>
-        </li>
-        
-        
-
-        
-        
-        
-
-        
-        
-        
-
-        
-        
-        
-        <li class="page-list-item">
-            
-            <a href="/CHART2/about">Contact</a>
-        </li>
-        
-        
-
-        
-        
-        
-        <li class="page-list-item">
-            
-            <a href="/CHART2/telescope_design">Telescope construction</a>
-        </li>
-        
-        
-
-        
-        
-        
-
-        
-    </ul>
-
-    
-</div>
-    
-
-    
-
-    
   </div>
+  
+</div>
+
+      <div class="chrome:body">
+        <header class="chrome:header">
+  <div class="chrome:header_title">
+    <a href="/" class="text-grey-800 no-underline hover:no-underline focus:no-underline">
+      <span class="text-3xl">CHART</span>
+    </a>
+  </div>
+  
 </header>
-<script>
-  function sidebar_toggle() {
-    var sidebar = document.getElementById("git-wiki-sidebar");
-    if (sidebar.style.display == "block") {
-      sidebar.style.display = "none";
-      sidebar.style.position = "inherit";
-    } else {
-      $(sidebar).attr('style', 'display: block;');
-    }
-  }
-</script>
 
-    <div class="git-wiki-page">
-  <section>
+        <div class="chrome:content">
+          <div class="chrome:main">
+            
+            <h1 id="telescope-construction">Telescope Construction</h1>
+<p>A radio telescope has a few key parts. The first is an antenna used to collect the radio waves. For CHART, we use a horn constructed from cardboard and aluminium foil, which collects the radio waves and funnels them to a wire in the base of the horn that acts as the antenna. This turns the radio waves into voltages that travel along the wire and cables, which we can measure with electronics. We then amplify the signal, which makes it louder and easier to detect with our instrument, and filter it with a bandpass filter. The bandpass filter acts as a sort of gate, which allows radio waves at the frequencies we are interested in through, and blocks out any frequencies we don’t want. This is neccesary because sometimes signals from other frequencies, such as FM radio, cell phones, and many other man-made signals can saturate our electronics and drown out the astronomical signals, so we use a filter to filter them out. We then read out these filtered and amplified voltages with a type of radio called a software defined radio (SDR), which just means the radio is primarily implemented in software instead of hardware. The computer connected to the SDR, in this case a Raspberry Pi, records a radio spectrum which must be calibrated and further analyzed. This guide explains the construction and software setup steps.  Other pages describe how to observe and reduce your data.</p>
 
-    <div id="tools-buttons" style="width: 100%; text-align: right">
-    
-
-    <div class="git-wiki-tools">
-    
-
-    
-
-    <span class="tools-element"><a target="_blank" href="https://github.com/astrochart/astrochart.github.io/commits/master//wiki/telescope_design.md">History</a></span>
-    <span class="tools-element"><a target="_blank" href="https://github.com/astrochart/astrochart.github.io/blob/master//wiki/telescope_design.md">Source</a></span>
-    
-    
-    
-</div>
-
-
-    <div class="git-wiki-search">
-    
-
-    
-    
-    <div class="git-wiki-search-js">
-	<input type="text" id="search-input" placeholder="Search..">
-	<ul id="results-container"></ul>
-</div>
-<!-- script pointing to jekyll-search.js -->
-<script src="/CHART2/assets/js/simple-jekyll-search.min.js"></script>
-<script async src="/CHART2/assets/js/searchdata.js"></script>
-
-</div>
-
-    
-</div>
-
-    
-
-
-
-
-    Contents:
-    <ol id="git-wiki-toc">
-  <li><a href="#telescope-construction">Telescope construction</a>
-    <ol>
-      <li><a href="#horn-and-waveguide">Horn and Waveguide</a></li>
-      <li><a href="#horn-construction">Horn construction</a>
-        <ol>
-          <li><a href="#add-the-probe">Add the Probe</a></li>
-          <li><a href="#probe-materials">Probe Materials</a></li>
-          <li><a href="#make-the-probe">Make the Probe</a></li>
-        </ol>
-      </li>
-      <li><a href="#data-capture-computer">Data Capture Computer</a>
-        <ol>
-          <li><a href="#materials">Materials</a></li>
-          <li><a href="#imaging-the-micro-sd-card">Imaging the Micro SD Card</a></li>
-          <li><a href="#setting-up-your-rpi">Setting up your RPi</a></li>
-          <li><a href="#system-updates">System Updates</a></li>
-          <li><a href="#computer-help">Computer help!</a></li>
-          <li><a href="#install-gnu-radio">Install Gnu Radio</a></li>
-        </ol>
-      </li>
-    </ol>
-  </li>
-</ol>
-
-
-
-
-
-    
-
-    <div id="git-wiki-content">
-      <h1 id="telescope-construction">Telescope construction</h1>
-<p>A simple radio telescope consists of a collecting element, amplifier, mixer, and digitizer. Here is a drawing of how it
-all goes together.</p>
-
-<p><img src="assets/new_tele_hook_up.png" alt="system setup" height="50%" width="50%" /></p>
-
-<h2 id="horn-and-waveguide">Horn and Waveguide</h2>
-<p>In our Low Frequency Cosmology lab at Arizona State University, we used top of the line software to optimize our telescope horn to observe the 21 cm line.</p>
-
-<p><img src="assets/opt_horn.png" alt="horn" height="50%" width="50%" /></p>
-
-<p>This image shows our final optimized dimesions for the horn according to highest gain.</p>
-
-<p>We tried many shapes and designs, but found that the parameters listed below worked best for us. As always, we encourage you to test your own design, but for ease in this project you can use the template we provide.</p>
+<p>Here is a summary of the beginner CHART setup.
+<img src="assets/new_tele_hook_up.png" alt="system setup" height="50%" width="50%" /></p>
 
 <h2 id="horn-construction">Horn construction</h2>
-<p>The picture below shows the horn dimensions that will be cut out on the cardboard sheets. Make sure to sketch out your deign with a pencil and follow the saying, “Measure twice, cut once” to ensure your dimensions are as accurate as possible.</p>
+<p>Materials</p>
+<ul>
+  <li>Heavy Duty Cardboard: 90 x 113cm (2 pieces)</li>
+  <li>Heavy Duty Cardboard: 70 x 115cm (2 pieces)</li>
+  <li>one roll heavy duty aluminum foil</li>
+  <li>Aluminum foil tape (aluminum duct tape)</li>
+  <li>hot glue</li>
+  <li>a pencil</li>
+  <li>meter stick</li>
+  <li>box cutter</li>
+</ul>
+
+<p>Using the drawing below, cut out the four sides of the horn. Remember, “Measure twice, cut once”! Trace out each horn
+and double check everything. Warning! Be careful not to damage any lovely old floors. Cut outside or put down something
+to protect that parquet.</p>
 
 <p><img src="assets/horn_dimensions.jpg" alt="horn dimensions" height="50%" width="50%" /></p>
 
-<p>Next, we need to line the cut out cardboard pieces with the aluminum foil. We only need the inside of the horn to be covered with foil, since that’s the part where all of the light particles will be focused into. Therefore, only one side of each piece needs to be covered.</p>
+<p>Next, line the cardboard pieces with the aluminum foil. Only cover the sides that will end up on the inside when the
+horn is assembled. In theory it doesn’t matter which
+side is covered since cardboard is invisible in the radio, but in practice the foil is fragile.</p>
 
-<p>Hot Tip #1: Make sure no adhesive or tape is exposed on the foil side because this will bring the horn’s reflectivity
-down. This can be accomplished by going over any exposed spots with foil tape.</p>
+<p>Assemble the horn pieces. Use hot glue to connect the edges together. Fold the waveguide edges shown in the schmeatic
+above so that it creates a box on the bottom of the horn. Leave one side of the waveguide un-glued so you can install the feed point in the next step.</p>
 
-<p>Next we will need to use our hot glue gun to glue the edges of the horn together. Make sure to fold the waveguide edges shown in the schmeatic above so that it creates a box on the bottom of the horn.</p>
+<p>Line the inside edges of the horn with aluminum tape. This will join your 4 seperate sides into one continuous piece of
+metal and make a much more effective horn.</p>
 
-<p>Hot Tip #2: Don’t glue the back panel onto the horn quite yet. Set this aside for later to make the process of hooking up the electrical components easier.</p>
-
-<p>Hot Tip #3: You can use any method you’re comfortable with to connect the cardboard pieces. It’s a little easier to have a partner help to ensure stability, but it can be done with just your own steady hand. One option is to let the hot glue set overnight between each panel, but doing all four sides at once works just as well - especially if you have a time constraint.</p>
-
-<p>Now that all the pieces are glued together, we took our aluminum tape and lined the inside edges of the horn with it so that no glue was showing. Again we want a completely reflective and conductive surface so that energy transfer from the photons and electrons can effectively travel to the waveguide and probe.</p>
-
-<p>Below is a photo of what your horn will look like constructed.
+<p>Here is a completed horn!
 <img src="assets/chart.png" alt="Completed Horn" height="50%" width="50%" /></p>
 
 <h3 id="add-the-probe">Add the Probe</h3>
-<p>Now that you have a horn that focuses light lets add a pickup to send the energy into a wire.</p>
+<p>The probe is the focal point of the horn. This is where we connect our radio!  It is a small length of wire soldered to an RF
+connector mounted to a piece of sheet metal. The RF connector is plugged directly into a low noise amplifier and
+passband filter.</p>
 
 <h3 id="probe-materials">Probe Materials</h3>
-<p>For this section you can either buy the pieces individually or in packages online for more convenience.
-Individual Pieces</p>
+<p>Individual Pieces</p>
 <ul>
   <li>1: SMA Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup</li>
   <li>1: Gold plated locking washer</li>
@@ -382,9 +140,13 @@ here.  Try new materials! Let us know what works better.</p>
 <p><img src="assets/materials.png" alt="materials" height="50%" width="50%" /></p>
 
 <h3 id="make-the-probe">Make the Probe</h3>
-<p>Use a 1/4” drill bit to drill a hole in the middle of the aluminum plate. Our SMA connector is going to fit right into this hole, and the aluminum plate is used to stabilize it Otherwise, the cardboard alone would be too flimsy. Drill a 1/4” hole into one of the wide sides of the waveguide 7cm down from the edge in the center. Next, we will need to solder the copper wire to the solder cup.</p>
+<p>Use a 1/4” drill bit to drill a hole in the middle of the plate/soup can lid. Plug the connector into this hole. Solder the copper wire to the solder cup.</p>
 
-<p><img src="assets/solder.png" alt="probe soldered" height="50%" width="50%" /></p>
+<h3 id="install-the-probe">Install the probe</h3>
+<p>Drill a
+1/4” hole into the wide side of the waveguide which has been glued down. Put the hole on center line about 7cm up from
+the bottom.
+<img src="assets/solder.png" alt="probe soldered" height="50%" width="50%" /></p>
 
 <p><em>Note: remember how we set aside the small back panel piece? We did that to make it easy to reach through that opening
 of the horn and carry out these next steps.</em></p>
@@ -396,7 +158,7 @@ of the horn and carry out these next steps.</em></p>
   <li>Put the SMA connector section of the copper wire hook up through the aluminum plate.</li>
   <li>
     <p>Place the gold locking washer and gold nut on top of the SMA on the other side of the aluminum plate in that order.
-Refer to the attached images for visual assistance.</p>
+Refer to the attached images.</p>
 
     <p><img src="assets/metal_visual_aide.png" alt="probe installation" height="50%" width="50%" /></p>
 
@@ -409,11 +171,16 @@ Hot Tip #4:Use a pencil or similar instrument to widen the hole slightly after d
   <li>Screw on the male to male SMA connector to the 90 degree connector.</li>
 </ol>
 
+<p>Your horn is now ready for astronomy!</p>
+
+<p>Just a few terminology things to mention here. The horn has what we call a “beam”, which defines how responsive the horn is to different parts of the sky. The beam also defines the field of view of the horn, or how much of the sky it can see at once. This is the same idea as the field of view of an optical camera, however, our field of view here is more akin to a pixel than the whole camera, as we measure one single intensity for the whole field of view. Here is a simulation of the horn beam, showing its responsiveness as a function of angle. The horn sees everything within a 25 degree patch of the sky.  If you hold your hand out at arm’s length and splay your fingers, the distance between your splayed-out thumb and pinkie finger is roughly 25 degrees of sky. This is fairly big, but fortunately so is the Milky Way!</p>
+
+<p><img src="assets/opt_horn.png" alt="horn" height="50%" width="50%" /></p>
+
 <h2 id="data-capture-computer">Data Capture Computer</h2>
 
 <p>A computer is needed to record data from the radio.  Here we describe how to make a dedicated raspberry pi setup. You
-can also use a laptop. We use a pi because it is cheaper and easier to maintain. In these instructions we will cover
-every step needed when beginning from a bare Pi.</p>
+can also use a laptop. We use a pi because it is cheaper and easier to maintain.</p>
 
 <h3 id="materials">Materials</h3>
 <ul>
@@ -422,115 +189,161 @@ every step needed when beginning from a bare Pi.</p>
   <li>RTL-SDR</li>
   <li>A computer monitor</li>
   <li>Keyboard</li>
-  <li>Ethernet cable</li>
-  <li>Radio antenna</li>
-  <li>Personal computerRaspberry Pi 4</li>
-  <li>Micro SD Card (32GB)</li>
-  <li>RTL-SDR</li>
-  <li>A computer monitor</li>
-  <li>Keyboard</li>
-  <li>Ethernet cable</li>
-  <li>Radio antenna</li>
-  <li>Personal computer</li>
 </ul>
 
-<h3 id="imaging-the-micro-sd-card">Imaging the Micro SD Card</h3>
-<p>The Pi runs off a solid state SD card.  The easiest way to install the operating system is to use another computer to
-put the complete OS onto an SD card.</p>
+<h3 id="burn-your-micro-sd-card">Burn your Micro SD Card</h3>
+<p>We provide a ready to run SD card image which can get you started.</p>
+
 <ol>
-  <li>On a laptop or desktop, install the <a href="https://raspberrypi.com/software/">Pi imager</a>. 
-<img src="assets/PiImager.png" alt="Pi Imager" height="50%" width="50%" /></li>
-  <li>Click on CHOOSE OS and select the first option <em>Raspbery Pi OS (32-bit)</em>
-<img src="assets/OSOption.png" alt="OS Option" height="50%" width="50%" /></li>
-  <li>Click on CHOOSE STORAGE and click on the first option that has the SD card.</li>
-  <li>After the writing process is done, safely eject your micro SD card and insert it into your Raspberry Pi.
-<img src="assets/sdcard.jpeg" alt="sd card" height="50%" width="50%" /></li>
+  <li>Download the latest <a href="https://galileo.sese.asu.edu/chart/">CHART Pi image</a>.</li>
+  <li>Use an SD card burner to write the image to an SD card. We like <a href="https://etcher.balena.io/">Balena Etcher</a>.
+    <h3 id="set-up-your-rpi">Set up your RPi</h3>
+    <p>To get started, we need to make sure that all our wires are hooked up and ready to go.</p>
+  </li>
 </ol>
 
-<h3 id="setting-up-your-rpi">Setting up your RPi</h3>
-<p>To get started, we need to make sure that all our wires are hooked up and ready to go.</p>
-
 <ul>
-  <li>Hook up your Raspberry Pi to your monitor.</li>
-  <li>Plug in your ethernet cable.</li>
-  <li>Hook up to your keyboard (we used a wireless hook up for ours).</li>
-  <li>Plug in your Raspberry Pi into a power source.</li>
+  <li>Set up your Pi with monitor, keyboard, and power source</li>
+  <li>install sd card and turn on the Pi</li>
+  <li>navigate to the WiFi setup screen and log in to your local wifi (this is a nice to have, but not required for data
+taking)</li>
 </ul>
 
 <p><img src="assets/rasp_set_up.jpeg" alt="pi setup" height="50%" width="50%" /></p>
 
-<p>Make sure all connections we set up in the beginning of the tutorial are still in place so that our system will start up on the monitor screen. The system will now prompt you to choose your location settings, and to set a username and password. Once this set up process is complete, it will check for updates.</p>
+<h3 id="test-your-setup">Test your setup</h3>
 
-<h3 id="system-updates">System Updates</h3>
-<p>The Ubuntu system will now scan for updates. Click Next to update and Restart once it prompts you to.</p>
+<p>Open a terminal and run <code class="language-plaintext highlighter-rouge">gui.py</code>. Success will look like a window opening with some boxes asking for input.</p>
 
-<h3 id="computer-help">Computer help!</h3>
-<p>We will make moderate use of the linux command line terminal. Through the terminal we can do all the usual things we do
-n a computer like inspect the contents of directories, manage files, and run programs. The terminal itself is a program
-called Bash (which is a portmanteu of Bourne Again SHell). If this is your first time in the shell, check out our
-<a href="shell_help">linux shell🐢 help page</a>.</p>
-
-<p>We were all n00bs once! See a bit slang you don’t recognize? Consult our modest <a href="assets/vocab">compendium of computer
-vocabulary</a>.  Or just, you
-know, google it!</p>
-
-<h3 id="install-gnu-radio">Install Gnu Radio</h3>
-<p><a href="https://www.gnuradio.org/about/">GNU Radio</a> is the free open source software that we will be using to help us process our data.
- Make sure that you have an internet connection for these next steps. We used an ethernet hook up to ensure that we had
- an internet connection, but you can also hook up to wifi if available. To install gnuradio on Ubuntu, open up your
- terminal run the following command:</p>
-
-<p><code class="language-plaintext highlighter-rouge">sudo apt install gnuradio-dev gr-osmosdr librtlsdr-dev build-essential git cmake</code>
-It will ask you to continue after using a certain amount of disk space.
-Type: Y and click enter
-This download might take up to 20 mins.</p>
+<p>If this works, you’re ready to observe! See the <a href="Observing">Observing</a> page for details.</p>
 
 
-    </div>
 
+            
+          </div>
+           <div class="chrome:sidebar">
+  
     
-  </section>
+      
+      
+      
+      <a href="/about" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">About</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/science" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Science Background</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <a href="/materials" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Materials</span>
+      </a>
+      
+    
+  
+    
+      
+      
+      
+      <button
+        id="sidebar_item:getting started"
+        class="chrome:sidebar_item chrome:sidebar_item_collapsible chrome:sidebar_item_expanded"
+        onclick="toggleAccordian('sidebar_item:getting started')"
+      >
+        <span class="chrome:sidebar_item_text">Getting Started</span>
+        <div class="chrome:collapsible_sub_nav_item_icon">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="12"
+    height="12"
+    viewBox="0 0 12 12"
+    focusable="false"
+    role="presentation"
+  >
+    <path
+      fill="currentColor"
+      d="M1.646 3.646a.5.5 0 01.638-.057l.07.057L6 7.293l3.646-3.647a.5.5 0 01.638-.057l.07.057a.5.5 0 01.057.638l-.057.07-4 4a.5.5 0 01-.638.057l-.07-.057-4-4a.5.5 0 010-.708z"
+    ></path>
+  </svg>
 </div>
-    <footer>
-    
 
+      </button>
+      <div id="sidebar_item:getting started:accordian"
+        class="chrome:sidebar_item_accordian chrome:sidebar_item_accordian_expanded">
+        
+          
+          
+          
+          <a href="/telescope_design" class="chrome:sidebar_item text-sm chrome:active_sidebar_item chrome:sidebar_item_child">
+            Telescope Construction
+          </a>
+          
+        
+          
+          
+          
+          <a href="/observing" class="chrome:sidebar_item text-sm  chrome:sidebar_item_child">
+            Observing
+          </a>
+          
+        
+          
+          
+          
+          <a href="/analysis" class="chrome:sidebar_item text-sm  chrome:sidebar_item_child">
+            Analysis Tutorial
+          </a>
+          
+        
+      </div>
     
-<div class="git-wiki-copyrights">
-    <p>This project is maintained by <a href="https://github.com/astrochart">astrochart</a></p>
+  
     
-    <p><small>Hosted on GitHub Pages &mdash; Powered by <a href="https://github.com/Drassil/git-wiki-theme">Git-Wiki v2.8.5</a> </p>
-
+      
+      
+      
+      <a href="/resources" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Resources</span>
+      </a>
+      
     
-    <p class="view"><a href="https://github.com/astrochart/astrochart.github.io">View the Project on  Github  <small></small></a></p>
+  
+    
+      
+      
+      
+      <a href="/publications" class="chrome:sidebar_item ">
+        <span class="chrome:sidebar_item_text">Publications</span>
+      </a>
+      
+    
+  
 </div>
-
-
-
-    
-    This project is supported by a <a href="https://nsf.gov/"> National Science Foundation</a> Astronomy and Astrophysics Postdoctoral
+ 
+        </div>
+        This project is supported by a <a href="https://nsf.gov/"> National Science Foundation</a> Astronomy and Astrophysics Postdoctoral
 Fellowship under award <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440">AST-1701440</a>
 
+      </div>
+    </div>
     
-</footer>
-</div>
-
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: "" });
+        mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    </script>
     
-
-<script src="/CHART2/assets/js/scale.fix.js"></script>
-
-
-
-
-
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(document.body).checkLinks("/CHART2/main_page,/CHART2/404.html,/CHART2/assets/blog/,/CHART2/about,/CHART2/telescope_design,/CHART2/,".split(","));
-    });
-</script>
-
-
-
-</body>
-
+  </body>
 </html>
