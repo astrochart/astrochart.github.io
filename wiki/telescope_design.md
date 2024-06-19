@@ -146,14 +146,5 @@ To get started, we need to make sure that all our wires are hooked up and ready 
 Open a terminal and run `gui.py`. Success will look like a window opening with some boxes asking for input. 
 
 
-You are now ready to do astronomy.
-
-## Observing setup
-Here is how observing will go
- - Plug the RTL-SDR into the Pi 
- - Connect the horn amplifier to the RTL
- - Point the horn at your favorite part of the sky!
- - Remember: Science (and hell) is repetition. And if you don't write it down, you're just fooling around!
- - Don't forget, you can observe in the day or night time. Whenever you want!
- - For more details, see [Observing](Observing)
+If this works, you're ready to observe! See the [Observing](Observing) page for details.
 
