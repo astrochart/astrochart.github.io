@@ -11,7 +11,7 @@ We believe in the importance of making astronomy accessible to anyone that is in
 
 Meet the Team
 
-![Ahlea](assets/ahlea.jpg)
+![Ahlea](assets/ahlea.jpg){:height="50%" width="50%"}
 
 Ahlea Wright
 ------------
@@ -20,7 +20,7 @@ Code Development & Telescope Design
 
 Helped continue the CHART project in the summer of 2022 and worked on the final design of the telescope. Ahlea is an undergraduate student studying Computer Science and Bioinformatics at Winona State University. In the future, Ahlea wants to use technology to help others in the medical field.
 
-![Lindsey](assets/Lindsey.jpg)
+![Lindsey](assets/Lindsey.jpg){:height="50%" width="50%"}
 
 Lindsey Arndt
 -------------
@@ -29,7 +29,7 @@ Code Developement
 
 Continued the CHART project during Summer 2022. Updated the website, tutorials, and created the GUI and database for taking and storing data. Lindsey is an undergraduate student studying Computer Science, Human Computer Interaction, and Data science at Winona State University. Her future goals are to be a Software Engineer or User Experience Designer making technology more accessible.
 
-![Dylan](assets/Dylan.jpeg)
+![Dylan](assets/Dylan.jpeg){:height="50%" width="50%"}
 
 Dylan Gappa
 -----------
@@ -38,7 +38,7 @@ Simulation
 
 Dylan is using existing professional surveys to create a simulator for CHART. When completed, users will be able to create a mock data set to match when and where they observed. His future goals are to start a career in the civilian service of the military, working on aerospace technology.
 
-![Bryanna](assets/Bry.JPG)
+![Bryanna](assets/Bry.JPG){:height="50%" width="50%"}
 
 Bryanna Gutierrez-Coatney
 -------------------------
@@ -47,7 +47,7 @@ Project Leader
 
 Oversaw the project during Summer 2019. Created the website, tutorials, and helped with telescope design. Bryanna is an undergraduate student studying Astrophysics at Arizona State University. Her future goals are to be an educator in STEM and to create educational platforms that allow science and astronomy access to the general public.
 
-![Shanika](assets/shanika.JPG)
+![Shanika](assets/shanika.JPG){:height="50%" width="50%"}
 
 Shanika Davis
 -------------
@@ -56,7 +56,7 @@ Telescope Design
 
 Helped design the radio telescope along with characterizing the hardware. Her future goals involve designing and building electronics that will operate on spacecraft such as rockets, satellites, rovers or other robotics.
 
-![Edgar](assets/edgar.PNG)
+![Edgar](assets/edgar.PNG){:height="50%" width="50%"}
 
 Edgar Escalante
 ---------------
@@ -65,7 +65,7 @@ Code Development & Telescope Design
 
 Helped develop the code to retrieve and read data from the radio telescope during 2018 & 2019. Helped in research and development for the project's hardware. His future goals involve using his programming and signal processing experience to advance the field of astronomy.
 
-![Belany](assets/belany.jpeg)
+![Belany](assets/belany.jpeg){:height="50%" width="50%"}
 
 Belany Zhang
 ------------
@@ -74,7 +74,7 @@ Code Development & Telescope Design
 
 Helped develop the code to retrieve data from the radio telescope, created first draft of the website, and also wrote some tutorials for setting up the software for the project in 2018. Her future goals involve pursuing a career in the Artifical Intelligence or Cyber Security field of Computer Science.
 
-![Emilie](assets/emilie.png)
+![Emilie](assets/emilie.png){:height="50%" width="50%"}
 
 Emilie Berthiaume
 -----------------
@@ -83,7 +83,7 @@ Code Development & Telescope Design
 
 Helped start the CHART project in the summer of 2018 and worked on the initial programming and design of the telescope. Emilie is an undergraduate student studying mathematics and film at Arizona State University. Her future goals are to use media to increase public interest in science and math.
 
-![Libby](assets/Libby.jpg)
+![Libby](assets/Libby.jpg){:height="50%" width="50%"}
 
 Libby Berkhout
 --------------
@@ -94,7 +94,7 @@ Libby is a PhD student at ASU. She advises undergraduates and is the main contac
 
 [Contact](mailto:lmberkhout@asu.edu)
 
-![Adam](assets/adam.JPG)
+![Adam](assets/adam.JPG){:height="50%" width="50%"}
 
 Adam Beardsley
 --------------
