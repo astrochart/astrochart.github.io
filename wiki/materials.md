@@ -1,3 +1,9 @@
+---
+id: materials
+---
+Materials
+____
+
 This list is intended to serve as a starting place for some suggested materials to build a version of CHART.
 ## Materials for building the horn
 -4 36” x 48” Double walled cardboard sheets.
