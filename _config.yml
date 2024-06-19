@@ -4,7 +4,7 @@ remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 # (string) Title of your wiki
 title: "CHART"
 
-website: "https://danielcjacobs.com"
+website: "https://astrochart.github.io"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
 #baseurl: "CHART2"
@@ -130,6 +130,7 @@ plugins:
 
 sidebar: 
  - about
+ - science
  - label: Getting Started
    children:
      - telescope-construction
@@ -140,8 +141,10 @@ sidebar:
 
 
 navigation: 
- - name: About/Science
+ - name: About
    link: ./about.html
+ - name: Science Background
+   link: ./science.html
  - name: Getting Started
    sublist:
      - name: Telescope Construction
