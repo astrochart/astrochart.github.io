@@ -3,19 +3,11 @@ id: telescope-construction
 ---
 Telescope Construction
 =====
-A radio telescope is a light bucket connected to an amplifier, mixer, and digitizer. The Default CHART setup is a horn
-type collector connected to an amplifier which is read out by a software defined radio operated by a computer. The
-computer records a radio spectrum which must be calibrated in a post-processing step. This guide explains the
-construction steps.  Other pages describe how to observe and reduce your data.
+A radio telescope has a few key parts. The first is an antenna used to collect the radio waves. For CHART, we use a horn constructed from cardboard and aluminium foil, which collects the radio waves and funnels them to a wire in the base of the horn that acts as the antenna. This turns the radio waves into voltages that travel along the wire and cables, which we can measure with electronics. We then amplify the signal, which makes it louder and easier to detect with our instrument, and filter it with a bandpass filter. The bandpass filter acts as a sort of gate, which allows radio waves at the frequencies we are interested in through, and blocks out any frequencies we don't want. This is neccesary because sometimes signals from other frequencies, such as FM radio, cell phones, and many other man-made signals can saturate our electronics and drown out the astronomical signals, so we use a filter to filter them out. We then read out these filtered and amplified voltages with a type of radio called a software defined radio (SDR), which just means the radio is primarily implemented in software instead of hardware. The computer connected to the SDR, in this case a Raspberry Pi, records a radio spectrum which must be calibrated and further analyzed. This guide explains the construction and software setup steps.  Other pages describe how to observe and reduce your data.
 
 
 Here is a summary of the beginner CHART setup.
 ![system setup](assets/new_tele_hook_up.png){:height="50%" width="50%"}
-
-
-Here is a simulation of how the horn responds as a function of angle. The horn sees everything within a 20 degree patch of the sky
-simultaneously. That is not very good resolution! But the galaxy is big.
-![horn](assets/opt_horn.png){:height="50%" width="50%"}
 
 
 ## Horn construction
@@ -113,11 +105,15 @@ Hot Tip #4:Use a pencil or similar instrument to widen the hole slightly after d
 
 Your horn is now ready for astronomy!
 
+Just a few terminology things to mention here. The horn has what we call a "beam", which defines how responsive the horn is to different parts of the sky. The beam also defines the field of view of the horn, or how much of the sky it can see at once. This is the same idea as the field of view of an optical camera, however, our field of view here is more akin to a pixel than the whole camera, as we measure one single intensity for the whole field of view. Here is a simulation of the horn beam, showing its responsiveness as a function of angle. The horn sees everything within a 25 degree patch of the sky.  If you hold your hand out at arm's length and splay your fingers, the distance between your splayed-out thumb and pinkie finger is roughly 25 degrees of sky. This is fairly big, but fortunately so is the Milky Way!
+
+![horn](assets/opt_horn.png){:height="50%" width="50%"}
+
 
 ## Data Capture Computer 
 
 A computer is needed to record data from the radio.  Here we describe how to make a dedicated raspberry pi setup. You
-can also use a laptop. We use a pi because it is cheaper and easier to maintain. z
+can also use a laptop. We use a pi because it is cheaper and easier to maintain. 
 
 
 
