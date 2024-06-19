@@ -20,15 +20,27 @@ Image Credit: https://astronomy.ua.edu/undergraduate-program/course-resources-as
 To figure out where the galaxy is located at your location and time, we reccomend using something like [Stellarium](https://stellarium.org/).
 The Stellarium app or web browser will show what is in the sky at your location. We demostrate here with Stellarium web. Here is a quick view of the interface: 
 
+![stell](assets/stellarium.png){:height="75%" width="75%"}
+
 Make sure to change the location to your current location. We reccomend turning off the atmosphere with the button labelled "atmosphere" at the bottom. This will let you see where the Galaxy is during the day time as well as the night time. Fortunately, unlike optical astronomy, we can do radio measurements of the Milky Way during the day! 
 
-Using the bottom right button to scan through times, you can see when the Galaxy is visible from your location. It should pass overhead twice in a 24 hour period. To check what part of the Galaxy you are seeing, you can click on a nearby object to get the RA and DEC (what we call "Celestial coordinates", see [here](https://skyandtelescope.org/astronomy-resources/right-ascension-declination-celestial-coordinates/#:~:text=Like%20cities%2C%20every%20object%20in,as%20the%20object's%20celestial%20coordinates.) or the analysis tutorial for more information and then put it into a converter like [this one](https://www.astrouw.edu.pl/~jskowron/ra-dec/) to get the galactic coordinates. Galactic l is the longitude, galactic b is the latitude. 
+![stell](assets/atmosphere.png){:height="75%" width="75%"}
+
+Using the bottom right button to scan through times, you can see when the Galaxy is visible from your location. It should pass overhead twice in a 24 hour period.
+
+![stell](assets/timescan.png){:height="75%" width="75%"}
+
+To check what part of the Galaxy you are seeing, you can click on an object within the galactic plane to get the RA and DEC (what we call "Celestial coordinates", see [here](https://skyandtelescope.org/astronomy-resources/right-ascension-declination-celestial-coordinates/#:~:text=Like%20cities%2C%20every%20object%20in,as%20the%20object's%20celestial%20coordinates.) or the analysis tutorial for more information and then put it into a converter like [this one](https://www.astrouw.edu.pl/~jskowron/ra-dec/) to get the galactic coordinates. Galactic l is the longitude, galactic b is the latitude. Here, we have clicked the object "Caph" which is within the plane of the Milky Way that we can see. 
+
+![stell](assets/altaz.png){:height="75%" width="75%"}
 
 The other thing to consider is how many measurements to take. We have a resolution on the sky limited by the beam of the telescope, which is 25 degrees. This means that if you point at the galaxy at one set of coordinates, and then move say 10 degrees of galactic longitude later, there will be significant overlap in the gas collected, as there will be a 15 degree swath that is included in both measurements. If you want to scan the whole first quadrant, for example, it is reccomended to do it in steps of no smaller than 15 degrees. 
 
-Turn on the altitude and azimuth grid, and write down which altitude and azimuths you want to observe. These will guide you when you're observing outdoors. 
+Turn on the azimuthal grid next to the atmosphere button, and look at what Altitude and Azimuths you want to observe. These will guide you when you're observing outdoors. You can use the same trick of clicking an object to get the exact Alt/Az. When you go out to observe, you can use a phone compass and either a protractor or phone angle meter to figure out where to point the horn. The Azimuth should be findable with your compass, and the Altitude with the angle meter. You may need to bring something to prop your horn up with if you're holding it at an angle. 
 
-Included is an mapping of an observation plan for a night in Tempe.
+## Setup
+
+Now, you're ready to observe outside! The following documents will walk you through setting up your horn outside and taking data. 
 
 ![setup](assets/setup.jpg){:height="75%" width="75%"}
 
