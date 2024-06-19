@@ -130,7 +130,7 @@ plugins:
 
 sidebar: 
  - about
- - science
+ - science-background
  - materials
  - label: Getting Started
    children:
@@ -145,7 +145,7 @@ navigation:
  - name: About
    link: ./about.html
  - name: Science Background
-   link: ./science.html
+   link: ./science-background.html
  - name: Materials
    link: ./materials.html
  - name: Getting Started
