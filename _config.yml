@@ -131,6 +131,7 @@ plugins:
 sidebar: 
  - about
  - science
+ - materials
  - label: Getting Started
    children:
      - telescope-construction
@@ -145,6 +146,8 @@ navigation:
    link: ./about.html
  - name: Science Background
    link: ./science.html
+  - name: Materials
+   link: ./materials.html
  - name: Getting Started
    sublist:
      - name: Telescope Construction
