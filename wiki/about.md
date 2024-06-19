@@ -10,6 +10,7 @@ Why We Created This Project
 We believe in the importance of making astronomy accessible to anyone that is interested; that the ability to discover more about our home, the universe, is a right and not a luxury; and that creating collaborative projects with diversity as a priority allows for greater advances in the field of science. The convergence of these ideas come together in the CHART project. Accessibility in our project is defined as affordability and ease in navigation. The CHART project guides novices and hobbyist alike in building their own radio telescope and taking data directly from the skies above at a price around $100. We have chosen every material used in this project carefully to insure low cost to the user and ease in locating that part over time. We have created step-by-step tutorials to build an optimized telescope and set up its hardware, so that the participants feel guided in completion of the project, rather than intimidated and discouraged. All of our code for this project is open source so that anyone can access and modify it for their personal subprojects and collaborative endeavors. Our main mission for this project is to empower participants from anywhere in the world to gain experience in the field of astronomy and increase diversity and participation in STEM.
 
 Meet the Team
+---------------------------
 
 ![Ahlea](assets/ahlea.jpg){:height="50%" width="50%"}
 
@@ -107,6 +108,6 @@ Main adivisor and creator of the project. Adam is an assistant professor at Wino
 
 [Contact](mailto:adam.beardsley@winona.edu)
 
-Completely Hackable Amateur Radio Telescope
+
 
 This project is supported by a [National Science Foundation](https://nsf.gov) Astronomy and Astrophysics Postdoctoral Fellowship under award [AST-1701440](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440).
