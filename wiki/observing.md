@@ -42,5 +42,11 @@ Turn on the azimuthal grid next to the atmosphere button, and look at what Altit
 
 Now, you're ready to observe outside! The following documents will walk you through setting up your horn outside and taking data. 
 
+[The CHART Procedure document](memos/CHART_procedure.pdf) describes the setup and data taking steps. 
+
+[The CHART observing sheet](memos/IntheFieldObservingForm.pdf) provides a handy template for keeping an observing log.
+
+[Here](memos/PrintableProtocol.pdf) is a printable version of the procedure document if you'd like to have one handy.
+
 ![setup](assets/setup.jpg){:height="75%" width="75%"}
 
