@@ -5,11 +5,11 @@ toc: false
 ---
 The Completely Hackable Amateur Radio Telescope
 ======
-![system setup](assets/chart.png){:height="100%" width="100%"}
 Radio astronomy is a fun and cheap way to observe the sky. Our goal with this project is to create an easy to navigate system of tutorials that will lead to you in building your own radio telescope in your home or classroom and then observing the sky with it. The horn is made of cardboard and the other parts are easy to find. The goal is to keep the total cost to under $200. The tutorials provide all the knowledge and software needed to build your CHART instrument and measure and analyze the spiral structure of our own galaxy, the Milky Way. 
 
+![system setup](assets/chart.png){:width="50%"}
 
-A quick introduction to the project.
+Here is a video introduction to the project.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XAxNngnJvUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Get Started
