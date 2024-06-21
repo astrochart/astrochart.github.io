@@ -41,7 +41,7 @@ Line the inside edges of the horn with aluminum tape. This will join your 4 sepe
 metal and make a much more effective horn.
 
 Here is a completed horn!
-![Completed Horn](assets/chart.png){:height="50%" width="50%"}
+![Completed Horn](assets/chart.png){:style="height: 75%; width: 75%; display:block; margin-left:auto; margin-right:auto"}
 
 ### Add the Probe
 The probe is the focal point of the horn. This is where we connect our radio!  It is a small length of wire soldered to an RF
