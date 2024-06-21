@@ -130,7 +130,7 @@ can also use a laptop. We use a pi because it is cheaper and easier to maintain.
 We provide a ready to run SD card image which can get you started. 
 
 1. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/).
-2. Use an SD card burner to write the image to an SD card. We like [Balena Etcher](https://etcher.balena.io/).
+2. Use an SD card burner to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/) or [Balena Etcher](https://etcher.balena.io/).
 ### Set up your RPi
 To get started, we need to make sure that all our wires are hooked up and ready to go.
 
