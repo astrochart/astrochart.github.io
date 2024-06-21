@@ -28,7 +28,7 @@ and double check everything. Warning! Be careful not to damage any lovely old fl
 to protect that parquet.
 
 
-![horn dimensions](assets/horn_dimensions.jpg){:height="50%" width="50%"}
+![horn dimensions](assets/horn_dimensions.jpg){:style="height: 75%; width: 75%; display:block; margin-left:auto; margin-right:auto"}
 
 Next, line the cardboard pieces with the aluminum foil. Only cover the sides that will end up on the inside when the
 horn is assembled. In theory it doesn't matter which
