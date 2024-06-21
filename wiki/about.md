@@ -110,4 +110,11 @@ Main adivisor and creator of the project. Adam is an assistant professor at Wino
 
 
 
-This project is supported by a [National Science Foundation](https://nsf.gov) Astronomy and Astrophysics Postdoctoral Fellowship under award [AST-1701440](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440).
+## Support
+This project has been supported through a number of research and educational grants.
+
+- Winona State University internal and Foundation grants.
+- [National Science Foundation](https://nsf.gov) CAREER award [AST-2337492](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2337492)
+- An award from the [Mt. Cuba Astronomical Foundation](https://mtcubaastrofnd.org/)
+- [National Science Foundation](https://nsf.gov) ATI award [AST-2108348](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2108348)
+- [National Science Foundation](https://nsf.gov) Astronomy and Astrophysics Postdoctoral Fellowship under award [AST-1701440](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1701440).
