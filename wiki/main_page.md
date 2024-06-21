@@ -19,4 +19,6 @@ analysis](analysis.html) to take measurements of the Milky Way and analyze the r
 
 The tutorials assume very little background in radio astronomy, electronics, or computer programming. However, if the topics are very new to you, see the [Resources](resources.html) page for some supplementary reading. Finally, if you have any questions or suggestions, please don't hesitate to contact the team. The information is available on the [About](about.html) page.
 
+If you're interested in contributing to the code base, or viewing the Github repository where the code exists, see the repo [here](https://github.com/astrochart/CHART).
+
 
