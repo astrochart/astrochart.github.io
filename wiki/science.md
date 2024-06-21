@@ -20,7 +20,7 @@ Our experiences are based off of the sensory inputs that our bodies provide. Unt
 
 Electromagnetic Spectrum (credit NASA)  
   
-With advances in tehnology, we have been able to observe the whole electromagnetic spectrum which has allowed the field of astronomy to discover many parts of our universe that we were blind to before. Radio waves have frequencies from 300GHz to 3kHz, and are the lowest frequencies in the electromagnetic spectrum. These frequencies have proved to hold many gems in discovering what our universe really consists of. Some of these discoveries due to radio astronomy have been: the existance of the cosmic microwave background, pulsars, quasars, and radio galaxies. This is only a short introduction to the field of radio astronomy; If you would like to learn more about the field as a whole, please visit the links below for deeper insight into radio astronomy.
+With advances in tehnology, we have been able to observe the whole electromagnetic spectrum which has allowed the field of astronomy to discover many parts of our universe that we were blind to before. Radio waves have frequencies from 300GHz to 3kHz, and are the lowest frequencies in the electromagnetic spectrum. These frequencies have proved to hold many gems in discovering what our universe really consists of. Discoveries due to radio astronomy include the existence of the cosmic microwave background, pulsars, quasars, and radio galaxies. This is only a short introduction to the field of radio astronomy. If you would like to learn more about the field as a whole, please visit the links below for deeper insight into radio astronomy.
 
 [History of Radio Astronomy](https://swaves.gsfc.nasa.gov/pdf_files/History%20of%20Radio%20Astronomy.pdf)
 
