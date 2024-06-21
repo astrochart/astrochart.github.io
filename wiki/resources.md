@@ -9,10 +9,6 @@ n a computer like inspect the contents of directories, manage files, and run pro
 called Bash (which is a portmanteu of Bourne Again SHell). If this is your first time in the shell, check out our
 [linux shell🐢 help page](shell_help).  
 
-We were all n00bs once! See a bit slang you don't recognize? Consult our modest [compendium of computer
-vocabulary](assets/vocab).  Or just, you
-know, google it!
-
 
 ### Install Gnu Radio
 [GNU Radio](https://www.gnuradio.org/about/) is the free open source software that we will be using to help us process our data.
