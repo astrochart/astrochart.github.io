@@ -53,7 +53,7 @@ This list is intended to serve as a starting place for some suggested materials 
 
 -Long SMA cable (enough to run from monitor to wherever you want to take data)
 
-## Reccomended extras
+## Recommended extras
 
 -Multimeter with continuity functionality
 
