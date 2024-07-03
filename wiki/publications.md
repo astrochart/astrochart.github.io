@@ -11,10 +11,10 @@ Publications
 3.  A. Wright & A. Beardsley  [Testing Available Filters in the Lab](memos/2022.06.23_FilterTesting.pdf), 23 June, 2022.
 4.  A. Zhao & L. Berkhout  [Taking measurements with CHART during the summer monsoon season in Petrified Forest National Park](memos/2022.06.25_PetrifiedForest.pdf), 27 June, 2022.
 5.  A. Islam & J. Davis  [Chart Testing on the Night of 8/1/2022](memos/2022.08.01_CanyonLake.pdf), 1 August, 2022.
-6.  A. Islam  [memos/2022.08.04_ISTB4.pdf), 4 August, 2022.
+6.  A. Islam  [CHART Testing at ISTB4](memos/2022.08.04_ISTB4.pdf), 4 August, 2022.
 7.  A. Wright & A. Beardsley  [Daytime CHART Observations of Galactic Quadrants II and III](memos/2023.06.19_DayQuad2and3.pdf), 19 June, 2023.
 8.  A. Wright & A. Beardsley  [Comparing two smaller horns to the full-sized CHART horn](memos/2023.06.26_BabyCHARTTests.pdf), 26 June, 2023.
-9. S. Jones [SSH Memo] (memos/2024.07.03_SSH_Memo_Revised.pdf) 3 July, 2024.
+9. S. Jones [SSH Memo](memos/2024.07.03_SSH_Memo_Revised.pdf) 3 July, 2024.
 
 ##### Posters
 
