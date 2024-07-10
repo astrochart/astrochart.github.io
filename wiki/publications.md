@@ -15,6 +15,7 @@ Publications
 7.  A. Wright & A. Beardsley  [Daytime CHART Observations of Galactic Quadrants II and III](memos/2023.06.19_DayQuad2and3.pdf), 19 June, 2023.
 8.  A. Wright & A. Beardsley  [Comparing two smaller horns to the full-sized CHART horn](memos/2023.06.26_BabyCHARTTests.pdf), 26 June, 2023.
 9. S. Jones [SSH Memo](memos/2024.07.03_SSH_Memo_Revised.pdf) 3 July, 2024.
+10. A. Nelander & S.Jones [Testing CHART in Quadrant I From Gilbert and Tempe Arizona] (memos/2024.07.09_TempeGilbertComparison.pdf), 9 July, 2024.
 
 ##### Posters
 
