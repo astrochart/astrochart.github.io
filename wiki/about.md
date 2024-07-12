@@ -12,79 +12,25 @@ We believe in the importance of making astronomy accessible to anyone that is in
 Meet the Team
 ---------------------------
 
-![Ahlea](assets/ahlea.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Ahlea Wright
+<!-- Current students, follow the template below.
+     We will delete the template before merging (if we remember to) -->
 
-Code Development & Telescope Design
+## Current Students
 
-Helped continue the CHART project in the summer of 2022 and worked on the final design of the telescope. Ahlea is an undergraduate student studying Computer Science and Bioinformatics at Winona State University. In the future, Ahlea wants to use technology to help others in the medical field.
+![Joan of Arc](assets/joan.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+### Joan of Arc
 
-{:style="clear: left"}
+Military leader and supporter of Charles VII of France
 
-![Lindsey](assets/Lindsey.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Lindsey Arndt
+As a teenager, Joan developed a keeen interest in defending her French nation and
+re-establishing the French monarch during the Hundred Years' War.
+She rallied the rallied the troops at the siege of Orléans and continued pursuit of the
+English armies ultimately leading to the end of the war.
+Joan was canonized by Pope Benedict XV in 1920.
 
-Code Developement
+## Mentors
 
-Continued the CHART project during Summer 2022. Updated the website, tutorials, and created the GUI and database for taking and storing data. Lindsey is an undergraduate student studying Computer Science, Human Computer Interaction, and Data science at Winona State University. Her future goals are to be a Software Engineer or User Experience Designer making technology more accessible.
-
-{:style="clear: left"}
-
-![Dylan](assets/Dylan.jpeg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Dylan Gappa
-
-Simulation
-
-Dylan is using existing professional surveys to create a simulator for CHART. When completed, users will be able to create a mock data set to match when and where they observed. His future goals are to start a career in the civilian service of the military, working on aerospace technology.
-
-{:style="clear: left"}
-
-![Bryanna](assets/Bry.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Bryanna Gutierrez-Coatney
-
-Project Leader
-
-Oversaw the project during Summer 2019. Created the website, tutorials, and helped with telescope design. Bryanna is an undergraduate student studying Astrophysics at Arizona State University. Her future goals are to be an educator in STEM and to create educational platforms that allow science and astronomy access to the general public.
-
-{:style="clear: left"}
-
-![Shanika](assets/shanika.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Shanika Davis
-
-Telescope Design
-
-Helped design the radio telescope along with characterizing the hardware. Her future goals involve designing and building electronics that will operate on spacecraft such as rockets, satellites, rovers or other robotics.
-
-{:style="clear: left"}
-
-![Edgar](assets/edgar.PNG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Edgar Escalante
-
-Code Development & Telescope Design
-
-Helped develop the code to retrieve and read data from the radio telescope during 2018 & 2019. Helped in research and development for the project's hardware. His future goals involve using his programming and signal processing experience to advance the field of astronomy.
-
-{:style="clear: left"}
-
-![Belany](assets/belany.jpeg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Belany Zhang
-
-Code Development & Telescope Design
-
-Helped develop the code to retrieve data from the radio telescope, created first draft of the website, and also wrote some tutorials for setting up the software for the project in 2018. Her future goals involve pursuing a career in the Artifical Intelligence or Cyber Security field of Computer Science.
-
-{:style="clear: left"}
-
-![Emilie](assets/emilie.png){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Emilie Berthiaume
-
-Code Development & Telescope Design
-
-Helped start the CHART project in the summer of 2018 and worked on the initial programming and design of the telescope. Emilie is an undergraduate student studying mathematics and film at Arizona State University. Her future goals are to use media to increase public interest in science and math.
-
-{:style="clear: left"}
-
-![Libby](assets/Libby.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
+![Libby](assets/Libby.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Libby Berkhout
 
 Advisor and mentor
@@ -95,7 +41,16 @@ Libby is a PhD student at ASU. She advises undergraduates and is the main contac
 
 {:style="clear: left"}
 
-![Adam](assets/adam.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
+![Danny](assets/danny.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+### Danny Jacobs
+
+Advisor and mentor
+
+Danny is an assistant professor at Arizona State University and co-leads the Low-Frequency Cosmology (LoCo) Lab. He is the main contact at ASU.
+
+[Visit Danny's Website](https://danielcjacobs.com/)
+
+![Adam](assets/adam.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Adam Beardsley
 
 Project Creator
@@ -107,6 +62,79 @@ Main adivisor and creator of the project. Adam is an assistant professor at Wino
 [Contact](mailto:adam.beardsley@winona.edu)
 
 {:style="clear: left"}
+
+## Alumni
+
+### Ahlea Wright
+
+Code Development & Telescope Design
+
+Ahlea helped continue the CHART project in the summers of 2022 and 2023 and worked on the final design of the telescope.
+She graduated from WSU with a degree in Computer Science and Bioinformatics.
+Ahlea's goal is to use technology to help others in the medical field.
+
+### Lindsey Arndt
+
+Code Developement
+
+Lindsey continued the CHART project during Summer 2022.
+She updated the website, tutorials, and created the GUI and database for taking and storing data.
+Lindsey graduated with a degree in Computer Science, Human Computer Interaction, and Data science from Winona State University.
+Her future goals are to be a Software Engineer or User Experience Designer making technology more accessible.
+
+### Dylan Gappa
+
+Simulation
+
+Dylan used existing professional surveys to create a simulator for CHART so users could create a mock data set to match when and where they observed.
+Dylan graduated from WSU with a degree in Physics.
+Dylan's career goals involve the civilian service of the military, working on aerospace technology.
+
+### Nahom Namera
+
+Bandpass Filter Design
+
+Nahom explored many options for the bandpass filter used by CHART, balancing cost, availability, and performance. He graduated from WSU with a degree in General Engineering with a concentration in Electronics.
+
+### Bryanna Gutierrez-Coatney
+
+Project Manager
+
+Bryanna oversaw the project during Summer 2019.
+She created the website, tutorials, and helped with telescope design.
+She graduated from Arizona State University with a degree in Astrophysics.
+Her future goals are to be an educator in STEM and to create educational platforms that allow science and astronomy access to the general public.
+
+### Raven Davis
+
+Telescope Design
+
+Raven helped design the radio telescope along with characterizing the hardware.
+She graduated with a degree in Electrical Engineering from Arizona State.
+Her future goals involve designing and building electronics that will operate on spacecraft such as rockets, satellites, rovers or other robotics.
+
+### Edgar Escalante
+
+Code Development & Telescope Design
+
+Edgar helped develop the code to retrieve and read data from the radio telescope during 2018 & 2019. He helped in research and development for the project's hardware.
+Edgar graduated from Arizona State with a degree in Physics.
+His future goals involve using his programming and signal processing experience to advance the field of astronomy.
+
+### Belany Zhang
+
+Code Development & Telescope Design
+
+As a McClintock High School student, Belany helped develop the code to retrieve data from the radio telescope, created first draft of the website, and also wrote some tutorials for setting up the software for the project in 2018.
+She went on to the University of Michigan to study engineering.
+Her future goals involve pursuing a career in the Artifical Intelligence or Cyber Security field of Computer Science.
+
+### Emilie Berthiaume
+
+Code Development & Telescope Design
+
+Emilie helped start the CHART project in the summer of 2018 and worked on the initial programming and design of the telescope.
+Emilie is an undergraduate student studying mathematics and film at Arizona State University. Her future goals are to use media to increase public interest in science and math.
 
 ## Support
 This project has been supported through a number of research and educational grants.
