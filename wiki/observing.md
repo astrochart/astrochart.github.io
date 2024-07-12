@@ -43,7 +43,9 @@ Turn on the azimuthal grid next to the atmosphere button, and look at what Altit
 ## Setup
 
 Now, you're ready to observe outside!
-The steps to set up your telescope are described below, and we also link to printable documents for convenience in the field. This setup assumes our baseline design outlined in the [Telescope Construction](telescope_design.html) tutorial.
+The steps to set up your telescope are described below, and we also link to printable documents for convenience in the field.
+We recommend doing a practice setup in the comfort of your house/classroom/lab before heading out to the field.
+This setup assumes our baseline design outlined in the [Telescope Construction](telescope_design.html) tutorial.
 
 [The CHART Procedure document](memos/CHART_procedure.pdf) describes the setup and data taking steps.
 
@@ -72,28 +74,30 @@ If needed and available:
 
 - Place telescope on ground.
 - Connnect the Nooelec amp and filter onto the horn by twisting the bolt.
-![connect filter](nooelec_connection.jpg)
+![connect filter](assets/setup/nooelec_connection.png)
 - Connect the Noelec amp and filter to the RTL-SDR using the SMA cable.
-![connect radio](radio_connection.jpg)
+![connect radio](assets/setup/radio_connection.png)
 - Plug the RTL-SDR into the Raspberry Pi USB 2 port.
-![radio to pi](radio_pi.jpg)
+![radio to pi](assets/setup/radio_pi.png)
 - Plug the mouse into the Raspberry Pi.
-![mouse](mouse.jpg)
+![mouse](assets/setup/mouse.png)
 - Plug the small end of the HDMI cable into the Raspberry Pi and the large end into the monitor.
-![HDMI](hdmi_connect.jpg)
+![HDMI](assets/setup/hdmi_connect.png)
 - Plug the small end of the USB-C cable into the Raspberry Pi where the power symbol is, and the plug the large end into the battery.
-![pi power](pi_power.jpg)
+![pi power](assets/setup/pi_power.png)
 - Plug the small end of the USB micro B cable into the "power only" spot in the monitor, and the large end into the battery.
-![monitor power](monitor_power.jpg)
+![monitor power](assets/setup/monitor_power.png)
 - Once everything is plugged in, the screen should light up and the Pi should boot up.
 - Point towards desired location on sky, use compass and level apps on phone to guide.
 - Set to desired angle, using props to make sure the telescope remains at the same angle.
 - Hold telescope throughout the data collection.
 
-### Collecting
+![setup](assets/setup.jpg){:height="75%" width="75%"}
+
+## Taking Data
 We created a GUI (Graphical User Interface) to make taking data easy.
 
-- Open CHART_GUI file on the Pi's desktop.
+- Open the CHART_GUI file on the Pi's desktop.
 - Click "execute in terminal."
 - Enter the parameters you want to use for taking data.
   - You can use all the default parameters by clicking the slider at the bottom.
@@ -111,6 +115,3 @@ If you do not change a value in a text area, the default parameter will be used 
 - Click "Start."
   - You can stop the trial at any time by clicking "Stop."
   - Once "Start" is re-enabled, the data has been taken and you can now take more data.
-
-
-![setup](assets/setup.jpg){:height="75%" width="75%"}
