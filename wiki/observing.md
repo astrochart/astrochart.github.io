@@ -82,7 +82,7 @@ If needed and available:
 - Plug the mouse into the Raspberry Pi.
 ![mouse](assets/setup/mouse.png)
 - Plug the small end of the HDMI cable into the Raspberry Pi and the large end into the monitor.
-![HDMI](assets/setup/hdmi_connect.png)
+![HDMI](assets/setup/hdmi_connection.png)
 - Plug the small end of the USB-C cable into the Raspberry Pi where the power symbol is, and the plug the large end into the battery.
 ![pi power](assets/setup/pi_power.png)
 - Plug the small end of the USB micro B cable into the "power only" spot in the monitor, and the large end into the battery.
