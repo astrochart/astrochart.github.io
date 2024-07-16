@@ -28,6 +28,13 @@ She rallied the rallied the troops at the siege of Orléans and continued pursui
 English armies ultimately leading to the end of the war.
 Joan was canonized by Pope Benedict XV in 1920.
 
+![Carly Fitzgerald](assets/carly.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+### Carly Fitzgerald
+
+Code Development
+
+Carly is a student at Winona State studying physics. She is currently working on further developing the code in analysis to help it run smoother. She is also exploring how to measure the rotational curve of the outer galaxy. Carly’s future goals involve pursuing a career in engineering. 
+
 ## Mentors
 
 ![Libby](assets/Libby.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
