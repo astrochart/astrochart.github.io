@@ -30,12 +30,16 @@ Project Enhancement
 
 Sara is an undergraduate student at Arizona State studying astrophysics. After gathering her own CHART data, Sara worked on developing several memos regarding both her data and different methods of data collection. Currently, she is researching and developing potential new avenues for CHART.
 
+{:style="clear: left"}
+
 ![Carly Fitzgerald](assets/carly.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Carly Fitzgerald
 
 Code Development
 
 Carly is a student at Winona State studying physics. She is currently working on further developing the code in analysis to help it run smoother. She is also exploring how to measure the rotational curve of the outer galaxy. Carly’s future goals involve pursuing a career in engineering.
+
+{:style="clear: left"}
 
 ## Mentors
 
@@ -58,6 +62,8 @@ Advisor and mentor
 Danny is an assistant professor at Arizona State University and co-leads the Low-Frequency Cosmology (LoCo) Lab. He is the main contact at ASU.
 
 [Visit Danny's Website](https://danielcjacobs.com/)
+
+{:style="clear: left"}
 
 ![Adam](assets/adam.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Adam Beardsley
