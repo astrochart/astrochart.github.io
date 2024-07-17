@@ -28,6 +28,15 @@ She rallied the rallied the troops at the siege of Orléans and continued pursui
 English armies ultimately leading to the end of the war.
 Joan was canonized by Pope Benedict XV in 1920.
 
+![Alex](assets/AlexBioPic.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+### Alexandra Nelander
+
+Code Development and Hardware Testing
+
+Continued the CHART project during spring and summer 2024. Created new rotation curve plots, tested the install process for the new disc image, and added a data collection memo. Currently working on default setting configurations and Bias-T instructions. Alexandra is an undergraduate student studying Physics and Astrophysics at Arizona State University. Her other projects include modeling radio emissions from high redshift black holes and AGN.
+
+{:style="clear: left"}
+
 ![Sara Jones](assets/Sara.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Sara Jones
 
@@ -78,14 +87,7 @@ Main adivisor and creator of the project. Adam is an assistant professor at Wino
 {:style="clear: left"}
 
 
-![Alex](assets/AlexBioPic.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 5%"}
-### Alexandra Nelander
 
-Code Development and Hardware Testing
-
-Continued the CHART project during spring and summer 2024. Created new rotation curve plots, tested the install process for the new disc image, and added a data collection memo. Currently working on default setting configurations and Bias-T instructions. Alexandra is an undergraduate student studying Physics and Astrophysics at Arizona State University. Her other projects include modeling radio emissions from high redshift black holes and AGN.
-
-{:style="clear: left"}
 
 ## Support
 This project has been supported through a number of research and educational grants.
