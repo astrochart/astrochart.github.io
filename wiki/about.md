@@ -43,6 +43,7 @@ Carly is a student at Winona State studying physics. She is currently working on
 
 {:style="clear: left"}
 
+<br>
 ## Mentors
 
 ![Libby](assets/Libby.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
@@ -78,6 +79,7 @@ Main adivisor and creator of the project. Adam is an assistant professor at Wino
 
 {:style="clear: left"}
 
+<br>
 ## Alumni
 
 ### Ahlea Wright
