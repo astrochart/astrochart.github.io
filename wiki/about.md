@@ -51,7 +51,7 @@ Carly is a student at Winona State studying physics. She is currently working on
 
 Advisor and mentor
 
-Libby is a PhD student at ASU. She advises undergraduates and is the main contact at ASU.
+Libby is a postdoctoral fellow at McGill University, and the main contact at McGill for the project. 
 
 
 {:style="clear: left"}
