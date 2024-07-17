@@ -4,6 +4,8 @@ id: about
 About
 ===
 
+Contact us by [sending an email](mailto:astrochartproject@gmail.com) (forwards to the project mentors).
+
 Why We Created This Project
 ---------------------------
 
@@ -50,7 +52,6 @@ Advisor and mentor
 
 Libby is a PhD student at ASU. She advises undergraduates and is the main contact at ASU.
 
-[Contact](mailto:lmberkhout@asu.edu)
 
 {:style="clear: left"}
 
@@ -74,7 +75,6 @@ Main adivisor and creator of the project. Adam is an assistant professor at Wino
 
 [Visit Adam's Website](http://adampbeardsley.github.io)
 
-[Contact](mailto:adam.beardsley@winona.edu)
 
 {:style="clear: left"}
 
