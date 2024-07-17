@@ -12,21 +12,7 @@ We believe in the importance of making astronomy accessible to anyone that is in
 Meet the Team
 ---------------------------
 
-<!-- Current students, follow the template below.
-     We will delete the template before merging (if we remember to) -->
-
 ## Current Students
-
-![Joan of Arc](assets/joan.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
-### Joan of Arc
-
-Military leader and supporter of Charles VII of France
-
-As a teenager, Joan developed a keeen interest in defending her French nation and
-re-establishing the French monarch during the Hundred Years' War.
-She rallied the rallied the troops at the siege of Orléans and continued pursuit of the
-English armies ultimately leading to the end of the war.
-Joan was canonized by Pope Benedict XV in 1920.
 
 ![Alex](assets/AlexBioPic.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Alexandra Nelander
