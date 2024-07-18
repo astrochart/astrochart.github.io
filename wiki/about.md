@@ -16,7 +16,7 @@ Meet the Team
 
 ## Current Students
 
-![Alex](assets/AlexBioPic.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+![Alex](assets/AlexBioPic.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Alexandra Nelander
 
 Code Development and Hardware Testing
