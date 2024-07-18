@@ -51,7 +51,7 @@ Carly is a student at Winona State studying physics. She is currently working on
 
 Advisor and mentor
 
-Libby is a postdoctoral fellow at McGill University, and the main contact at McGill for the project. 
+Libby is a postdoctoral fellow at McGill University, and the main contact at McGill for the project.
 
 
 {:style="clear: left"}
@@ -122,7 +122,7 @@ She created the website, tutorials, and helped with telescope design.
 She graduated from Arizona State University with a degree in Astrophysics.
 Her future goals are to be an educator in STEM and to create educational platforms that allow science and astronomy access to the general public.
 
-### Raven Davis
+### Raven Braithwaite
 
 Telescope Design
 
