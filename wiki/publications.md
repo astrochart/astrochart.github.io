@@ -16,7 +16,8 @@ Publications
 8.  A. Wright & A. Beardsley  [Comparing two smaller horns to the full-sized CHART horn](memos/2023.06.26_BabyCHARTTests.pdf), 26 June, 2023.
 9. S. Jones [How to SSH into a Raspberry Pi for Windows](memos/2024.07.03_SSH_Memo_Revised.pdf) 3 July, 2024.
 10. A. Nelander & S. Jones [Testing CHART in Quadrant I From Gilbert and Tempe Arizona](memos/2024.07.09_TempeGilbertComparison.pdf), 9 July, 2024.
-11. C. Fitzgerald, S. Michaud & A. Beardsley [Testing New Updates for CHART](memos/TestingNewUpdatesforCHART.pdf), 10 July, 2024
+11. C. Fitzgerald, S. Michaud & A. Beardsley [Testing New Updates for CHART](memos/TestingNewUpdatesforCHART.pdf), 10 July, 2024.
+12. C. Fitzgerald, S. Michaud & A. Beardsley [Rotational Curve of the Inner Galaxy](memos/2024.07.18RotationalCurveoftheInnerGalaxy.pdf), 18 July, 2024.
 
 ##### Posters
 
