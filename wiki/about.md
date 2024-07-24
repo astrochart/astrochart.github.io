@@ -53,6 +53,7 @@ Advisor and mentor
 
 Libby is a postdoctoral fellow at McGill University, and the main contact at McGill for the project.
 
+[Visit Libby's Website](https://lmberkhout.github.io/)
 
 {:style="clear: left"}
 
