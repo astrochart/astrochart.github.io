@@ -105,7 +105,7 @@ If you do not change a value in a text area, the default parameter will be used 
   - Initial and final frequencies set the lowest and highest frequency tunings for your observation, in MHz.
   - Integration time sets how long the data is averaged, in seconds, for each data point.
   - Number of integrations is the number of time averaged data points per frequency tuning.
-- The **Enable Bias-T** option should only be used if you know **for sure** that you are using a bias-T. If you are exactly following this tutorial, then Bias-T SHOULD be on. 
+- The **Enable Bias-T** option should only be used if you know **for sure** that you are using a bias-T. If you are following this tutorial exactly, then Bias-T SHOULD be on. This is what turns on the LNR, which should have a bright white light on when taking data.
   - A [bias-T](https://en.wikipedia.org/wiki/Bias_tee) is a small bit of circuitry used to power an amplifier on the same cable as the radio signal.
   - If you are using the Nooelec filter and amplifier we recommend, then you do do have a bias-T and should enable this setting.
   - When you enable the bias-T you will see a warning message. You can close this window pop-up and continue once you confirm you do want it enabled.
