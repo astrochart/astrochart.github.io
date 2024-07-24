@@ -16,7 +16,7 @@ Meet the Team
 
 ## Current Students
 
-![Alex](assets/AlexBioPic.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+![Alex](assets/AlexBioPic.jpg){: style="float: left; width: 25%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Alexandra Nelander
 
 Code Development and Hardware Testing
@@ -25,7 +25,7 @@ Continued the CHART project during spring and summer 2024. Created new rotation 
 
 {:style="clear: left"}
 
-![Sara Jones](assets/Sara.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+![Sara Jones](assets/Sara.JPG){: style="float: left; width: 25%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Sara Jones
 
 Project Enhancement
@@ -34,7 +34,7 @@ Sara is an undergraduate student at Arizona State studying astrophysics. After g
 
 {:style="clear: left"}
 
-![Carly Fitzgerald](assets/carly.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+![Carly Fitzgerald](assets/carly.jpg){: style="float: left; width: 25%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Carly Fitzgerald
 
 Code Development
@@ -46,17 +46,18 @@ Carly is a student at Winona State studying physics. She is currently working on
 <br>
 ## Mentors
 
-![Libby](assets/Libby.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+![Libby](assets/Libby.jpg){: style="float: left; width: 25%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Libby Berkhout
 
 Advisor and mentor
 
 Libby is a postdoctoral fellow at McGill University, and the main contact at McGill for the project.
 
+[Visit Libby's Website](https://lmberkhout.github.io/)
 
 {:style="clear: left"}
 
-![Danny](assets/danny.jpg){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+![Danny](assets/danny.jpg){: style="float: left; width: 25%; height: 50%; padding-right: 5%; padding-top: 2%"}
 ### Danny Jacobs
 
 Advisor and mentor
@@ -67,7 +68,7 @@ Danny is an assistant professor at Arizona State University and co-leads the Low
 
 {:style="clear: left"}
 
-![Adam](assets/adam.JPG){: style="float: left; width: 50%; height: 50%; padding-right: 5%; padding-top: 2%"}
+![Adam](assets/adam.JPG){: style="float: left; width: 25%; height: 25%; padding-right: 5%; padding-top: 2%"}
 ### Adam Beardsley
 
 Project Creator
