@@ -127,7 +127,7 @@ To get started, we need to make sure that all our wires are hooked up and ready 
 
 ### Test your setup
 
-Open a terminal and run `gui.py`. Success will look like a window opening with some boxes asking for input.
+Click the `chart-observe` link on the Desktop of the pi, then click "execute in terminal." Success will look like a window opening with some boxes asking for input. 
 
 
 If this works, you're ready to observe! See the [Observing](Observing) page for details.
