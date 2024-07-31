@@ -98,6 +98,7 @@ If needed and available:
 We created a GUI (Graphical User Interface) to make taking data easy.
 
 - Open the CHART_GUI file on the Pi's desktop.
+![open GUI](assets/open_gui.png)
 - Click "execute in terminal."
 - Enter the parameters you want to use for taking data.
   - You can use all the default parameters by clicking the slider at the bottom.
@@ -105,10 +106,12 @@ If you do not change a value in a text area, the default parameter will be used 
   - Initial and final frequencies set the lowest and highest frequency tunings for your observation, in MHz.
   - Integration time sets how long the data is averaged, in seconds, for each data point.
   - Number of integrations is the number of time averaged data points per frequency tuning.
+![GUI window](assets/gui_window.png)
 - The **Enable Bias-T** option should only be used if you know **for sure** that you are using a bias-T. If you are following this tutorial exactly, then Bias-T SHOULD be on. This is what turns on the LNA, which should have a bright white light on when taking data.
   - A [bias-T](https://en.wikipedia.org/wiki/Bias_tee) is a small bit of circuitry used to power an amplifier on the same cable as the radio signal.
   - If you are using the Nooelec filter and amplifier we recommend, then you do have a bias-T and should enable this setting.
   - When you enable the bias-T you will see a warning message. You can close this window pop-up and continue once you confirm you do want it enabled.
+![Bias T Warning](assets/bias_T_warning.png)
 - Write a short description explaining what you are looking at in the sky.
 - Enter your username for Jupyter Hub, the location you are taking data, trial of the day in this location, date in the format month.day.year, and current time.
   - You can use system time if the time in the upper right corner of your screen is correct. You can also use it when you are connected to the internet.
