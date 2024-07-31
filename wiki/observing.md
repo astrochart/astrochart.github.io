@@ -97,7 +97,7 @@ If needed and available:
 ## Taking Data
 We created a GUI (Graphical User Interface) to make taking data easy.
 
-- Open the CHART_GUI file on the Pi's desktop.
+- Open the chart-observe file on the Pi's desktop.
 ![open GUI](assets/open_gui.png)
 - Click "execute in terminal."
 - Enter the parameters you want to use for taking data.
