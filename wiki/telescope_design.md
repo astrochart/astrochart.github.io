@@ -21,8 +21,6 @@ Materials
  - meter stick
  - box cutter
 
- 
-
 Using the drawing below, cut out the four sides of the horn. Remember, "Measure twice, cut once"! Trace out each horn
 and double check everything. Warning! Be careful not to damage any lovely old floors. Cut outside or put down something
 to protect that parquet.
@@ -32,7 +30,7 @@ to protect that parquet.
 
 Next, line the cardboard pieces with the aluminum foil. Only cover the sides that will end up on the inside when the
 horn is assembled. In theory it doesn't matter which
-side is covered since cardboard is invisible in the radio, but in practice the foil is fragile. 
+side is covered since cardboard is invisible in the radio, but in practice the foil is fragile.
 
 Assemble the horn pieces. Use hot glue to connect the edges together. Fold the waveguide edges shown in the schmeatic
 above so that it creates a box on the bottom of the horn. Leave one side of the waveguide un-glued so you can install the feed point in the next step.
@@ -48,22 +46,8 @@ The probe is the focal point of the horn. This is where we connect our radio!  I
 connector mounted to a piece of sheet metal. The RF connector is plugged directly into a low noise amplifier and
 passband filter.
 
-### Probe Materials
-Individual Pieces
-- 1: SMA Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup
-- 1: Gold plated locking washer
-- 1: 7.5cm by 3.5cm Aluminum plate. Preferably .05" thick. (Soup can lid or scrap metal)
-- 1: SMA Male to Female Right Angle 90-Degree Adapter Gold Plated
-- 1: Bias-T Enabled LNA/Filter
-- 1: 6.3cm Copper wire
-- Packages from Online
-- [Wlaniot SMA Female Connector SMA Coaxial Panel Mount Connector with Bulkhead Nut and Solder Cup Terminal 5pcs](https://www.amazon.com/gp/product/B078H4F8R6)
-- [SMA Connectors](https://www.amazon.com/gp/product/B07FDHBS19)
-- [SMA Right Angle
-  Connectors](https://astrochart.github.io/website/hardware.html#:~:text=SMA%20Right%20Angle%20Connectors)
-- [LNA/Filter](https://astrochart.github.io/website/hardware.html#:~:text=Angle%20Connectors%0A%2D-,LNA/Filter,-%2D%206.3cm%20Copper)
-- [6.3cm Copper
-  wire](https://www.amazon.com/Beadalon-Artistic-22-Gauge-Copper-15-Yards/dp/B003IUG1PM/ref=sr_1_14?keywords=copper+wire&qid=1565206756&s=gateway&sr=8-14)
+### Probe and electronics chain materials
+Our tested and recommended materials, along with purchase links, can be found on the [Materials](materials.html) page.
 
 NOTE BENE!: Material availability changes with time and more often then not things can be done better than we've done
 here.  Try new materials! Let us know what works better.
@@ -72,7 +56,7 @@ here.  Try new materials! Let us know what works better.
 
 ### Make the Probe
 Use a 1/4" drill bit to drill a hole in the middle of the plate/soup can lid. Plug the connector into this hole. Solder the copper wire to the solder cup.
- 
+
 
 ### Install the probe
  Drill a
@@ -110,10 +94,10 @@ Just a few terminology things to mention here. The horn has what we call a "beam
 ![horn](assets/opt_horn.png){:height="50%" width="50%"}
 
 
-## Data Capture Computer 
+## Data Capture Computer
 
 A computer is needed to record data from the radio.  Here we describe how to make a dedicated raspberry pi setup. You
-can also use a laptop. We use a pi because it is cheaper and easier to maintain. 
+can also use a laptop. We use a pi because it is cheaper and easier to maintain.
 
 
 
@@ -127,7 +111,7 @@ can also use a laptop. We use a pi because it is cheaper and easier to maintain.
 
 
 ### Burn your Micro SD Card
-We provide a ready to run SD card image which can get you started. 
+We provide a ready to run SD card image which can get you started.
 
 1. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/).
 2. Use an SD card burner to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/) or [Balena Etcher](https://etcher.balena.io/).
@@ -138,13 +122,12 @@ To get started, we need to make sure that all our wires are hooked up and ready 
  - install sd card and turn on the Pi
  - navigate to the WiFi setup screen and log in to your local wifi (this is a nice to have, but not required for data
    taking)
- 
+
 ![pi setup](assets/rasp_set_up.jpeg){:height="50%" width="50%"}
 
 ### Test your setup
 
-Open a terminal and run `gui.py`. Success will look like a window opening with some boxes asking for input. 
+Click the `chart-observe` link on the Desktop of the pi, then click "execute in terminal." Success will look like a window opening with some boxes asking for input. 
 
 
 If this works, you're ready to observe! See the [Observing](Observing) page for details.
-
