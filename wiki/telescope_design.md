@@ -114,7 +114,9 @@ can also use a laptop. We use a pi because it is cheaper and easier to maintain.
 We provide a ready to run SD card image which can get you started.
 
 1. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/).
+  - If you're ambitious and want to install the software from scratch, you can follow our "Creating a Disk Image" instructions in the [github repo](https://github.com/astrochart/CHART).
 2. Use an SD card burner to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/) or [Balena Etcher](https://etcher.balena.io/).
+
 ### Set up your RPi
 To get started, we need to make sure that all our wires are hooked up and ready to go.
 
@@ -125,9 +127,17 @@ To get started, we need to make sure that all our wires are hooked up and ready 
 
 ![pi setup](assets/rasp_set_up.jpeg){:height="50%" width="50%"}
 
+The CHART Pi image comes with all the software you need to run CHART and analyze data.
+If you want all the latest changes, you can **optionally** open a terminal and run the following commands to update.
+```bash
+cd ~/CHART
+git pull
+pip install .
+```
+
 ### Test your setup
 
-Click the `chart-observe` link on the Desktop of the pi, then click "execute in terminal." Success will look like a window opening with some boxes asking for input. 
+Click the `chart-observe` link on the Desktop of the pi, then click "execute in terminal." Success will look like a window opening with some boxes asking for input.
 
 
 If this works, you're ready to observe! See the [Observing](Observing) page for details.
