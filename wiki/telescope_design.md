@@ -111,11 +111,13 @@ can also use a laptop. We use a pi because it is cheaper and easier to maintain.
 
 
 ### Burn your Micro SD Card
-We provide a ready to run SD card image which can get you started.
+The Raspberry Pi uses SD cards to store the operating system. The operating system is the software that manages the computer hardware and software resources. You may be familiar with operating systems such as MacOS or Windows. On a laptop or desktop computer, the operating system usually is stored on the native storage space for the computer. The SD card is the "storage space" for the Pi operating system. You must have an SD card installed with an operating system to use your Pi. We provide a ready to run SD card image which can get you started, and has all the CHART software already installed. Run these instructions on a seperate computer, not the Raspberry Pi!
 
-1. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/).
+1. Remove the SD card from your Raspberry Pi (or, obtain a fresh one). The next steps will overwrite the current operating system, which will also delete any files currently on the Pi. If it is important to keep the current OS as is for another project, obtain a secondary SD card for CHART. You can then swap these SD cards back and forth depending on need.
+2. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/) on your computer (not the Pi!). This download may take some time as it is a large file. 
   - Those wishing to diverge from our "out of box" Pi setup will need to install the libraries. This is the path for hackers who want to help us fix bugs, make new features, or install on some other computer besides a Raspberry Pi. You can follow our install instructions on the [github repo](https://github.com/astrochart/CHART).
-2. Use an SD card burner to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/) or [Balena Etcher](https://etcher.balena.io/).
+3. Insert the SD card into the computer you will use to burn the image. Many modern computers will not have an SD card slot natively, you may have to use a dongle. 
+4. Use an SD card burning application to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/) or [Balena Etcher](https://etcher.balena.io/). When you select the OS, choose the chart.iso image that you downloaded in a previous step. 
 
 ### Set up your RPi
 To get started, we need to make sure that all our wires are hooked up and ready to go.
