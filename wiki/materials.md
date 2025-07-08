@@ -18,7 +18,7 @@ Be sure to review your own set up and available resources before purchasing.
 |----- | ----- | ------------: |
 | [Raspberry Pi 400](https://www.sparkfun.com/raspberry-pi-400-personal-computer-kit.html) | Bare bones RPis are good, but 400s are convenient | 100.00 |
 | [RTL-SDR kit](https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined) | The solo radio is cheaper, but doesn't come with the goodies. We recommend using the *RTL-SDR Blog* branded radio. | 47.95 |
-| [Nooelec Filter/amplifier](https://www.amazon.com/Nooelec-SAWbird-H1-Barebones-Applications/dp/B07XJLKQDN) | Unfortunately this item is **currently unavailable** (July 2025). We are looking for a substitute and will update ASAP. | --|
+| [Nooelec Filter/amplifier](https://www.amazon.com/Nooelec-SAWbird-H1-Barebones-Applications/dp/B07XJLKQDN) | Unfortunately this item is **currently unavailable** (July 2025). Nooelec anticipates stock returning in a couple months. | 39.95|
 | [Monitor](https://www.amazon.com/HAMTYSAN-Raspberry-Screen-Display-Window/dp/B0BGXB2Y67) | Must use 5V to power from battery. | 35.99 |
 |[10 Ah portable chargers](https://www.amazon.com/10000mAh-Portable-Charger-External-Compatible/dp/B094Y1R46V) | Shop around, double check USB in/outs to match ports on Pi and monitor | 8.49 |
 | [SMA panel mount connectors](https://www.amazon.com/gp/product/B078H4F8R6) | Pack of five | 7.99 |
