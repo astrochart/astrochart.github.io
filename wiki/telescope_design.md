@@ -41,8 +41,8 @@ metal and make a much more effective horn.
 Here is a completed horn!
 ![Completed Horn](assets/chart.png){:style="height: 75%; width: 75%; display:block; margin-left:auto; margin-right:auto"}
 
-### Add the Probe
-The probe is the focal point of the horn. This is where we connect our radio!  It is a small length of wire soldered to an RF
+## Add the probe
+The probe is the focal point of the horn. This is where we connect our radio!  It is a small length (6.3 cm) of wire soldered to an RF
 connector mounted to a piece of sheet metal. The RF connector is plugged directly into a low noise amplifier and
 passband filter.
 
@@ -54,11 +54,10 @@ here.  Try new materials! Let us know what works better.
 
 ![materials](assets/materials.png){:height="50%" width="50%"}
 
-### Make the Probe
-Use a 1/4" drill bit to drill a hole in the middle of the plate/soup can lid. Plug the connector into this hole. Solder the copper wire to the solder cup.
+### Make and install the probe
+Cut some 22 gauge solid wire to a length of 6.3 cm and strip a short segment. Solder the bare end of wire into the solder cup.
+Use a 1/4" drill bit to drill a hole in the middle of the plate/soup can lid. Plug the connector into this hole.
 
-
-### Install the probe
  Drill a
 1/4" hole into the wide side of the waveguide which has been glued down. Put the hole on center line about 7cm up from
 the bottom.
@@ -66,6 +65,7 @@ the bottom.
 
 *Note: remember how we set aside the small back panel piece? We did that to make it easy to reach through that opening
 of the horn and carry out these next steps.*
+
 
 
 
