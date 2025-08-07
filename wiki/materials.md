@@ -22,7 +22,7 @@ Be sure to review your own set up and available resources before purchasing.
 || [USB to USB-C Cable](https://www.amazon.com/dp/B089DK2285) | Used to power the RPi. Pack of two. | 5.99 |
 || [SD Card reader](https://www.walmart.com/ip/seort/969779658) | | 8.48 |
 || [Ethernet cable](https://www.amazon.com/Ethernet-Outdoor-Connector-Weatherproof-Resistant/dp/B07QLXC6QR) | Can also use WiFi if preferred. | 5.99 |
-|Signal chain | [RTL-SDR kit](https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined) | The solo radio is cheaper, but doesn't come with the goodies. We recommend using the *RTL-SDR Blog* branded radio. | 47.95 |
+|Signal chain | [RTL-SDR kit]([https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined](https://www.amazon.com/RTL-SDR-Blog-RTL2832U-Software-Defined/dp/B0CD7558GT)) | The solo radio is cheaper, but doesn't come with the goodies. We recommend using the *RTL-SDR Blog* branded radio. | 47.95 |
 || [Nooelec Filter/amplifier](https://www.amazon.com/Nooelec-SAWbird-H1-Barebones-Applications/dp/B07XJLKQDN) | Unfortunately this item is **currently unavailable** (July 2025). Nooelec anticipates stock returning in a couple months. | 39.95|
 || [SMA M-M adaptor](https://www.amazon.com/exgoofit-Connector-5-Pack-Coaxial-Adapter/dp/B07FDHBS19) | If using the SMA cable in RTL-SDR kit, this is needed to connect filter to cable. Comes in kit of five pairs | 6.01 |
 || [SMA right angle](https://www.amazon.com/CNARIO-Adapter-Connector-Antenna-Two-Way/dp/B0DT88DNXY) | Connects panel mount to filter. | 4.79 |
