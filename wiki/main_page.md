@@ -9,8 +9,6 @@ Radio astronomy is a fun and cheap way to observe the sky. Our goal with this pr
 
 ![system setup](assets/chart.png){:width="50%"}
 
-Here is a video introduction to the project.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XAxNngnJvUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Get Started
 To read about the science, you can check out the [Science Background](science.html) page. Then, to build your telescope, acquire the materials listed on the [Telescope Construction](telescope_design.html) page, which also includes instructions to build the horn that will function as your telescope and set up the software. 
