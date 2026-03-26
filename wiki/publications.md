@@ -18,6 +18,7 @@ Publications
 10. A. Nelander & S. Jones [Testing CHART in Quadrant I From Gilbert and Tempe Arizona](memos/2024.07.09_TempeGilbertComparison.pdf), 9 July, 2024.
 11. C. Fitzgerald, S. Michaud & A. Beardsley [Testing New Updates for CHART](memos/TestingNewUpdatesforCHART.pdf), 10 July, 2024.
 12. C. Fitzgerald, S. Michaud & A. Beardsley [Rotational Curve of the Inner Galaxy](memos/2024.07.18RotationalCurveoftheInnerGalaxy.pdf), 18 July, 2024.
+13. A. Beardsley & C. Fitzgerald [Calibration Strategies](memos/2026.08.22_Calibration_strategies.pdf), 22 Aug, 2025
 
 ##### Posters
 
