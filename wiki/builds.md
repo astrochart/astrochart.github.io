@@ -1,13 +1,17 @@
 ---
 id: builds
 ---
-Featured Builds
+Community Builds
 ===
 
 Here are some stories from people who have built their own CHART. If you want us
 to highlight your build, tell us about it by signing up for our
 [Google Group](https://groups.google.com/u/1/g/astrochart/) and sending a summary, or
 [email the project mentors directly](mailto:astrochartproject@gmail.com).
+
+<div align="center"><iframe src="https://www.google.com/maps/d/u/1/embed?mid=1tf58mb1arKZsweu0ZZLQyEQon6SK6y4&ehbc=2E312F&noprof=1" width="75%" height="450" ></iframe></div>
+
+
 
 Petrified Forest National Park
 -----------------------------
