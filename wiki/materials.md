@@ -29,7 +29,7 @@ Be sure to review your own set up and available resources before purchasing.
 || [SMA panel mount connectors](https://www.amazon.com/gp/product/B078H4F8R6) | Pack of five | 7.99 |
 || [6.3 cm of 22 AWG solid wire](https://www.amazon.com/0-35mm%C2%B2-Electrical-Colors-Tinned-breadboard/dp/B09WHQ18KL) | | -- |
 || Soup can lid | e.g. from a can of beans | -- |
-|Horn| Cardboard | 4 36" x 48" sturdy sheets. Refrigerator boxes found behind your local appliance store work well. | -- |
+|Horn| Cardboard | 4 36" x 48" sturdy sheets. Refrigerator boxes found behind your local appliance store work well. <br>While typically more expensive, [foil lined insulation foam boards](https://www.homedepot.com/p/RMAX-Pro-Select-R-Matte-Plus-3-0-5-in-x-48-in-x-8-ft-R-3-2-ISO-Rigid-Foam-Board-Insulation-637902/313501506) are a really nice alternative to the coardboard + foil. | -- |
 || [Heavy duty aluminum foil](https://www.menards.com/main/kitchen/kitchen-essentials/food-storage/durable-trade-heavy-duty-aluminum-foil-75-sq-ft/98775hd/p-1452209504568-c-7139.htm) | Available in most supermarkets, etc. Need about 75 square feet | 7.09 |
 || [Aluminum foil tape](https://www.menards.com/main/paint/adhesives-glue-tape/tape/foil-tape/duck-reg-all-purpose-1-88-x-10-yd-aluminum-foil-tape/280416/p-1444442301284-c-7181.htm?exp=false) | Available at most hardware stores. | 4.42 |
 |Tools | [Hot glue gun and glue sticks](https://www.amazon.com/Gorilla-8401509-Hot-Glue-Sticks/dp/B07K791YRP) | | 20.99 |
