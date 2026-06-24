@@ -117,7 +117,7 @@ The Raspberry Pi uses SD cards to store the operating system. The operating syst
 2. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/) on your computer (not the Pi!). This download may take some time as it is a large file. 
   - Those wishing to diverge from our "out of box" Pi setup will need to install the libraries. This is the path for hackers who want to help us fix bugs, make new features, or install on some other computer besides a Raspberry Pi. You can follow our install instructions on the [github repo](https://github.com/astrochart/CHART).
 3. Insert the SD card into the computer you will use to burn the image. Many modern computers will not have an SD card slot natively, you may have to use a dongle. 
-4. Use an SD card burning application to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/) or [Balena Etcher](https://etcher.balena.io/). When you select the OS, choose the chart.iso image that you downloaded in a previous step. If you're using the Raspberry Pi imager, you need to scroll to the bottom of the options and select "Use custom."
+4. Use an SD card burning application to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/). When you select the OS, choose the chart image that you downloaded in a previous step. If you're using the Raspberry Pi imager, you need to scroll to the bottom of the options and select "Use custom."
 
 ### Set up your RPi
 To get started, we need to make sure that all our wires are hooked up and ready to go.
