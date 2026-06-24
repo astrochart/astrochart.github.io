@@ -4,8 +4,8 @@ id: observing
 Observing
 ===
 
-**NOTE:** If you are using the version 1 version of the data collection software, you will want to follow [those observing instructions](observing_v1.html). 
-Or even better, upgrade to the [latest version](telescope_design.html#burn-your-micro-sd-card)!
+**NOTE:** This is the observing guide associated with the version 1 data collections software.
+If you are using the current version, go to the main [Observing](observing.html) page.
 
 ## Planning
 
