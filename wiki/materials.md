@@ -16,7 +16,7 @@ Be sure to review your own set up and available resources before purchasing.
 
 | Category | Item/Link | Notes | Approx. Cost (USD)|
 |----- | ---- | ----- | ------------: |
-| Computer | [Raspberry Pi 400](https://www.sparkfun.com/raspberry-pi-400-personal-computer-kit.html) | Bare bones RPis are good, but 400s are convenient | 100.00 |
+| Computer | [Raspberry Pi 400](https://www.sparkfun.com/raspberry-pi-400-personal-computer-kit.html) | Bare bones RPis are good, but 400s are convenient. RPi 5 (or 500) also works, but we have done more thorough testing with the 4 (400), and it is cheaper. | 100.00 |
 || [Monitor](https://www.amazon.com/HAMTYSAN-Raspberry-Screen-Display-Window/dp/B0BGXB2Y67) | Must use 5V to power from battery. | 35.99 |
 || [10 Ah portable chargers](https://www.amazon.com/10000mAh-Portable-Charger-External-Compatible/dp/B094Y1R46V) | Shop around, double check USB in/outs to match ports on Pi and monitor | 8.49 |
 || [USB to USB-C Cable](https://www.amazon.com/dp/B089DK2285) | Used to power the RPi. Pack of two. | 5.99 |
