@@ -115,11 +115,15 @@ Essentials:
 - Tape, aluminum tape, foil
 - Notebook, pen, [observing sheets](memos/IntheFieldObservingForm.pdf)
 - Phone (for determining pointing)
+
 If needed and available:
 - RF Explorer
 - Table
 - Garden stakes, lawn chair, boxes for propping up horn
 - Tarp (to stay dry on wet grass)
+- Sunscreen
+- Bug spray (long pants and sleeves)
+- Flashlight or headlamp
 
 ### Assembly
 
@@ -134,7 +138,7 @@ If needed and available:
 ![mouse](assets/setup/mouse.png)
 - Plug the small end of the HDMI cable into the Raspberry Pi and the large end into the monitor.
 ![HDMI](assets/setup/hdmi_connection.png)
-- Plug the small end of the USB-C cable into the Raspberry Pi where the power symbol is, and the plug the large end into the battery.
+- Plug the small end of the USB-C cable into the Raspberry Pi where the power symbol is, and plug the large end into the battery.
 ![pi power](assets/setup/pi_power.png)
 - Plug the small end of the USB micro B cable into the "power only" spot in the monitor, and the large end into the battery.
 ![monitor power](assets/setup/monitor_power.png)
@@ -146,26 +150,22 @@ If needed and available:
 ![setup](assets/setup.jpg){:height="75%" width="75%"}
 
 ## Taking Data
-We created a GUI (Graphical User Interface) to make taking data easy.
+We will use the same Graphical User Interface (GUI) that we used for planning, now for taking data.
 
 - Open the chart-observe file on the Pi's desktop.
-![open GUI](assets/open_gui.png)
-- Click "execute in terminal."
+- If you used the [GUI for planning](#chart-gui-planning), and saved your settings, it should auto-populate your location. If not, go ahead and put in your name and location.
+- Without internet access, a Raspberry Pi doesn't know what time it is. So if the system time is off, use the button at the top of the window to "Set System DateTime." You should only need to do this once on a fresh boot-up. But it doesn't hurt to keep an eye on it if you are observing for an extended time.
 - Enter the parameters you want to use for taking data.
-  - You can use all the default parameters by clicking the slider at the bottom.
-If you do not change a value in a text area, the default parameter will be used as shown below.
-  - Initial and final frequencies set the lowest and highest frequency tunings for your observation, in MHz.
-  - Integration time sets how long the data is averaged, in seconds, for each data point.
-  - Number of integrations is the number of time averaged data points per frequency tuning.
-![GUI window](assets/gui_window.png)
+  - Your altitude and azimuth should be measured based on where your horn is actually pointed, not necessary exactly what was planned.
+  - A short description will help you remember what you were doing with the observation.
+  - The Frequency Scan parameters will determine the range of frequencies observed, as well as how much time is spent on each frequency tuning. You can use the default parameters by setting the slider at the top.
 - The **Enable Bias-T** option should only be used if you know **for sure** that you are using a bias-T. If you are following this tutorial exactly, then Bias-T SHOULD be on. This is what turns on the LNA, which should have a bright white light on when taking data.
   - A [bias-T](https://en.wikipedia.org/wiki/Bias_tee) is a small bit of circuitry used to power an amplifier on the same cable as the radio signal.
   - If you are using the Nooelec filter and amplifier we recommend, then you do have a bias-T and should enable this setting.
   - When you enable the bias-T you will see a warning message. You can close this window pop-up and continue once you confirm you do want it enabled.
-![Bias T Warning](assets/bias_T_warning.png)
-- Write a short description explaining what you are looking at in the sky.
-- Enter your username for Jupyter Hub, the location you are taking data, trial of the day in this location, date in the format month.day.year, and current time.
-  - You can use system time if the time in the upper right corner of your screen is correct. You can also use it when you are connected to the internet.
 - Click "Start."
-  - You can stop the trial at any time by clicking "Stop."
-  - Once "Start" is re-enabled, the data has been taken and you can now take more data.
+  - The window at the bottom will show the status of the scan.
+  - When your scan is complete, a graph should pop up showing a rough analysis of the data you just took. If all went well, you should be able to see a 21cm emission line somewhere in the shaded green region.
+- Repoint your horn, update the observing parameters, and keep exploring the galaxy!
+
+When you're done collecting data, and probably when you're back in the comfort of the indoors, you'll want to procede to our [Analysis](analysis.html) section.
