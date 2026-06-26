@@ -9,7 +9,11 @@ to highlight your build, tell us about it by signing up for our
 [Google Group](https://groups.google.com/u/1/g/astrochart/) and sending a summary, or
 [email the project mentors directly](mailto:astrochartproject@gmail.com).
 
-<div align="center"><iframe src="https://www.google.com/maps/d/u/1/embed?mid=1tf58mb1arKZsweu0ZZLQyEQon6SK6y4&ehbc=2E312F&noprof=1" width="75%" height="450" ></iframe></div>
+The map below shows locations of CHART builds. The plot is just for fun showing the "baselines" for a hypothetical [long-baseline interferometry](https://en.wikipedia.org/wiki/Very-long-baseline_interferometry) CHART.
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:1rem 0;"><iframe src="https://www.google.com/maps/d/u/1/embed?mid=1tf58mb1arKZsweu0ZZLQyEQon6SK6y4&ehbc=2E312F&noprof=1" style="width:48%; min-width:300px; height:375px; border:0;"></iframe>
+<img src="assets/scripts/chart_baselines.png" style="width:48%; min-width:300px; max-height:375px; height:auto; object-fit:contain;">
+</div>
 
 
 
