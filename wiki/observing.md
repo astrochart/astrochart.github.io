@@ -165,6 +165,7 @@ We will use the same Graphical User Interface (GUI) that we used for planning, n
   - When you enable the bias-T you will see a warning message. You can close this window pop-up and continue once you confirm you do want it enabled.
 - Click "Start."
   - The window at the bottom will show the status of the scan.
+  - Be sure to note down the directory for your run. It should look something like `/home/pi/data/YourName_DateTime`
   - When your scan is complete, a graph should pop up showing a rough analysis of the data you just took. If all went well, you should be able to see a 21cm emission line somewhere in the shaded green region.
 - Repoint your horn, update the observing parameters, and keep exploring the galaxy!
 
