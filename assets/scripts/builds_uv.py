@@ -1,3 +1,8 @@
+# To generate the input csv file: 
+# Go to the CHART builds google map,
+# Click the three dots next to the "Builds" layer,
+# Select Export Data -> CSV
+
 import matplotlib.pyplot as plt
 import numpy as np
 

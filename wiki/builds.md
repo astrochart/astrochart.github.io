@@ -9,7 +9,11 @@ to highlight your build, tell us about it by signing up for our
 [Google Group](https://groups.google.com/u/1/g/astrochart/) and sending a summary, or
 [email the project mentors directly](mailto:astrochartproject@gmail.com).
 
-The map below shows locations of CHART builds. The plot is just for fun showing the "baselines" for a hypothetical [long-baseline interferometry](https://en.wikipedia.org/wiki/Very-long-baseline_interferometry) CHART.
+The map below shows locations of CHART builds.
+In principle, combining many small telescopes spread out like this can result in a very powerful telescope with extremely high resolution.
+The technique is called [long-baseline interferometry](https://en.wikipedia.org/wiki/Very-long-baseline_interferometry), and it's how radio astronomers were able to produce [images of black holes](https://www.jpl.nasa.gov/edu/resources/teachable-moment/how-scientists-captured-the-first-image-of-a-black-hole/).
+The plot on the right is just for fun, showing all the telescope pairs for such a hypothetical interferometer.
+Of course, this is far beyond the capabilities of CHART, and there are no (current) plans to do this.
 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:1rem 0;"><iframe src="https://www.google.com/maps/d/u/1/embed?mid=1tf58mb1arKZsweu0ZZLQyEQon6SK6y4&ehbc=2E312F&noprof=1" style="width:48%; min-width:300px; height:375px; border:0;"></iframe>
 <img src="assets/scripts/chart_baselines.png" style="width:48%; min-width:300px; max-height:375px; height:auto; object-fit:contain;">
