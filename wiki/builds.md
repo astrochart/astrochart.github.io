@@ -16,7 +16,7 @@ The plot on the right is just for fun, showing all the telescope pairs for such 
 Of course, this is far beyond the capabilities of CHART, and there are no (current) plans to do this.
 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin:1rem 0;"><iframe src="https://www.google.com/maps/d/u/1/embed?mid=1tf58mb1arKZsweu0ZZLQyEQon6SK6y4&ehbc=2E312F&noprof=1" style="width:48%; min-width:300px; height:375px; border:0;"></iframe>
-<img src="https://raw.githubusercontent.com/astrochart/chart-baselines-generator/master/assets/scripts/chart_baselines.png" style="width:48%; min-width:300px; max-height:375px; height:auto; object-fit:contain;" alt="CHART build baselines">
+<img src="https://raw.githubusercontent.com/astrochart/chart-baselines-generator/main/assets/scripts/chart_baselines.png" style="width:48%; min-width:300px; max-height:375px; height:auto; object-fit:contain;" alt="CHART build baselines">
 </div>
 
 
