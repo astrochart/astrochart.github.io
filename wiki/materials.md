@@ -18,7 +18,7 @@ Be sure to review your own set up and available resources before purchasing.
 |----- | ---- | ----- | ------------: |
 | Computer | [Raspberry Pi 400](https://www.sparkfun.com/raspberry-pi-400-personal-computer-kit.html) | Bare bones RPis are good, but 400s are convenient | 100.00 |
 || [Monitor](https://www.amazon.com/HAMTYSAN-Raspberry-Screen-Display-Window/dp/B0BGXB2Y67) | Must use 5V to power from battery. | 36.99 |
-|| [10 Ah portable chargers](https://www.amazon.com/10000mAh-Portable-Charger-External-Compatible/dp/B094Y1R46V) | Link is a pack of two. Shop around, double check USB in/outs to match ports on Pi and monitor | 19.99 |
+|| [10 Ah portable chargers](https://www.amazon.com/Miady-10000mAh-Portable-Charger-Charging/dp/B07XFBN7HX) | Link is a pack of two. Shop around, double check USB in/outs to match ports on Pi and monitor | 19.99 |
 || [USB to USB-C Cable](https://www.amazon.com/dp/B089DK2285) | Used to power the RPi. Pack of two. | 5.99 |
 || [SD Card reader](https://www.walmart.com/ip/seort/969779658) | | 7.48 |
 || [Ethernet cable](https://www.amazon.com/Ethernet-Outdoor-Connector-Weatherproof-Resistant/dp/B07QLXC6QR) | Can also use WiFi if preferred. | 5.99 |
