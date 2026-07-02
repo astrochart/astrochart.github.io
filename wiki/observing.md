@@ -5,7 +5,8 @@ Observing
 ===
 
 **NOTE:** If you are using the version 1 data collection software, you will want to follow [those observing instructions](observing_v1.html). 
-Or even better, upgrade to the [latest version](telescope_design.html#burn-your-micro-sd-card)!
+Or even better, upgrade to the [latest version](telescope_design.html#burn-your-micro-sd-card)! If you're unsure which version you're using, have a look at your Raspberry Pi desktop image. If it looks like the left image below, you're on version 1. The right image is version 2.
+![software version comparison](assets/GUIv2/version_compare.png){:width="75%"}
 
 ## Planning
 
