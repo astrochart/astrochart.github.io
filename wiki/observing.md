@@ -34,7 +34,11 @@ The Stellarium app or website will show what is in the sky at your location. We 
 
 ![stell](assets/stellarium.png){:height="75%" width="75%"}
 
-Make sure to change the location to your current location. We recommend turning off the atmosphere with the button labelled "atmosphere" at the bottom. This will let you see where the Galaxy is during the day time as well as the night time. Fortunately, unlike optical astronomy, we can do radio measurements of the Milky Way during the day!
+Make sure to change the location to your current location.
+NOTE: Stellarium uses your current actual location for its time system.
+So even if you set the location to elsewhere (e.g., if you want to analyze data taken in a different time zone), Stellarium will be showing the time in your current time zone, not at the location you choose.
+
+We recommend turning off the atmosphere with the button labelled "atmosphere" at the bottom. This will let you see where the Galaxy is during the day time as well as the night time. Fortunately, unlike optical astronomy, we can do radio measurements of the Milky Way during the day!
 
 ![stell](assets/atmosphere.png){:height="75%" width="75%"}
 
@@ -130,6 +134,7 @@ If needed and available:
 
 - Place telescope on ground.
 - Connnect the Nooelec amp and filter onto the horn by twisting the bolt.
+If you are using the barebones amplifier (as we are in the photo below), use a piece of duct tape to cover the bottom of the circuit board. If the electrical connections come in contact with the foil on the horn, it will short the amp and potentiall break it.
 ![connect filter](assets/setup/nooelec_connection.png)
 - Connect the Noelec amp and filter to the RTL-SDR using the SMA cable.
 ![connect radio](assets/setup/radio_connection.png)
@@ -144,6 +149,7 @@ If needed and available:
 - Plug the small end of the USB micro B cable into the "power only" spot in the monitor, and the large end into the battery.
 ![monitor power](assets/setup/monitor_power.png)
 - Once everything is plugged in, the screen should light up and the Pi should boot up.
+- Make sure your Pi and monitor are as far from the horn as you can get them. A few meters is far enough, but we have found that if they're close they can cause interference with the data.
 - Point towards desired location on sky, use compass and level apps on phone to guide.
 - Set to desired angle, using props to make sure the telescope remains at the same angle.
 - Hold telescope throughout the data collection.
