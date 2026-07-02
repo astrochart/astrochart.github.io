@@ -102,8 +102,8 @@ can also use a laptop. We use a pi because it is cheaper and easier to maintain.
 
 
 ### Materials
- - Raspberry Pi 4
- - Micro SD Card (32GB)
+ - Raspberry Pi 4 or 5
+ - Micro SD Card (at least 16 GB)
  - RTL-SDR
  - A computer monitor
  - Keyboard
@@ -114,20 +114,25 @@ can also use a laptop. We use a pi because it is cheaper and easier to maintain.
 The Raspberry Pi uses SD cards to store the operating system. The operating system is the software that manages the computer hardware and software resources. You may be familiar with operating systems such as MacOS or Windows. On a laptop or desktop computer, the operating system usually is stored on the native storage space for the computer. The SD card is the "storage space" for the Pi operating system. You must have an SD card installed with an operating system to use your Pi. We provide a ready to run SD card image which can get you started, and has all the CHART software already installed. Run these instructions on a seperate computer, not the Raspberry Pi!
 
 1. Remove the SD card from your Raspberry Pi (or, obtain a fresh one). The next steps will overwrite the current operating system, which will also delete any files currently on the Pi. If it is important to keep the current OS as is for another project, obtain a secondary SD card for CHART. You can then swap these SD cards back and forth depending on need.
-2. Download the latest [CHART Pi image](https://galileo.sese.asu.edu/chart/) on your computer (not the Pi!). This download may take some time as it is a large file. 
-  - Those wishing to diverge from our "out of box" Pi setup will need to install the libraries. This is the path for hackers who want to help us fix bugs, make new features, or install on some other computer besides a Raspberry Pi. You can follow our install instructions on the [github repo](https://github.com/astrochart/CHART).
+2. Download the latest [CHART Pi image (`chart.img`)](https://galileo.sese.asu.edu/chart/) on your computer (not the Pi!). This download may take some time as it is a large file. 
+    - Those wishing to diverge from our "out of box" Pi setup will need to install the libraries. This is the path for hackers who want to help us fix bugs, make new features, or install on some other computer besides a Raspberry Pi. You can follow our install instructions on the [github repo](https://github.com/astrochart/CHART).
 3. Insert the SD card into the computer you will use to burn the image. Many modern computers will not have an SD card slot natively, you may have to use a dongle. 
-4. Use an SD card burning application to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/) or [Balena Etcher](https://etcher.balena.io/). When you select the OS, choose the chart.iso image that you downloaded in a previous step. 
+4. Open an SD card burning application to write the image to an SD card. We like the official [Raspberry Pi imager](https://www.raspberrypi.com/software/). 
+  <ol style="list-style-type: lower-alpha; margin-left:1.5rem;">
+    <li>Select your device. The Raspberry Pi 400 falls under the family of Raspberry Pi 4.</li>
+    <li>Select the Operating System (OS). Choose the chart image that you downloaded in a previous step. If you're using the Raspberry Pi imager, you need to scroll to the bottom of the options and select "Use custom." </li>
+    <li>Select the storage drive. It helps to choose "Exclude system drives" to make sure you don't accidentally select the hard drive your computer runs on. If multiple drives appear and you're not sure which one is your SD card, try removing any other external drives (e.g. flash drives).</li>
+    <li>Write to the SD card. The program will ask you to confirm that you really want to do this because it will erase everything that's currently on the drive. Writing and verifying will take a few minutes. Don't be alarmed if the Writing phase goes up past 400% complete - this is a quirk of how we compressed the image size for easy download.</li>
+  </ol>
 
 ### Set up your RPi
 To get started, we need to make sure that all our wires are hooked up and ready to go.
 
  - Set up your Pi with monitor, keyboard, and power source
- - install sd card and turn on the Pi
- - navigate to the WiFi setup screen and log in to your local wifi (this is a nice to have, but not required for data
+ - Install SD card and turn on the Pi
+ - Navigate to the WiFi setup screen and log in to your local wifi (this is a nice to have, but not required for data
    taking)
 
-![pi setup](assets/rasp_set_up.jpeg){:height="50%" width="50%"}
 
 The CHART Pi image comes pre setup ready to observe the 21cm line and analyze the data.
 If you want all the latest changes, you can **optionally** open a terminal and run the following commands to update.
@@ -139,7 +144,7 @@ pip install .
 
 ### Test your setup
 
-Double click the `chart-observe` link on the Desktop of the pi, then click "execute in terminal" in the pop-up window. Success will look like a window opening with some boxes asking for input.
+Double click the `chart-observe` link on the Desktop of the pi. If you are using a version 1.x of the software, you will then click "execute in terminal" in the pop-up window. Success will look like a window opening with some boxes asking for input.
 
 
 If this works, you're ready to observe! See the [Observing](Observing) page for details.
