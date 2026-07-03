@@ -4,7 +4,7 @@ id: workshops
 Workshops
 ===
 
-We offer workshops to learn how to build and use CHART. Watch this page for details on how to sign up, or [email us](mailto:astrochartproject@gmail.com) to be the first to hear of upcoming events.
+We offer workshops to learn how to build and use CHART. Watch this page for details on how to sign up, or [join our mailing list](https://groups.google.com/u/1/g/astrochart/) to be the first to hear of upcoming events.
 
 ### Upcoming Workshops
 - [WSU ALPhA Immersion](https://advlab.org/Imm2026Winona_RadioTelescope), July 9-11, 2026 in Winona, MN. This will be an immersive three-day workshop geared toward university faculty looking to add and advanced undergraduate lab to their curriculum.
