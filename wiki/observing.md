@@ -143,8 +143,13 @@ If needed and available:
 - Plug the small end of the USB micro B cable into the "power only" spot in the monitor, and the large end into the battery.
 ![monitor power](assets/setup/monitor_power.png)
 - Once everything is plugged in, the screen should light up and the Pi should boot up.
-- Point towards desired location on sky, use compass and level apps on phone to guide.
-- Set to desired angle, using props to make sure the telescope remains at the same angle.
+- Point towards desired location on sky, use compass and level apps on phone to guide.<br>
+Tips for measuring altitude and azimuth:
+  - We typically use a compass and level app on our phones. These are built into the iPhone, Android users typically download an app. Whether using iOS or Android, the [phyphox](https://phyphox.org/) app works quite well and gives you great access to your phone's sensor data.
+  - When measuring the altitude, place your phone flat on the top part of the waveguide - not the slanted horn panel. Make sure the angles make sense. Sometimes the phone will display roll instead of pitch, so you want to be sure you're seeing the right thing.
+  - When measuring azimuth (i.e., compass bearing), place the top edge of the phone against the top panel of the horn and hold the phone flat. Again, double check that numbers are reasonable.
+  - Your compass will typically measure magnetic North unless you tell it you want True North (a setting in iOS). This is not typically a huge factor unless you live particularly far north or south.
+  - Remember to log your measured Altitude and Azimuth in the data collection GUI.
 - Hold telescope throughout the data collection.
 
 ![setup](assets/setup.jpg){:height="75%" width="75%"}
