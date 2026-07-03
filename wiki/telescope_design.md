@@ -81,8 +81,9 @@ Refer to the attached images.
 
    ![probe installed on mounting plate](assets/bottom_of_plate.png){:height="50%" width="50%"}
 
-4. Push the SMA from the inside through the cardboard hole so the metal plate is on the inside of the horn.
-Hot Tip #4:Use a pencil or similar instrument to widen the hole slightly after drilling. This will make screwing in the 90 degree connector much easier.
+4. Push the SMA from the inside through the cardboard hole so the metal plate is on the inside of the horn.<br>
+Hot Tip #1: Use a pencil or similar instrument to widen the hole slightly after drilling. This will make screwing in the 90 degree connector much easier.<br>
+Hot Tip #2: If you're using relatively thin cardboard (double wall), we've found the probe is much more secure if you use *two* soup can lids and sandwich the cardboard.
 5. Use foil tape to secure the metal plate and keep the inside of the horn completely reflective.
 6. Screw on the male to female 90 degree SMA connector from the outside of the horn.
 7. Screw on the male to male SMA connector to the 90 degree connector.

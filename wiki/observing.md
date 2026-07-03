@@ -150,8 +150,13 @@ If you are using the barebones amplifier (as we are in the photo below), use a p
 ![monitor power](assets/setup/monitor_power.png)
 - Once everything is plugged in, the screen should light up and the Pi should boot up.
 - Make sure your Pi and monitor are as far from the horn as you can get them. A few meters is far enough, but we have found that if they're close they can cause interference with the data.
-- Point towards desired location on sky, use compass and level apps on phone to guide.
-- Set to desired angle, using props to make sure the telescope remains at the same angle.
+- Point towards desired location on sky, use compass and level apps on phone to guide.<br>
+Tips for measuring altitude and azimuth:
+  - We typically use a compass and level app on our phones. These are built into the iPhone, Android users typically download an app. Whether using iOS or Android, the [phyphox](https://phyphox.org/) app works quite well and gives you great access to your phone's sensor data.
+  - When measuring the altitude, place your phone flat on the top part of the waveguide - not the slanted horn panel. Make sure the angles make sense. Sometimes the phone will display roll instead of pitch, so you want to be sure you're seeing the right thing.
+  - When measuring azimuth (i.e., compass bearing), place the top edge of the phone against the top panel of the horn and hold the phone flat. Again, double check that numbers are reasonable.
+  - Your compass will typically measure magnetic North unless you tell it you want True North (a setting in iOS). This is not typically a huge factor unless you live particularly far north or south.
+  - Remember to log your measured Altitude and Azimuth in the data collection GUI.
 - Hold telescope throughout the data collection.
 
 ![setup](assets/setup.jpg){:height="75%" width="75%"}
@@ -174,8 +179,17 @@ We will use the same Graphical User Interface (GUI) that we used for planning, n
   - The window at the bottom will show the status of the scan.
   - Be sure to note down the directory for your run. It should look something like `/home/pi/data/YourName_DateTime`.
   - When your scan is complete, a graph should pop up showing a rough analysis of the data you just took. If all went well, you should be able to see a 21cm emission line somewhere in the shaded green region.
-  ![21cm spectrum](assets/GUIv2/21cm_spectrum.png)
+  ![21cm spectrum](assets/GUIv2/21cm_spectrum.png){: style="display:block; margin:0 auto; width:75%; min-width:300px;"}
   - If you missed your data directory, it should be the title of the plot that popped up.
 - Repoint your horn, update the observing parameters, and keep exploring the galaxy!
 
 When you're done collecting data, and probably when you're back in the comfort of the indoors, you'll want to procede to our [Analysis](analysis.html) section.
+
+### When things aren't quite right
+Sometimes things don't work right away, and that's ok! Below we've compiled a few things to check and troubleshoot. Of course you can always reach out to the [CHART mailing list](https://groups.google.com/u/1/g/astrochart/), or reach out to the [mentors directly](mailto:astrochartproject@gmail.com) if you need additional help.
+
+- Tighten all the SMA connections. They should be finger tight (and not much more than that).
+- Move the electronics as far from the horn as you can, especially the Pi and monitor. The plot below is an example of what data might look like with interference from the Pi and monitor. It looks rough, but actually not the end of the world! It can be cleaned up a lot in the analysis step.<br>
+![interference data](assets/interference_data.png){: style="display:block; margin:0 auto; width:65%; min-width:300px;"}
+- Consider your surroundings. Radio waves go right through clouds, but buildings, cars, trees, bluffs, etc are another matter. Buildings especially can cause all kinds of crazy reflections and offer their own interference that spoils an observation.
+

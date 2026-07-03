@@ -7,8 +7,11 @@ The Completely Hackable Amateur Radio Telescope
 ======
 Radio astronomy is a fun and cheap way to observe the sky. Our goal with this project is to create an easy to navigate system of tutorials that will lead to you in building your own radio telescope in your home or classroom and then observing the sky with it. The horn is made of cardboard and the other parts are easy to find. The goal is to keep the total cost to under $200. The tutorials provide all the knowledge and software needed to build your CHART instrument and measure and analyze the spiral structure of our own galaxy, the Milky Way. 
 
-![system setup](assets/chart.png){:width="50%"}
-
+![system setup](assets/chart.png){: style="float: left; width: 49%; min-width: 300px"}
+![MW Rotation Curve](assets/rot_curve.png){: style="float: left; width: 49%; padding-top: 3%; padding-bottom: 3%; min-width: 300px"}  
+<div style="clear: both;"></div>
+Left is a CHART horn on the roof of a building at Arizona State University.
+Right is a graph showing the velocity of hydrogen gas in the Milky Way galaxy measured by participants at one of our [workshops](workshops.html), compared to a professional survey. Rotation curves like this is one way to show evidence for [dark matter](https://en.wikipedia.org/wiki/Dark_matter)! The tutorials on this site will walk you through building your own telescope, planning and carrying out observations, and analyzing data to produce results like this.
 
 # Get Started
 To read about the science, you can check out the [Science Background](science.html) page. Then, to build your telescope, acquire the materials listed on the [Telescope Construction](telescope_design.html) page, which also includes instructions to build the horn that will function as your telescope and set up the software. 
