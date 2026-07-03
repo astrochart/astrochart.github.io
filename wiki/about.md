@@ -4,7 +4,7 @@ id: about
 About
 ===
 
-Contact us by [sending an email](mailto:astrochartproject@gmail.com) (forwards to the project mentors).
+You can join the conversation by joining our [mailing list](https://groups.google.com/u/1/g/astrochart/). Or reach out to the project mentors by [emailing us directly](mailto:astrochartproject@gmail.com).
 
 Why We Created This Project
 ---------------------------
