@@ -148,4 +148,4 @@ pip install .
 Double click the `chart-observe` link on the Desktop of the pi. If you are using a version 1.x of the software, you will then click "execute in terminal" in the pop-up window. Success will look like a window opening with some boxes asking for input.
 
 
-If this works, you're ready to observe! See the [Observing](Observing) page for details.
+If this works, you're ready to observe! See the [Observing](observing.html) page for details.
