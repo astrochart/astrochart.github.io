@@ -30,6 +30,10 @@ Publications
 3.  D. Morales, AAS Winter meeting  [FPGA Design with the Red Pitaya: Developing a spectrometer for H1 Observations](https://sites.google.com/view/dlmorales/research?authuser=0#h.hv94nswsa15t), January 2023
 4.  K. Ashcroft  [Visualization of Signal Processing for Radio Astronomy](memos/CHART_Poster.pdf)
 5.  R. Sharma  [Design and Construction of a Wayfinding Method for the Completely Hackable Amateur Radio Telescope](memos/Sharma_FURI.pdf)
+6.  C. Fitzgerald, WSU Research and Creative Achievement Day, [UnCHARTed: Measuring Beyond the Inner Galaxy](memos/2024_WSU_RCA_Fitzgerald.pdf), April 2024
+7.  S. Schneider, WSU Research and Creative Achievement Day, [CHART Protocol for Observing the Milky Way Galaxy](memos/2024_WSU_RCA_Schneider.pdf), April 2024
+8.  L. Schroeder, WSU Research and Creative Achievement Day, [Protected but active radio waves on WSU campus](memos/2024_WSU_RCA_Schroeder.pdf), April 2024
+9.  L. Liu, WSU Research and Creative Achievement Day, [Testing A New Amplifier For Affordable Radio Astronomy](memos/2026_WSU_RCA_Liu.pdf), April 2026
 
 ##### Talks
 
