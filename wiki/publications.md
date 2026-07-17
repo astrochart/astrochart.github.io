@@ -4,7 +4,7 @@ id: publications
 Publications
 ===
 
-##### Memos
+### Memos
 
 1.  A. Wright, L. Arndt, & A. Beardsley  [Testing Foil Outside CHART Horn](memos/2022.06.10_FoilTesting.pdf), 10 June, 2022.
 2.  A. Wright, L. Arndt, & A. Beardsley  [Testing Foil Outside CHART Horn, Part 2](memos/2022.06.17_FoilTesting2.pdf), 17 June, 2022.
@@ -23,7 +23,7 @@ Publications
 15. M.O. Lalonde, [CHART Antenna: The Imporance of Feed Length](memos/2025.12.03_CHART_feed_length.pdf), 3 December, 2025
 16. J. DuBois, [Rocking Horse Antenna Pointing for CHART Horn](memos/2025.12.03_CHART_Rocking_Horse.pdf), 3 December, 2025
 
-##### Posters
+### Posters
 
 1.  L. Arndt, AAS Winter Meeting  [User Interface for the Completely Hackable Amateur Radio Telescope](https://aas237-aas.ipostersessions.com/?s=51-93-98-44-7F-4E-92-52-1C-53-02-89-9A-6A-FC-53), January 2023
 2.  A. Wright, AAS Winter Meeting  [Design and Performance of the Completely Hackable Amateur Radio Telescope](https://aas237-aas.ipostersessions.com/?s=5F-BA-55-69-66-C2-01-24-0B-C6-77-4B-97-51-AF-1C), January 2023
@@ -35,11 +35,11 @@ Publications
 8.  L. Schroeder, WSU Research and Creative Achievement Day, [Protected but active radio waves on WSU campus](memos/2024_WSU_RCA_Schroeder.pdf), April 2024
 9.  L. Liu, WSU Research and Creative Achievement Day, [Testing A New Amplifier For Affordable Radio Astronomy](memos/2026_WSU_RCA_Liu.pdf), April 2026
 
-##### Talks
+### Talks
 
 1.  K. Ashcroft, GNURadioCon2023  [Visualization of Signal Processing for Radio Astronomy](https://www.youtube.com/live/LzkIl8sTvRY?si=qOqa4D2PfQcEPhXp&t=20702), September 2023
 2.  L. Berkhout, GNURadioCon2023  [Low-Cost Educational Kit for 21-cm Observations of the Milky Way](https://www.youtube.com/live/LzkIl8sTvRY?si=WjDNOb7DFqHlABgT&t=19722), September 2023
 
-##### Publications
+### Publications
 
 1.  L. Berkhout, A. Beardsley, D. Jacobs, R. Braithwaite, B. Gutierrez-Coatney, A. Islam and A. Wright  [The Completely Hackable Amateur Radio Telescope (CHART) project](https://iopscience.iop.org/article/10.1088/1361-6552/ad0542)
