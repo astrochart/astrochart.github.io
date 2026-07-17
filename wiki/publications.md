@@ -19,6 +19,9 @@ Publications
 11. C. Fitzgerald, S. Michaud & A. Beardsley [Testing New Updates for CHART](memos/TestingNewUpdatesforCHART.pdf), 10 July, 2024.
 12. C. Fitzgerald, S. Michaud & A. Beardsley [Rotational Curve of the Inner Galaxy](memos/2024.07.18RotationalCurveoftheInnerGalaxy.pdf), 18 July, 2024.
 13. A. Beardsley & C. Fitzgerald [Calibration Strategies](memos/2025.08.22_Calibration_strategies.pdf), 22 Aug, 2025
+14. T. Singh, S. Jones, T. Karasinksi, et al. [Detection of the Galactic 21cm Line Using CHART Horn Antenna](memos/2025.11.01_CHART_ASU_SES498.pdf), 1 November, 2025
+15. M.O. Lalonde, [CHART Antenna: The Imporance of Feed Length](memos/2025.12.03_CHART_feed_length.pdf), 3 December, 2025
+16. J. DuBois, [Rocking Horse Antenna Pointing for CHART Horn](memos/2025.12.03_CHART_Rocking_Horse.pdf), 3 December, 2025
 
 ##### Posters
 
