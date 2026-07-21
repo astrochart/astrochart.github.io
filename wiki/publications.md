@@ -22,6 +22,7 @@ Publications
 14. T. Singh, S. Jones, T. Karasinksi, et al. [Detection of the Galactic 21cm Line Using CHART Horn Antenna](memos/2025.11.01_CHART_ASU_SES498.pdf), 1 November, 2025
 15. M.O. Lalonde, [CHART Antenna: The Imporance of Feed Length](memos/2025.12.03_CHART_feed_length.pdf), 3 December, 2025
 16. J. DuBois, [Rocking Horse Antenna Pointing for CHART Horn](memos/2025.12.03_CHART_Rocking_Horse.pdf), 3 December, 2025
+17. N. Heier, [Comparison of Nano Vector Network Analyzers](memos/2026.07.20_comparing_vnas.pdf), 20 July, 2026
 
 ### Posters
 
