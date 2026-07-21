@@ -4,7 +4,7 @@ id: publications
 Publications
 ===
 
-##### Memos
+### Memos
 
 1.  A. Wright, L. Arndt, & A. Beardsley  [Testing Foil Outside CHART Horn](memos/2022.06.10_FoilTesting.pdf), 10 June, 2022.
 2.  A. Wright, L. Arndt, & A. Beardsley  [Testing Foil Outside CHART Horn, Part 2](memos/2022.06.17_FoilTesting2.pdf), 17 June, 2022.
@@ -19,20 +19,28 @@ Publications
 11. C. Fitzgerald, S. Michaud & A. Beardsley [Testing New Updates for CHART](memos/TestingNewUpdatesforCHART.pdf), 10 July, 2024.
 12. C. Fitzgerald, S. Michaud & A. Beardsley [Rotational Curve of the Inner Galaxy](memos/2024.07.18RotationalCurveoftheInnerGalaxy.pdf), 18 July, 2024.
 13. A. Beardsley & C. Fitzgerald [Calibration Strategies](memos/2025.08.22_Calibration_strategies.pdf), 22 Aug, 2025
+14. T. Singh, S. Jones, T. Karasinksi, et al. [Detection of the Galactic 21cm Line Using CHART Horn Antenna](memos/2025.11.01_CHART_ASU_SES498.pdf), 1 November, 2025
+15. M.O. Lalonde, [CHART Antenna: The Imporance of Feed Length](memos/2025.12.03_CHART_feed_length.pdf), 3 December, 2025
+16. J. DuBois, [Rocking Horse Antenna Pointing for CHART Horn](memos/2025.12.03_CHART_Rocking_Horse.pdf), 3 December, 2025
+17. N. Heier, [Comparison of Nano Vector Network Analyzers](memos/2026.07.20_comparing_vnas.pdf), 20 July, 2026
 
-##### Posters
+### Posters
 
 1.  L. Arndt, AAS Winter Meeting  [User Interface for the Completely Hackable Amateur Radio Telescope](https://aas237-aas.ipostersessions.com/?s=51-93-98-44-7F-4E-92-52-1C-53-02-89-9A-6A-FC-53), January 2023
 2.  A. Wright, AAS Winter Meeting  [Design and Performance of the Completely Hackable Amateur Radio Telescope](https://aas237-aas.ipostersessions.com/?s=5F-BA-55-69-66-C2-01-24-0B-C6-77-4B-97-51-AF-1C), January 2023
 3.  D. Morales, AAS Winter meeting  [FPGA Design with the Red Pitaya: Developing a spectrometer for H1 Observations](https://sites.google.com/view/dlmorales/research?authuser=0#h.hv94nswsa15t), January 2023
 4.  K. Ashcroft  [Visualization of Signal Processing for Radio Astronomy](memos/CHART_Poster.pdf)
 5.  R. Sharma  [Design and Construction of a Wayfinding Method for the Completely Hackable Amateur Radio Telescope](memos/Sharma_FURI.pdf)
+6.  C. Fitzgerald, WSU Research and Creative Achievement Day, [UnCHARTed: Measuring Beyond the Inner Galaxy](memos/2024_WSU_RCA_Fitzgerald.pdf), April 2024
+7.  S. Schneider, WSU Research and Creative Achievement Day, [CHART Protocol for Observing the Milky Way Galaxy](memos/2024_WSU_RCA_Schneider.pdf), April 2024
+8.  L. Schroeder, WSU Research and Creative Achievement Day, [Protected but active radio waves on WSU campus](memos/2024_WSU_RCA_Schroeder.pdf), April 2024
+9.  L. Liu, WSU Research and Creative Achievement Day, [Testing A New Amplifier For Affordable Radio Astronomy](memos/2026_WSU_RCA_Liu.pdf), April 2026
 
-##### Talks
+### Talks
 
 1.  K. Ashcroft, GNURadioCon2023  [Visualization of Signal Processing for Radio Astronomy](https://www.youtube.com/live/LzkIl8sTvRY?si=qOqa4D2PfQcEPhXp&t=20702), September 2023
 2.  L. Berkhout, GNURadioCon2023  [Low-Cost Educational Kit for 21-cm Observations of the Milky Way](https://www.youtube.com/live/LzkIl8sTvRY?si=WjDNOb7DFqHlABgT&t=19722), September 2023
 
-##### Publications
+### Publications
 
 1.  L. Berkhout, A. Beardsley, D. Jacobs, R. Braithwaite, B. Gutierrez-Coatney, A. Islam and A. Wright  [The Completely Hackable Amateur Radio Telescope (CHART) project](https://iopscience.iop.org/article/10.1088/1361-6552/ad0542)
