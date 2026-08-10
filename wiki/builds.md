@@ -29,13 +29,11 @@ ARRL Teachers Institute
 <div style="clear: both;"></div>
 The [National Association for Amateur Radio](https://www.arrl.org/teachers-institute-on-wireless-technology) holds workshops for classroom teachers on various aspects of wireless technology.
 The Space Comms & Radio Astronomy session started using CHART for their astronomy platform in 2025.
-This year (2026) they held three sessions for a total of N teachers, who collectively built and tried out N CHART horns.
+This year (2026) they held three sessions for a total of 22 teachers, who collectively built and tried out about ten CHART horns.
 Their timing perfectly lined up with the release of our updated graphical user interface (GUI), so they were able to give a lot of useful feedback. Many of their suggestions have been implemented and will come with the next release.
 
-
-- stats on number of participants, number of horns built
-- example data?
-- Any challenge
+The group probably holds the record for most intense interference environment, being located right next door to [W1AW](https://www.arrl.org/inside-w1aw), ARRL's primary radio station which regularly broadcasts bulletins, practice sessions, and guest operator time.
+Nevertheless, they were able to work around the transmissions and troubleshoot a few loose connections to come out with some great data.
 
 Petrified Forest National Park
 -----------------------------
