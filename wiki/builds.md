@@ -20,11 +20,25 @@ Of course, this is far beyond the capabilities of CHART, and there are no (curre
 </div>
 
 
+ARRL Teachers Institute
+-----------------------
+#### *Newington, CT, 2026*
+![ARRL 1](assets/builds/arrl1.jpg){: style="float: left; width: 32%; padding-left: 2%;padding-bottom: 3%; min-width: 250px"}
+![ARRL 2](assets/builds/arrl2.jpg){: style="float: left; width: 32%; padding-left: 2%; padding-bottom: 3%; min-width: 250px"}
+![ARRL 3](assets/builds/arrl3.jpg){: style="float: left; width: 32%; padding-left: 2%; min-width: 250px"}
+<div style="clear: both;"></div>
+The [National Association for Amateur Radio](https://www.arrl.org/teachers-institute-on-wireless-technology) holds workshops for classroom teachers on various aspects of wireless technology.
+The Space Comms & Radio Astronomy session started using CHART for their astronomy platform in 2025.
+This year (2026) they held three sessions for a total of 22 teachers, who collectively built and tried out about ten CHART horns.
+Their timing perfectly lined up with the release of our updated graphical user interface (GUI), so they were able to give a lot of useful feedback. Many of their suggestions have been implemented and will come with the next release.
+
+The group probably holds the record for most intense interference environment, being located right next door to [W1AW](https://www.arrl.org/inside-w1aw), ARRL's primary radio station which regularly broadcasts bulletins, practice sessions, and guest operator time.
+Nevertheless, they were able to work around the transmissions and troubleshoot a few loose connections to come out with some great data.
 
 Petrified Forest National Park
 -----------------------------
 #### *Arizona, 2022*
-![Petrified Forest National Park](assets/petrified.jpeg){: style="width: 100%"}
+![Petrified Forest National Park](assets/builds/petrified.jpeg){: style="width: 100%"}
 
 ASU students [Amy Zhao](https://www.dunlap.utoronto.ca/~amy.zhao/) and
 [Libby Berkhout](https://lmberkhout.github.io/) brought their scope along for a trip
