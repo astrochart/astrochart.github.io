@@ -23,6 +23,7 @@ Publications
 15. M.O. Lalonde, [CHART Antenna: The Imporance of Feed Length](memos/2025.12.03_CHART_feed_length.pdf), 3 December, 2025
 16. J. DuBois, [Rocking Horse Antenna Pointing for CHART Horn](memos/2025.12.03_CHART_Rocking_Horse.pdf), 3 December, 2025
 17. N. Heier, [Comparison of Nano Vector Network Analyzers](memos/2026.07.20_comparing_vnas.pdf), 20 July, 2026
+18. E. Blake, [CHART Interferometry](memos/2026.08.13_CHART_Interferometry.pdf), 13 August, 2026
 
 ### Posters
 
